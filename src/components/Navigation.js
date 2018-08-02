@@ -13,7 +13,7 @@ const Navigation = () => (
       size3
     >
       <Link
-        to="/"
+        to="/composer"
       >
         <Text
           size6
@@ -22,7 +22,7 @@ const Navigation = () => (
         </Text>
       </Link>
       <Link
-        to="/page-2/"
+        to="/"
       >
         <Text
           size4

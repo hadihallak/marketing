@@ -11,7 +11,6 @@ import ComposerScreen from '../components/ComposerScreen'
 const ComposerHero = () => (
   <Section
     size3
-    gray900
   >
     <Container
       size2

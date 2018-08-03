@@ -9,7 +9,7 @@ function IPad(props) {
       fs0
       border
       p4
-      bcgray300
+      bcgray400
       style={{
         borderRadius: '30px'
       }}
@@ -20,7 +20,7 @@ function IPad(props) {
       >
         <Box
           border
-          bcgray300
+          bcgray400
           style={{
             width: '15px',
             height: '15px',
@@ -35,7 +35,7 @@ function IPad(props) {
       >
         <Box
           border
-          bcgray300
+          bcgray400
           mr2
           style={{
             width: '5px',
@@ -46,7 +46,7 @@ function IPad(props) {
         </Box>
         <Box
           border
-          bcgray300
+          bcgray400
           style={{
             width: '100px',
             height: '5px',
@@ -74,7 +74,7 @@ function IPad(props) {
       >
         <Box
           border
-          bcgray300
+          bcgray400
           style={{
             width: '50px',
             height: '50px',

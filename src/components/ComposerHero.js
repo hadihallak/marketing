@@ -11,6 +11,7 @@ import ComposerScreen from '../components/ComposerScreen'
 const ComposerHero = () => (
   <Section
     size3
+    gray900
   >
     <Container
       size2
@@ -20,14 +21,17 @@ const ComposerHero = () => (
       >
         <Heading
           size6
+          white
+          mb2
         >
-          Composer hero heading
+          The next step in visual coding
         </Heading>
         <Heading
-          size3
+          size2
+          lh3
           gray600
         >
-          A small heading to support to big heading
+          It's a bit like Sketch but with <s>vectors</s> web elements, <s>freeform</s> DOM layout and <s>handoff</s> production-grade React export.
         </Heading>
       </Box>
     </Container>

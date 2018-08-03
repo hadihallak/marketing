@@ -6,8 +6,9 @@ import { Box } from 'radix-ds';
 const ComposerScreen = () => (
   <Box
     mb5
+    gray100
     border
-    bcgray300
+    bcgray400
     style={{
       transform: 'perspective(50em) rotateX(50deg)',
       transformOrigin: 'bottom center',
@@ -18,68 +19,481 @@ const ComposerScreen = () => (
     <Flexbox>
       <Box
         p3
+        br
+        bcgray300
+      >
+        H
+      </Box>
+      <Box
+        p3
+        br
+        bcgray300
       >
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
           few
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
         <Box
           p3
+          style={{
+            height: '30px',
+          }}
         >
-          few
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
         </Box>
       </Box>
-      <Box>
-        few
+      <Box
+        p3
+        fg1
+        style={{
+          overflow: 'scroll',
+        }}
+      >
+        <Flexbox>
+          <Box
+            border
+            bcgray300
+            white
+            mr2
+            style={{
+              width: '320px',
+              height: '568px',
+            }}
+          >
+          </Box>
+          <Box
+            border
+            bcgray300
+            white
+            mr2
+            style={{
+              width: '375px',
+              height: '667px',
+            }}
+          >
+          </Box>
+          <Box
+            border
+            bcgray300
+            white
+            mr2
+            style={{
+              width: '375px',
+              height: '812px',
+            }}
+          >
+          </Box>
+        </Flexbox>
       </Box>
-      <Box>
-        few
+      <Box
+        p3
+        bl
+        bcgray300
+      >
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          few
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
+        <Box
+          p3
+          style={{
+            height: '30px',
+          }}
+        >
+          <Flexbox
+            ai_center
+          >
+            <Box>
+              H
+            </Box>
+            <Box>
+              Button
+            </Box>
+            <Box>
+              H
+            </Box>
+          </Flexbox>
+        </Box>
       </Box>
     </Flexbox>
   </Box>

@@ -26,7 +26,7 @@ const Responsive = () => (
         <Heading
           size4
         >
-          Responsive
+          Media queries
         </Heading>
       </Box>
       <Text

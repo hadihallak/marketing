@@ -7,6 +7,8 @@ import { Box } from 'radix-ds';
 import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 
+import ComposerScreen from '../components/ComposerScreen'
+
 const CodeExport = () => (
   <Section
     size3
@@ -38,6 +40,7 @@ const CodeExport = () => (
       >
         Gatsby will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
       </Text>
+      <ComposerScreen />
     </Container>
   </Section>
 )

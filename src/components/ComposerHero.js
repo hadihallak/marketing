@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import { Section } from 'radix-ds';
 import { Container } from 'radix-ds';
+import { Flexbox } from 'radix-ds';
 import { Box } from 'radix-ds';
 import { Heading } from 'radix-ds';
-import { Text } from 'radix-ds';
+
+import ComposerScreen from '../components/ComposerScreen'
 
 const ComposerHero = () => (
   <Section
@@ -29,6 +30,9 @@ const ComposerHero = () => (
           A small heading to support to big heading
         </Heading>
       </Box>
+    </Container>
+    <Container>
+      <ComposerScreen />
     </Container>
   </Section>
 )

@@ -7,7 +7,7 @@ import { Box } from 'radix-ds';
 import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 
-const LayoutWidget = () => (
+const FlexboxWidget = () => (
   <Section
     size3
   >
@@ -26,17 +26,17 @@ const LayoutWidget = () => (
         <Heading
           size4
         >
-          Flexbox
+          Pinning
         </Heading>
       </Box>
       <Text
         size3
         lh2
       >
-        Gatsby will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
+        You can pin elements to fix them to the top or bottom of the device.
       </Text>
     </Container>
   </Section>
 )
 
-export default LayoutWidget
+export default FlexboxWidget

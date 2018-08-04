@@ -181,11 +181,8 @@ textarea {
   color: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: inherit;
+  text-rendering: optimizeLegibility;
 }
-#root {
+#___gatsby {
   height: 100%;
-}
-body {
-  background-color: hsl(208, 40%, 99%);
 }

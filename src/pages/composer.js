@@ -7,6 +7,7 @@ import UseCases from '../components/UseCases'
 import FlexboxWidget from '../components/FlexboxWidget'
 import PositionWidget from '../components/PositionWidget'
 import Devices from '../components/Devices'
+import States from '../components/States'
 import CodeExport from '../components/CodeExport'
 import Responsive from '../components/Responsive'
 import Navigation from '../components/Navigation'
@@ -17,6 +18,7 @@ const ComposerPage = () => (
     <UseCases />
     <FlexboxWidget />
     <Devices />
+    <States />
     <CodeExport />
     <Responsive />
     <Navigation />

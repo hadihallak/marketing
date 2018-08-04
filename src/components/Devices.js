@@ -20,39 +20,38 @@ const Devices = () => (
     }}
   >
     <Container
-      size4
+      size2
     >
-      <Box
-        mb8
+    <Box
+      mr6
+    >
+      <Heading
+        size4
+        gray600
+        mb1
       >
-        <Heading
-          size4
-          gray600
-          mb1
-        >
-          Artboards
-        </Heading>
-        <Heading
-          size4
-          gray600
-          mb1
-        >
-          Frames
-        </Heading>
-        <Heading
-          size4
-          mb5
-        >
-          Devices
-        </Heading>
-        <Text
-          size3
-          lh3
-        >
-          Gatsby will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
-        </Text>
-      </Box>
-    </Container>
+        Artboards
+      </Heading>
+      <Heading
+        size4
+        gray600
+        mb1
+      >
+        Frames
+      </Heading>
+      <Heading
+        size4
+        mb5
+      >
+        Devices
+      </Heading>
+      <Text
+        size3
+        lh3
+      >
+        Gatsby will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
+      </Text>
+    </Box>
     <Box
       style={{
         transform: 'scale(.5)',
@@ -106,6 +105,7 @@ const Devices = () => (
         </Box>
       </Flexbox>
     </Box>
+  </Container>
   </Section>
 )
 

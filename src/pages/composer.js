@@ -11,6 +11,7 @@ import States from '../components/States'
 import CodeExport from '../components/CodeExport'
 import Responsive from '../components/Responsive'
 import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
 
 const ComposerPage = () => (
   <Layout>
@@ -22,6 +23,7 @@ const ComposerPage = () => (
     <CodeExport />
     <Responsive />
     <Navigation />
+    <Footer />
   </Layout>
 )
 

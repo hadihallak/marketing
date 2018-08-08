@@ -10,25 +10,36 @@ function IPhoneX(props) {
       bcgray400
       black
       style={{
-        borderWidth: '3px',
+        borderWidth: '1px',
+        padding: '4px',
         borderStyle: 'solid',
         borderRadius: '30px',
-        backgroundColor: 'black',
-        padding: '10px',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        transform: 'perspective(1000px) rotateY(20deg)'
       }}
     >
       <Box
-        white
-        relative
+        fs0
+        black
         style={{
-          width: '188px',
-          height: '406px',
-          borderRadius: '15px',
+          borderRadius: '24px',
+          backgroundColor: 'black',
+          padding: '8px',
           overflow: 'hidden'
         }}
       >
-        {props.children}
+        <Box
+          white
+          relative
+          style={{
+            width: '281px',
+            height: '609px',
+            borderRadius: '15px',
+            overflow: 'hidden'
+          }}
+        >
+          {props.children}
+        </Box>
       </Box>
     </Box>
   );

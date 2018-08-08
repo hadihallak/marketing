@@ -10,11 +10,14 @@ import { Text } from 'radix-ds';
 import { Button } from 'radix-ds';
 import { Select } from 'radix-ds';
 
+import FadeLink from './FadeLink'
 import IPhoneX from './IPhoneX'
 import LayoutFlexbox from './LayoutFlexbox'
 
 const FlexboxWidget = () => (
-  <Section>
+  <Section
+    size3
+  >
     <Container
       size2
     >
@@ -130,6 +133,7 @@ const FlexboxWidget = () => (
           </IPhoneX>
         </Box>
         <Box
+          relative
           gray100
           border
           bcgray300
@@ -140,12 +144,26 @@ const FlexboxWidget = () => (
           }}
         >
           <Box
+            style={{
+              position: 'absolute',
+              top: '0',
+              zIndex: '1',
+              left: '0',
+              width: '100%',
+              height: '100%',
+              // backgroundColor: 'rgba(255,255,255,.5)',
+              boxShadow: '0 35px 55px 10px hsla(208,30%,10%,.05)',
+            }}
+          >
+          </Box>
+          <Box
             relative
             gray100
             style={{
               top: '-15px',
               left: '-15px',
-              boxShadow: '0 15px 35px 0 hsla(208,30%,10%,.05)',
+              zIndex: '2',
+              boxShadow: '0 35px 55px 10px hsla(208,30%,10%,.05)',
               width: 'calc(100% + 30px)',
               height: 'calc(100% + 30px)'
             }}
@@ -174,9 +192,16 @@ const FlexboxWidget = () => (
             size3
             lh3
             gray600
+            mb9
           >
             With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
           </Text>
+          <FadeLink
+            size1
+            data-content="Next (Padding)"
+          >
+            Next (Padding)
+          </FadeLink>
         </Box>
       </Flexbox>
     </Container>

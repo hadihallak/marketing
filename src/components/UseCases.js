@@ -11,6 +11,9 @@ const UseCases = () => (
   <div>
     <Section
       size3
+      style={{
+        backgroundColor: 'hsl(208,30%,97%)'
+      }}
     >
       <Container
         size4
@@ -58,6 +61,9 @@ const UseCases = () => (
 
     <Section
       size3
+      style={{
+        backgroundColor: 'hsl(208,30%,97%)'
+      }}
     >
       <Container
         size4

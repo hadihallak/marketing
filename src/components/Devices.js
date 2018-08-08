@@ -16,6 +16,7 @@ const Devices = () => (
   <Section
     size3
     style={{
+      backgroundColor: 'hsl(208,30%,97%)',
       height: '1038px'
     }}
   >

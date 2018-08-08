@@ -53,10 +53,6 @@ const Devices = () => (
       </Text>
     </Box>
     <Box
-      style={{
-        transform: 'scale(.5)',
-        transformOrigin: 'top left',
-      }}
     >
       <Flexbox>
         <Box

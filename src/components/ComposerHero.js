@@ -42,7 +42,6 @@ const ComposerHero = () => (
         style={{
           height: '25px',
           fontSize: '11px',
-          fontFamily: '"UntitledSans"',
         }}
       >
         Coming Winter 2018

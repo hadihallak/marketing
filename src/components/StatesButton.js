@@ -13,7 +13,8 @@ const StatesButton = styled.button`
   display: inline-flex;
   flex-shrink: 0;
   width: 100%;
-  font-family: 'UntitledSans',apple-system,BlinkMacSystemFont,'Helvetica Neue',arial,sans-serif;
+  font-family: inherit;
+  font-family: 'UntitledSans-Medium';
   font-size: ${Theme.FONTSIZE_300};
   font-weight: 400;
   height: ${Theme.SPACING_600};

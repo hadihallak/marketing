@@ -13,7 +13,7 @@ const ComposerHero = () => (
   <Section
     size3
     style={{
-      backgroundColor: 'hsl(208,30%,97%)',
+      backgroundColor: 'hsl(208,30%,7%)',
       paddingBottom: '0',
     }}
   >
@@ -26,7 +26,8 @@ const ComposerHero = () => (
         <Heading
           size6
           center
-          mb2
+          mb5
+          white
         >
           The next step in visual coding
         </Heading>
@@ -35,11 +36,11 @@ const ComposerHero = () => (
         size3
       >
         <Heading
-          size3
-          lh4
+          size2
+          lh3
           gray600
           center
-          mb7
+          mb6
         >
           Like Sketch but with <s>vectors</s> interactive elements, <s>freeform</s> DOM layout and <s>handoff</s> React export.
         </Heading>

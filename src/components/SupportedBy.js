@@ -7,52 +7,51 @@ import { Box } from 'radix-ds';
 import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 
-const UseCases = () => (
+const SupportedBy = () => (
   <Section
     size3
     style={{
-      backgroundColor: 'hsl(208,30%,10%)',
+      backgroundColor: 'hsl(208,30%,97%)'
     }}
   >
     <Container
-      size3
+      size4
     >
       <Box
         mb5
       >
         <Heading
-          size3
-          lh5
-          white
+          size2
+          lh4
         >
-          Modulz is a visual code editor for designing and building digital user interfaces&mdash;without writing code.
+          Modulz is supported by
         </Heading>
       </Box>
     </Container>
     <Container
       size2
     >
-      <Flexbox>
+      <Flexbox
+        jc_center
+      >
         <Box
-          mt6
           mr4
         >
           <Text
             size3
             lh3
           >
-            Modulz is a code-based design tool optimised for designing and building digital user interfaces.
+            InVision
           </Text>
         </Box>
         <Box
-          mt6
           ml4
         >
           <Text
             size3
             lh3
           >
-            Modulz is a code-based digital design tool. With useful features, an intuitive interface and powerful plugins.
+            Adobe
           </Text>
         </Box>
       </Flexbox>
@@ -60,4 +59,4 @@ const UseCases = () => (
   </Section>
 )
 
-export default UseCases
+export default SupportedBy

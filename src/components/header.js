@@ -15,8 +15,7 @@ const Header = () => (
   <Section
     size1
     style={{
-      position: 'absolute',
-      width: '100%',
+      backgroundColor: 'hsl(208,30%,7%)',
     }}
   >
     <Container

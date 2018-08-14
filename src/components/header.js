@@ -14,6 +14,10 @@ import FadeLink from './FadeLink'
 const Header = () => (
   <Section
     size1
+    style={{
+      position: 'absolute',
+      width: '100%',
+    }}
   >
     <Container
     >

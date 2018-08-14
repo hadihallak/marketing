@@ -12,41 +12,49 @@ import ComposerScreen from '../components/ComposerScreen'
 const ComposerHero = () => (
   <Section
     size3
+    style={{
+      backgroundColor: 'hsl(208,30%,97%)',
+      paddingBottom: '0',
+    }}
   >
-    <Container
-      size2
+    <Box
+      center
     >
-      <Heading
-        size6
-        center
-        mb2
-      >
-        The next step in visual coding
-      </Heading>
-    </Container>
-    <Container
-      size3
-    >
-      <Heading
-        size3
-        lh4
-        gray600
-        center
-        mb7
-      >
-        Like Sketch but with <s>vectors</s> interactive elements, <s>freeform</s> DOM layout and <s>handoff</s> React export.
-      </Heading>
-      <Badge
+      <Container
         size2
-        blue
-        style={{
-          height: '25px',
-          fontSize: '11px',
-        }}
       >
-        Coming Winter 2018
-      </Badge>
-    </Container>
+        <Heading
+          size6
+          center
+          mb2
+        >
+          The next step in visual coding
+        </Heading>
+      </Container>
+      <Container
+        size3
+      >
+        <Heading
+          size3
+          lh4
+          gray600
+          center
+          mb7
+        >
+          Like Sketch but with <s>vectors</s> interactive elements, <s>freeform</s> DOM layout and <s>handoff</s> React export.
+        </Heading>
+        <Badge
+          size2
+          blue
+          style={{
+            height: '25px',
+            fontSize: '11px',
+          }}
+        >
+          Coming Winter 2018
+        </Badge>
+      </Container>
+    </Box>
     <Container>
       <ComposerScreen />
     </Container>

@@ -35,10 +35,9 @@ const Header = () => (
         <nav>
           <Flexbox>
             <Box>
+              // https://github.com/styled-components/styled-components/issues/439
               <FadeLink
                 to="https://www.twitter.com/modulz"
-                size2
-                left
                 data-content="Product"
                 target="_blank"
               >
@@ -57,8 +56,8 @@ const Header = () => (
                       display: 'block'
                     }}
                   >
-                    <path d="M0 0H10" transform="translate(2.5 7.5)" stroke-linecap="round"/>
-                    <path d="M0 10V0" transform="translate(7.5 2.5)" stroke-linecap="round"/>
+                    <path d="M0 0H10" transform="translate(2.5 7.5)" strokeLinecap="round"/>
+                    <path d="M0 10V0" transform="translate(7.5 2.5)" strokeLinecap="round"/>
                   </svg>
                 </Box>
               </FadeLink>
@@ -68,8 +67,6 @@ const Header = () => (
             >
               <FadeLink
                 to="/https://spectrum.chat/modulz"
-                size2
-                right
                 data-content="Join our community"
                 target="_blank"
               >
@@ -81,8 +78,6 @@ const Header = () => (
             >
               <FadeLink
                 to="/https://spectrum.chat/modulz"
-                size2
-                right
                 data-content="Join our community"
                 target="_blank"
               >

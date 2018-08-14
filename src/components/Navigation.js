@@ -24,8 +24,6 @@ const Navigation = () => (
       >
         <FadeLink
           to="/composer"
-          size2
-          blue
           data-content="Check out our features"
         >
           Check out our features
@@ -43,8 +41,8 @@ const Navigation = () => (
                 display: 'block'
               }}
             >
-              <path d="M0 0L7 6L0 12" transform="translate(13.5 6.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M0 0H16" transform="translate(4.5 12.5)" stroke-linecap="round"/>
+              <path d="M0 0L7 6L0 12" transform="translate(13.5 6.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M0 0H16" transform="translate(4.5 12.5)" strokeLinecap="round"/>
             </svg>
             <svg
               width="25"
@@ -58,8 +56,8 @@ const Navigation = () => (
                 display: 'block'
               }}
             >
-              <path d="M0 0L7 6L0 12" transform="translate(13.5 6.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M0 0H16" transform="translate(4.5 12.5)" stroke-linecap="round"/>
+              <path d="M0 0L7 6L0 12" transform="translate(13.5 6.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M0 0H16" transform="translate(4.5 12.5)" strokeLinecap="round"/>
             </svg>
           </LinkArrow>
         </FadeLink>
@@ -69,8 +67,6 @@ const Navigation = () => (
       >
         <FadeLink
           to="/"
-          size1
-          right
           data-content="Back to homepage"
         >
           <LinkArrow
@@ -88,8 +84,8 @@ const Navigation = () => (
                 display: 'block'
               }}
             >
-              <path d="M5 0L0 4L5 8" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M0 0H10" transform="translate(2.5 7.5)" stroke-linecap="round"/>
+              <path d="M5 0L0 4L5 8" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M0 0H10" transform="translate(2.5 7.5)" strokeLinecap="round"/>
             </svg>
             <svg
               width="15"
@@ -103,8 +99,8 @@ const Navigation = () => (
                 display: 'block'
               }}
             >
-              <path d="M5 0L0 4L5 8" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M0 0H10" transform="translate(2.5 7.5)" stroke-linecap="round"/>
+              <path d="M5 0L0 4L5 8" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M0 0H10" transform="translate(2.5 7.5)" strokeLinecap="round"/>
             </svg>
           </LinkArrow>
           Back to homepage

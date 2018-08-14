@@ -45,7 +45,6 @@ const ComposerHero = () => (
           Like Sketch but with <s>vectors</s> interactive elements, <s>freeform</s> DOM layout and <s>handoff</s> React export.
         </Heading>
         <Badge
-          size2
           blue
           style={{
             height: '25px',

@@ -46,8 +46,8 @@ function ComposerToolbelt() {
                 display: 'block'
               }}
             >
-              <path d="M0 0H14" transform="translate(5.5 12.5)" stroke-linecap="round"/>
-              <path d="M0 14V0" transform="translate(12.5 5.5)" stroke-linecap="round"/>
+              <path d="M0 0H14" transform="translate(5.5 12.5)" strokeLinecap="round"/>
+              <path d="M0 14V0" transform="translate(12.5 5.5)" strokeLinecap="round"/>
             </svg>
           </Box>
           <Box
@@ -95,9 +95,9 @@ function ComposerToolbelt() {
                 display: 'block'
               }}
             >
-              <path d="M14 0L7 4L0 0" transform="translate(5.5 16.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M14 0L7 4L0 0" transform="translate(5.5 12.5)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M7 8L14 4L7 0L0 4L7 8Z" transform="translate(5.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 0L7 4L0 0" transform="translate(5.5 16.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M14 0L7 4L0 0" transform="translate(5.5 12.5)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M7 8L14 4L7 0L0 4L7 8Z" transform="translate(5.5 4.5)" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Box>
           <Box
@@ -120,8 +120,8 @@ function ComposerToolbelt() {
                 display: 'block'
               }}
             >
-              <path d="M0 0V8.83333L8 13.5L16 8.83333V0" transform="translate(4.5 8)" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M8 9L16 4.5L8 0L0 4.5L8 9Z" transform="translate(4.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M0 0V8.83333L8 13.5L16 8.83333V0" transform="translate(4.5 8)" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M8 9L16 4.5L8 0L0 4.5L8 9Z" transform="translate(4.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M0 0V9" transform="translate(12.5 12.5)"/>
             </svg>
           </Box>

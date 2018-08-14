@@ -68,7 +68,7 @@ const UnitTypesIllustration = () => (
               alignmiddle
             >
               <Input
-                value="Auto"
+                defaultValue="Auto"
               />
             </Box>
           </Box>
@@ -94,7 +94,7 @@ const UnitTypesIllustration = () => (
               alignmiddle
             >
               <Input
-                value="48"
+                defaultValue="48"
               />
             </Box>
           </Box>
@@ -120,7 +120,7 @@ const UnitTypesIllustration = () => (
               alignmiddle
             >
               <Input
-                value="48"
+                defaultValue="48"
               />
             </Box>
           </Box>
@@ -146,7 +146,7 @@ const UnitTypesIllustration = () => (
               alignmiddle
             >
               <Input
-                value="Auto"
+                defaultValue="Auto"
               />
             </Box>
           </Box>
@@ -176,7 +176,7 @@ const UnitTypesIllustration = () => (
               }}
             >
               <Input
-                value="100"
+                defaultValue="100"
               />
               <Box
                 white
@@ -215,7 +215,7 @@ const UnitTypesIllustration = () => (
                         opacity: '0'
                       }}
                     >
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -238,7 +238,7 @@ const UnitTypesIllustration = () => (
                     mr2
                   >
                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block'}}>
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -270,7 +270,7 @@ const UnitTypesIllustration = () => (
                         opacity: '0'
                       }}
                     >
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -302,7 +302,7 @@ const UnitTypesIllustration = () => (
                         opacity: '0'
                       }}
                     >
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -334,7 +334,7 @@ const UnitTypesIllustration = () => (
                         opacity: '0'
                       }}
                     >
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -366,7 +366,7 @@ const UnitTypesIllustration = () => (
                         opacity: '0'
                       }}
                     >
-                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </Box>
                   <Text
@@ -400,7 +400,7 @@ const UnitTypesIllustration = () => (
               alignmiddle
             >
               <Input
-                value="Auto"
+                defaultValue="Auto"
               />
             </Box>
           </Box>

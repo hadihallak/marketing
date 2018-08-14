@@ -197,8 +197,8 @@ const FlexboxWidget = () => (
             With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
           </Text>
           <FadeLink
-            size1
             data-content="Next (Padding)"
+            to="/composer"
           >
             Next (Padding)
           </FadeLink>

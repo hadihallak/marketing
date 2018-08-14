@@ -161,7 +161,7 @@ const Responsive = () => (
                                 opacity: '0'
                               }}
                             >
-                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                           </Box>
                           <Text
@@ -184,7 +184,7 @@ const Responsive = () => (
                             mr5
                           >
                             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block'}}>
-                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                           </Box>
                           <Text
@@ -216,7 +216,7 @@ const Responsive = () => (
                                 opacity: '0'
                               }}
                             >
-                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                           </Box>
                           <Text
@@ -248,7 +248,7 @@ const Responsive = () => (
                                 opacity: '0'
                               }}
                             >
-                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M10 0L4 8L0 5" transform="translate(2.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                           </Box>
                           <Text
@@ -342,7 +342,7 @@ const Responsive = () => (
                       display: 'block'
                     }}
                   >
-                    <path d="M0 0V16L5 12L10 16V0H0Z" transform="translate(7.5 4.5)" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M0 0V16L5 12L10 16V0H0Z" transform="translate(7.5 4.5)" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M0 0H8" transform="translate(7 6.5)"/>
                   </svg>
                 </StatesIcon>

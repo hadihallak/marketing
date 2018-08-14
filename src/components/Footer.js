@@ -33,8 +33,6 @@ const Navigation = () => (
           <Flexbox>
             <FadeLink
               to="https://www.twitter.com/modulz"
-              size1
-              right
               data-content="Follow our Twitter"
               target="_blank"
             >
@@ -42,8 +40,6 @@ const Navigation = () => (
             </FadeLink>
             <FadeLink
               to="/https://spectrum.chat/modulz"
-              size1
-              right
               data-content="Join our community"
               target="_blank"
             >

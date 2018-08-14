@@ -62,7 +62,7 @@ function ComposerLayerTree() {
                 display: 'block'
               }}
             >
-              <path d="M0 0L4 4L0 8" transform="translate(5.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M0 0L4 4L0 8" transform="translate(5.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Box>
           <Box
@@ -107,7 +107,7 @@ function ComposerLayerTree() {
                 display: 'block'
               }}
             >
-              <path d="M0 0L4 4L0 8" transform="translate(5.5 3.5)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M0 0L4 4L0 8" transform="translate(5.5 3.5)" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Box>
           <Box

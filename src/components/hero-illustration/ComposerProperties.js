@@ -18,6 +18,8 @@ function ComposerProperties() {
       fs0
       style={{
         width: '20%',
+        borderColor: 'hsl(208, 18%, 22%)',
+        overflow: 'hidden',
       }}
     >
       <Heading

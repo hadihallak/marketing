@@ -35,7 +35,6 @@ const Header = () => (
         <nav>
           <Flexbox>
             <Box>
-              // https://github.com/styled-components/styled-components/issues/439
               <FadeLink
                 to="https://www.twitter.com/modulz"
                 data-content="Product"

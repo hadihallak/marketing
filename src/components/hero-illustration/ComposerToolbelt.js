@@ -10,10 +10,10 @@ function ComposerToolbelt() {
   return (
     <Box
       br
-      bcgray300
       fs0
       style={{
-        width: '35px'
+        width: '35px',
+        borderColor: 'hsl(208, 18%, 22%)',
       }}
     >
       <Flexbox
@@ -33,6 +33,7 @@ function ComposerToolbelt() {
               justifyContent: 'center',
               width: '35px',
               height: '35px',
+              color: 'hsl(208,18%,65%)'
             }}
           >
             <svg
@@ -57,6 +58,7 @@ function ComposerToolbelt() {
               justifyContent: 'center',
               width: '35px',
               height: '35px',
+              color: 'hsl(208,18%,65%)'
             }}
           >
             <svg
@@ -82,6 +84,7 @@ function ComposerToolbelt() {
               justifyContent: 'center',
               width: '35px',
               height: '35px',
+              color: 'hsl(208,18%,65%)'
             }}
           >
             <svg
@@ -107,6 +110,7 @@ function ComposerToolbelt() {
               justifyContent: 'center',
               width: '35px',
               height: '35px',
+              color: 'hsl(208,18%,65%)'
             }}
           >
             <svg

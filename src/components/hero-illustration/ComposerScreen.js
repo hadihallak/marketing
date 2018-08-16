@@ -18,16 +18,17 @@ const ComposerScreen = () => (
   >
     <AspectRatio>
       <Box
-        gray900
+        gray800
         border
         h100
         style={{
+          backgroundColor: 'hsl(208, 18%, 14%)',
           transform: 'perspective(65em) rotateX(30deg)',
           transformOrigin: 'bottom center',
-          boxShadow: '0px 62.5px 125px -25px rgba(50,50,93,.5),0px 37.5px 75px -37.5px rgba(0,0,0,.6)',
+          boxShadow: '0px 62.5px 125px -25px hsla(0,0%,0%,.5),0px 37.5px 75px -37.5px rgba(0,0,0,.6)',
           borderRadius: '5px',
           borderColor: 'black',
-          borderBottomColor: 'hsl(208, 18%, 76%)',
+          borderBottomColor: 'hsl(208, 18%, 25%)',
         }}
       >
         <Flexbox

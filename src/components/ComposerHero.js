@@ -7,7 +7,7 @@ import { Box } from 'radix-ds';
 import { Heading } from 'radix-ds';
 import { Badge } from 'radix-ds';
 
-import ComposerScreen from '../components/ComposerScreen'
+import ComposerScreen from '../components/hero-illustration/ComposerScreen'
 
 const ComposerHero = () => (
   <Section

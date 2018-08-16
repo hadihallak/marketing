@@ -12,7 +12,7 @@ function ComposerPreview() {
       p3
       fg1
       style={{
-        overflow: 'hidden'
+        overflow: 'hidden',
       }}
     >
       <Flexbox
@@ -21,39 +21,52 @@ function ComposerPreview() {
       >
         <Box
           border
-          bcgray300
-          white
+          bcblack
+          gray900
           mr2
           fs0
           style={{
-            width: '320px',
-            minHeight: '568px',
+            width: '160px',
+            height: '284px',
             maxHeight: '100%',
           }}
         >
         </Box>
         <Box
           border
-          bcgray300
-          white
+          bcblack
+          gray900
           mr2
           fs0
           style={{
-            width: '375px',
-            minHeight: '667px',
+            width: '188px',
+            height: '406px',
             maxHeight: '100%',
           }}
         >
         </Box>
         <Box
           border
-          bcgray300
-          white
+          bcblack
+          gray900
           mr2
           fs0
           style={{
-            width: '375px',
-            minHeight: '812px',
+            width: '384px',
+            minHeight: '512px',
+            maxHeight: '100%',
+          }}
+        >
+        </Box>
+        <Box
+          border
+          bcblack
+          gray900
+          mr2
+          fs0
+          style={{
+            width: '640px',
+            minHeight: '450px',
             maxHeight: '100%',
           }}
         >

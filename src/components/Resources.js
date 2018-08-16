@@ -12,36 +12,42 @@ const Resources = () => (
   <Section
     size3
     style={{
-      backgroundColor: 'hsl(208,100%,97%)',
+      backgroundColor: 'hsl(174,76%,97%)',
     }}
   >
-    <Container>
+    <Container
+      size2
+    >
       <Box>
         <Heading
-          size4
+          size5
         >
          Further reading on what we are building
         </Heading>
       </Box>
       <Flexbox>
         <Box
-          p6
+          p4
           border
           bcgray300
-          pl4
-          pr4
           fg1
           style={{
             flexBasis: '0',
             borderColor: 'hsl(208,90%,86%)',
           }}
         >
-          <Text
+          <Heading
             size3
             lh3
+          >
+            The design tool dilemma
+          </Heading>
+          <Text
+            size3
+            lh2
             gray600
           >
-            &quot;I can’t describe how excited I am for @Modulz by @colmtuite. You should follow along if you aren’t already.&quot;
+            A detailed look at two opposing narratives emerging in the design tool space.
           </Text>
           <Link
             to="/composer"
@@ -53,166 +59,68 @@ const Resources = () => (
           </Link>
         </Box>
         <Box
-          p6
+          p4
           border
           bcgray300
-          pl4
-          pr4
           fg1
           style={{
             flexBasis: '0',
             borderColor: 'hsl(208,90%,86%)',
           }}
         >
-          <Text
+          <Heading
             size3
             lh3
+          >
+            The Design Tool Dilemma
+          </Heading>
+          <Text
+            size3
+            lh2
             gray600
           >
-            &quot;Whatever @colmtuite and his class of shameless Front End Design pals don’t stand to make money on/are not good at, is by definition totally unnecessary and actually an evil to be purged and eliminated from the design industry.&quot;
+            A detailed look at two opposing narratives emerging in the design tool space.
           </Text>
-          <Flexbox
-            ai_center
-            mt4
+          <Link
+            to="/composer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
           >
-            <Box
-              mr4
-              style={{
-                width: '35px',
-                height: '35px',
-                borderRadius: '50%',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                width="35"
-                height="35"
-                src="https://pbs.twimg.com/profile_images/1010363374725550080/lb8juiVi_bigger.jpg"
-              />
-            </Box>
-            <Text
-              size1
-              gray600
-            >
-              Eli Schiff
-            </Text>
-            <Link
-              to="/composer"
-              style={{
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-            >
-            </Link>
-          </Flexbox>
+          </Link>
         </Box>
         <Box
-          p6
+          p4
           border
           bcgray300
-          pl4
-          pr4
           fg1
           style={{
             flexBasis: '0',
             borderColor: 'hsl(208,90%,86%)',
           }}
         >
-          <Text
+          <Heading
             size3
             lh3
-            gray600
           >
-            &quot;Whatever @colmtuite and his class of shameless Front End Design pals don’t stand to make money on/are not good at, is by definition totally unnecessary and actually an evil to be purged and eliminated from the design industry.&quot;
-          </Text>
-          <Flexbox
-            ai_center
-            mt4
-          >
-            <Box
-              mr4
-              style={{
-                width: '35px',
-                height: '35px',
-                borderRadius: '50%',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                width="35"
-                height="35"
-                src="https://pbs.twimg.com/profile_images/1010363374725550080/lb8juiVi_bigger.jpg"
-              />
-            </Box>
-            <Text
-              size1
-              gray600
-            >
-              Eli Schiff
-            </Text>
-            <Link
-              to="/composer"
-              style={{
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-            >
-            </Link>
-          </Flexbox>
-        </Box>
-        <Box
-          p6
-          border
-          bcblue300
-          pl4
-          pr4
-          fg1
-          style={{
-            flexBasis: '0',
-            borderColor: 'hsl(208,90%,86%)',
-          }}
-        >
+            Designs tools are running out of track
+          </Heading>
           <Text
             size3
-            lh3
+            lh2
             gray600
           >
-            &quot;Whatever @colmtuite and his class of shameless Front End Design pals don’t stand to make money on/are not good at, is by definition totally unnecessary and actually an evil to be purged and eliminated from the design industry.&quot;
+            A detailed look at two opposing narratives emerging in the design tool space.
           </Text>
-          <Flexbox
-            ai_center
-            mt4
+          <Link
+            to="/composer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
           >
-            <Box
-              mr4
-              style={{
-                width: '35px',
-                height: '35px',
-                borderRadius: '50%',
-                overflow: 'hidden',
-              }}
-            >
-              <img
-                width="35"
-                height="35"
-                src="https://pbs.twimg.com/profile_images/1010363374725550080/lb8juiVi_bigger.jpg"
-              />
-            </Box>
-            <Text
-              size1
-              gray600
-            >
-              Eli Schiff
-            </Text>
-            <Link
-              to="/composer"
-              style={{
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-            >
-            </Link>
-          </Flexbox>
+          </Link>
         </Box>
       </Flexbox>
     </Container>

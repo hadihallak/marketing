@@ -6,6 +6,8 @@ import {
   Text
 } from 'radix-ds';
 
+import LivePreview from './LivePreview'
+
 function ComposerPreview() {
   return (
     <Box
@@ -21,55 +23,63 @@ function ComposerPreview() {
       >
         <Box
           border
-          bcblack
-          gray900
-          mr2
+          gray700
+          mr3
           fs0
           style={{
-            width: '160px',
-            height: '284px',
+            width: '320px',
+            height: '568px',
             maxHeight: '100%',
+            backgroundColor: 'hsl(208,15%,15%)',
+            overflowY: 'hidden'
           }}
         >
+          <LivePreview />
         </Box>
         <Box
           border
-          bcblack
-          gray900
-          mr2
+          gray700
+          mr3
           fs0
           style={{
             width: '188px',
             height: '406px',
             maxHeight: '100%',
+            backgroundColor: 'hsl(208,15%,15%)',
+            overflowY: 'hidden'
           }}
         >
+          <LivePreview />
         </Box>
         <Box
           border
-          bcblack
-          gray900
-          mr2
+          gray700
+          mr3
           fs0
           style={{
             width: '384px',
             minHeight: '512px',
             maxHeight: '100%',
+            backgroundColor: 'hsl(208,15%,15%)',
+            overflowY: 'hidden'
           }}
         >
+          <LivePreview />
         </Box>
         <Box
           border
-          bcblack
-          gray900
-          mr2
+          gray700
+          mr3
           fs0
           style={{
             width: '640px',
             minHeight: '450px',
             maxHeight: '100%',
+            backgroundColor: 'hsl(208,15%,15%)',
+            overflowY: 'hidden'
           }}
         >
+          <LivePreview />
         </Box>
       </Flexbox>
     </Box>

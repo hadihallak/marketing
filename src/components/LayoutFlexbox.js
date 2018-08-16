@@ -10,9 +10,11 @@ import { Switch } from 'radix-ds';
 
 const LayoutFlexbox = () => (
   <Box
-    bt
-    bcgray300
+    gray100
     p2
+    style={{
+      boxShadow: '0 35px 55px 10px hsla(208,30%,10%,.05)',
+    }}
   >
     <Heading
       size1

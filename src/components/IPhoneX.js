@@ -15,7 +15,7 @@ function IPhoneX(props) {
         borderStyle: 'solid',
         borderRadius: '30px',
         overflow: 'hidden',
-        transform: 'perspective(1000px) rotateY(20deg)'
+        // transform: 'perspective(1000px) rotateY(20deg)'
       }}
     >
       <Box

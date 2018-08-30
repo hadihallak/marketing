@@ -9,275 +9,144 @@ import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 import { Button } from 'radix-ds';
 import { Select } from 'radix-ds';
+import { Tooltip } from 'radix-ds';
 
 import FadeLink from './FadeLink'
-import IPhoneX from './IPhoneX'
+import LayoutPhone from './LayoutPhone'
 import LayoutFlexbox from './LayoutFlexbox'
 
 const LayoutSection = () => (
   <Section
     size3
-    style={{
-      backgroundColor: 'hsl(208,30%,97%)'
-    }}
+    gray200
   >
     <Container
+      size3
     >
       <Flexbox
+        ai_center
         jc_center
       >
         <Box
-          style={{
-            position: 'relative'
-          }}
+          pr9
         >
-          <IPhoneX>
-            <Box
-              gray300
-            >
-              <Box
-                blue500
-                style={{
-                  height: '50px'
-                }}
-              >
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-              <Box
-                p4
-                mt1
-                mb1
-                white
-              >
-                <Text>
-                  ewfwe
-                </Text>
-                <Button
-                  blue
-                >
-                  Add friend
-                </Button>
-              </Box>
-            </Box>
-          </IPhoneX>
           <Box
-            fs0
-            style={{
-              position: 'absolute',
-              top: '-120px',
-              left: '-150px',
-              width: '220px',
-            }}
           >
-            <LayoutFlexbox />
             <Box
-              style={{
-                position: 'relative',
-                left: '-150px',
-              }}
+              mb5
+            >
+              <Heading
+                size3
+              >
+                Flexbox
+              </Heading>
+            </Box>
+            <Text
+              size3
+              lh3
+              gray600
+            >
+              With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
+            </Text>
+            <Flexbox
+              mt7
             >
               <Box
-                mb5
+                mr2
               >
-                <Heading
-                  size3
+                <Tooltip
+                  data-tooltip="Flexbox"
+                  data-position="bottom"
                 >
-                  Flexbox
-                </Heading>
+                  <button
+                    type="button"
+                    style={{
+                      width: '10px',
+                      height: '10px',
+                      boxShadow: 'inset 0 0 0 1px black',
+                      borderRadius: '50%',
+                      appearance: 'none',
+                      backgroundColor: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                    }}
+                  >
+                  </button>
+                </Tooltip>
               </Box>
-              <Text
-                size3
-                lh3
-                gray600
-              >
-                With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
-              </Text>
-            </Box>
-          </Box>
-
-          <Box
-            fs0
-            style={{
-              position: 'absolute',
-              top: '120px',
-              right: '-150px',
-              width: '220px',
-            }}
-          >
-            <LayoutFlexbox />
-            <Box
-              style={{
-                position: 'relative',
-                top: '-150px',
-                right: '-270px',
-              }}
-            >
               <Box
-                mb5
+                mr2
               >
-                <Heading
-                  size3
+                <Tooltip
+                  data-tooltip="Spacing"
+                  data-position="bottom"
                 >
-                  Spacing
-                </Heading>
+                  <button
+                    type="button"
+                    style={{
+                      width: '10px',
+                      height: '10px',
+                      boxShadow: 'inset 0 0 0 1px black',
+                      borderRadius: '50%',
+                      appearance: 'none',
+                      backgroundColor: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                    }}
+                  >
+                  </button>
+                </Tooltip>
               </Box>
-              <Text
-                size3
-                lh3
-                gray600
-              >
-                With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
-              </Text>
-            </Box>
-          </Box>
-
-          <Box
-            fs0
-            style={{
-              position: 'absolute',
-              bottom: '-150px',
-              left: '-150px',
-              width: '220px',
-            }}
-          >
-            <LayoutFlexbox />
-            <Box
-              style={{
-                position: 'relative',
-                top: '-140px',
-                left: '-250px',
-              }}
-            >
               <Box
-                mb5
+                mr2
               >
-                <Heading
-                  size3
+                <Tooltip
+                  data-tooltip="Pinning"
+                  data-position="bottom"
                 >
-                  Scroll areas
-                </Heading>
+                  <button
+                    type="button"
+                    style={{
+                      width: '10px',
+                      height: '10px',
+                      boxShadow: 'inset 0 0 0 1px black',
+                      borderRadius: '50%',
+                      appearance: 'none',
+                      backgroundColor: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                    }}
+                  >
+                  </button>
+                </Tooltip>
               </Box>
-              <Text
-                size3
-                lh3
-                gray600
-              >
-                With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
-              </Text>
-            </Box>
-          </Box>
-
-          <Box
-            fs0
-            style={{
-              position: 'absolute',
-              bottom: '-320px',
-              right: '-150px',
-              width: '220px',
-            }}
-          >
-            <LayoutFlexbox />
-            <Box
-              style={{
-                position: 'relative',
-                top: '-150px',
-                right: '-270px',
-              }}
-            >
               <Box
-                mb5
+                mr2
               >
-                <Heading
-                  size3
+                <Tooltip
+                  data-tooltip="Flexbox"
+                  data-position="bottom"
                 >
-                  Position
-                </Heading>
+                  <button
+                    type="button"
+                    style={{
+                      width: '10px',
+                      height: '10px',
+                      boxShadow: 'inset 0 0 0 1px black',
+                      borderRadius: '50%',
+                      appearance: 'none',
+                      backgroundColor: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                    }}
+                  >
+                  </button>
+                </Tooltip>
               </Box>
-              <Text
-                size3
-                lh3
-                gray600
-              >
-                With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!
-              </Text>
-            </Box>
+            </Flexbox>
           </Box>
-
         </Box>
+        <LayoutPhone />
       </Flexbox>
     </Container>
   </Section>

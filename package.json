@@ -6,7 +6,7 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
-    "radix-ds": "^0.2.0",
+    "radix-ds": "^0.2.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",

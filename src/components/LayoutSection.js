@@ -14,6 +14,7 @@ import { Tooltip } from 'radix-ds';
 import FadeLink from './FadeLink'
 import LayoutPhone from './LayoutPhone'
 import LayoutFlexbox from './LayoutFlexbox'
+import LayoutSectionSliderButton from './LayoutSectionSliderButton'
 
 const LayoutSection = () => (
   <Section
@@ -58,20 +59,7 @@ const LayoutSection = () => (
                   data-tooltip="Flexbox"
                   data-position="bottom"
                 >
-                  <button
-                    type="button"
-                    style={{
-                      width: '10px',
-                      height: '10px',
-                      boxShadow: 'inset 0 0 0 1px black',
-                      borderRadius: '50%',
-                      appearance: 'none',
-                      backgroundColor: 'transparent',
-                      border: 'none',
-                      cursor: 'pointer',
-                    }}
-                  >
-                  </button>
+                  <LayoutSectionSliderButton />
                 </Tooltip>
               </Box>
               <Box

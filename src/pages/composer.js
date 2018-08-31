@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
+
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
-import FlexboxWidget from '../components/FlexboxWidget'
 import CoolFeatures from '../components/CoolFeatures'
 import PositionWidget from '../components/PositionWidget'
 import Devices from '../components/Devices'
@@ -18,7 +18,6 @@ const ComposerPage = () => (
   <Layout>
     <ComposerHero />
     <UseCases />
-    <FlexboxWidget />
     <CoolFeatures />
     <Devices />
     <States />

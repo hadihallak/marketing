@@ -10,8 +10,9 @@ import { AspectRatio } from 'radix-ds';
 import { Divider } from 'radix-ds';
 import { Avatar } from 'radix-ds';
 
-import IPhoneX from './IPhoneX'
+import IPhoneX from '.././IPhoneX'
 import LayoutFlexbox from './LayoutFlexbox'
+import PropertyCard from './PropertyCard'
 
 const LayoutPhone = () => (
   <Box
@@ -922,53 +923,21 @@ const LayoutPhone = () => (
       </Box>
     </IPhoneX>
 
-    <Box
-      fs0
-      style={{
-        position: 'absolute',
-        top: '-120px',
-        left: '-250px',
-        width: '220px',
-      }}
-    >
+    <PropertyCard>
       <LayoutFlexbox />
-    </Box>
+    </PropertyCard>
 
-    <Box
-      fs0
-      style={{
-        position: 'absolute',
-        top: '120px',
-        right: '-240px',
-        width: '220px',
-      }}
-    >
+    <PropertyCard>
       <LayoutFlexbox />
-    </Box>
+    </PropertyCard>
 
-    <Box
-      fs0
-      style={{
-        position: 'absolute',
-        bottom: '-150px',
-        left: '-150px',
-        width: '220px',
-      }}
-    >
+    <PropertyCard>
       <LayoutFlexbox />
-    </Box>
+    </PropertyCard>
 
-    <Box
-      fs0
-      style={{
-        position: 'absolute',
-        bottom: '-320px',
-        right: '-150px',
-        width: '220px',
-      }}
-    >
+    <PropertyCard>
       <LayoutFlexbox />
-    </Box>
+    </PropertyCard>
   </Box>
 )
 

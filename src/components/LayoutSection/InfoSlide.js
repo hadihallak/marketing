@@ -7,9 +7,27 @@ import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 
 const Container = styled.div`
-  opacity: 0;
+  pointer-events: none;
+
+  ${Heading},
+  ${Text} {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: transform 750ms cubic-bezier(0,1,0,1), opacity 150ms linear;
+  }
+
   ${props => props.active && css`
-    opacity: 1;
+    pointer-events: auto;
+
+    ${Heading},
+    ${Text} {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  `}
+
+  ${props => props.absolute && css`
+    position: absolute;
   `}
 `;
 

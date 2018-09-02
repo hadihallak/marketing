@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
 import LayoutSection from '../components/LayoutSection/LayoutSection'
+import NewStates from '../components/NewStates'
 import States from '../components/States'
 import CoolFeatures from '../components/CoolFeatures'
 import CodeExport from '../components/CodeExport'
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <ComposerHero />
     <UseCases />
     <LayoutSection />
+    <NewStates />
     <States />
     <CoolFeatures />
     <Responsive />

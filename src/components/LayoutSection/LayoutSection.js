@@ -28,23 +28,27 @@ const LayoutSection = () => (
         jc_center
       >
         <Box
-          pr9
+          relative
+          mr9
         >
           <Flexbox>
             <InfoSlide
+              active
               heading="Flexbox"
               blurb="With Modulz you're in complete control of your layout. Tweak the direction, distribution, alignment or wrapping behaviour. You can even reverse a layout with one click!"
             />
             <InfoSlide
-              active
+              absolute
               heading="Spacing"
               blurb="Use margin to push surrounding elements away. Use padding to add space inside elements."
             />
             <InfoSlide
+              absolute
               heading="Pinning"
               blurb="Pin elements to either the artboard or a parent element. Achieve effects like sticky app bars."
             />
             <InfoSlide
+              absolute
               heading="Scroll areas"
               blurb="Set up horizontal or vertical scroll areas which function natively."
             />

@@ -11,8 +11,11 @@ import { Divider } from 'radix-ds';
 import { Avatar } from 'radix-ds';
 
 import IPhoneX from '.././IPhoneX'
-import LayoutFlexbox from './LayoutFlexbox'
 import PropertyCard from './PropertyCard'
+import PropertyCardFlexbox from './PropertyCardFlexbox'
+import PropertyCardSpacing from './PropertyCardSpacing'
+import PropertyCardPinning from './PropertyCardPinning'
+import PropertyCardScroll from './PropertyCardScroll'
 
 const LayoutPhone = () => (
   <Box
@@ -923,20 +926,33 @@ const LayoutPhone = () => (
       </Box>
     </IPhoneX>
 
-    <PropertyCard>
-      <LayoutFlexbox />
+    <PropertyCard
+      active
+      top="-50"
+    >
+      <PropertyCardFlexbox />
     </PropertyCard>
 
-    <PropertyCard>
-      <LayoutFlexbox />
+    <PropertyCard
+      active
+      top="200"
+    >
+      <PropertyCardSpacing />
     </PropertyCard>
 
-    <PropertyCard>
-      <LayoutFlexbox />
+    <PropertyCard
+      active
+      left
+      top="-50"
+    >
+      <PropertyCardPinning />
     </PropertyCard>
 
-    <PropertyCard>
-      <LayoutFlexbox />
+    <PropertyCard
+      active
+      top="500"
+    >
+      <PropertyCardScroll />
     </PropertyCard>
   </Box>
 )

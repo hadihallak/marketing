@@ -1,11 +1,14 @@
 import React from 'react'
 
-import { Section } from 'radix-ds';
-import { Container } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { Heading } from 'radix-ds';
-import { Badge } from 'radix-ds';
+import {
+  Section,
+  Container,
+  Flexbox,
+  Box,
+  Heading,
+  Badge,
+  LinesButton
+} from 'radix-ds';
 
 import ComposerScreen from '../components/hero-illustration/ComposerScreen'
 
@@ -13,7 +16,6 @@ const ComposerHero = () => (
   <Section
     size3
     style={{
-      backgroundColor: 'hsl(208,30%,7%)',
       paddingBottom: '0',
     }}
   >
@@ -27,7 +29,7 @@ const ComposerHero = () => (
           size6
           center
           mb5
-          white
+          style={{fontFamily: '"UntitledSans-Medium"', letterSpacing: '-.052em'}}
         >
           The next step in visual coding
         </Heading>
@@ -42,17 +44,22 @@ const ComposerHero = () => (
           center
           mb6
         >
-          Like Sketch but with <s>vectors</s> interactive elements, <s>freeform</s> DOM layout and <s>handoff</s> React export.
+          Like Sketch but with <s>vectors</s> interactive components, <s>freeform</s> box model layout and <s>handoff</s> React export.
         </Heading>
         <Badge
-          blue
+          gray
           style={{
             height: '25px',
             fontSize: '11px',
           }}
         >
-          Coming Winter 2018
+          Coming Spring 2019
         </Badge>
+        <Box mt6 mb6>
+          <LinesButton>
+            Support us on Kickstarter
+          </LinesButton>
+        </Box>
       </Container>
     </Box>
     <Container>

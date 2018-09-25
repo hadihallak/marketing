@@ -18,7 +18,6 @@ import InfoSlide from './InfoSlide'
 const LayoutSection = () => (
   <Section
     size3
-    gray200
   >
     <Container
       size3

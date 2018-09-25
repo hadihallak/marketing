@@ -11,9 +11,7 @@ import { Text } from 'radix-ds';
 const Resources = () => (
   <Section
     size3
-    style={{
-      backgroundColor: 'hsl(174,76%,97%)',
-    }}
+    gray200
   >
     <Container
       size2

@@ -15,26 +15,9 @@ const WallOfLove = () => (
   <Section
     size3
     style={{
-      backgroundColor: 'hsl(208,30%,7%)',
       position: 'relative'
     }}
   >
-    <Text
-      size6
-      lh5
-      white
-      style={{
-        position: 'absolute',
-        top: '0',
-        left: '0',
-        fontSize: '100px',
-        lineHeight: '80px',
-        letterSpacing: '-10px',
-        color: 'hsl(208,20%,10%)'
-      }}
-    >
-      It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline
-    </Text>
     <Container
       size2
     >

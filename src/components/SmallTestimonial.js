@@ -42,7 +42,6 @@ const SmallTestimonial = (props) => (
     <Text
       size4
       lh3
-      white
     >
       {props.quote}
     </Text>

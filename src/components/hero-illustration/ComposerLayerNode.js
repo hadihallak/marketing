@@ -12,11 +12,10 @@ const LayerNode = styled.div`
   align-items: center;
   cursor: default;
   user-select: none;
-  background-color: hsl(208,18%,13%);
   padding: 0 10px;
 
   &:nth-child(odd) {
-    background-color: hsl(208,18%,15%);
+    background-color: hsl(208,18%,98%);
   }
 
   &:hover {
@@ -50,7 +49,6 @@ const Layer = (props) => (
     <Box>
       <Text
         size1
-        gray600
       >
         {props.label}
       </Text>

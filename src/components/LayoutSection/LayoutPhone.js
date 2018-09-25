@@ -12,10 +12,9 @@ import { Avatar } from 'radix-ds';
 
 import IPhoneX from '.././IPhoneX'
 import PropertyCard from './PropertyCard'
-import PropertyCardFlexbox from './PropertyCardFlexbox'
-import PropertyCardSpacing from './PropertyCardSpacing'
-import PropertyCardPinning from './PropertyCardPinning'
-import PropertyCardScroll from './PropertyCardScroll'
+import PropertiesFlexbox from './../hero-illustration/PropertiesFlexbox'
+import PropertiesMargin from './../hero-illustration/PropertiesMargin'
+import PropertiesPadding from './../hero-illustration/PropertiesPadding'
 
 const LayoutPhone = () => (
   <Box
@@ -930,14 +929,15 @@ const LayoutPhone = () => (
       active
       top="-50"
     >
-      <PropertyCardFlexbox />
+      <PropertiesFlexbox />
     </PropertyCard>
 
     <PropertyCard
       active
       top="200"
     >
-      <PropertyCardSpacing />
+      <PropertiesMargin />
+      <PropertiesPadding />
     </PropertyCard>
 
     <PropertyCard
@@ -945,14 +945,14 @@ const LayoutPhone = () => (
       left
       top="-50"
     >
-      <PropertyCardPinning />
+      <PropertiesFlexbox />
     </PropertyCard>
 
     <PropertyCard
       active
       top="500"
     >
-      <PropertyCardScroll />
+      <PropertiesFlexbox />
     </PropertyCard>
   </Box>
 )

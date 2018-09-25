@@ -42,7 +42,6 @@ const LargeTestimonial = (props) => (
     <Text
       size6
       lh5
-      white
     >
       {props.quote}
     </Text>

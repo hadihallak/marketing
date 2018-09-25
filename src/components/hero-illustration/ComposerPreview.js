@@ -23,14 +23,14 @@ function ComposerPreview() {
       >
         <Box
           border
-          gray700
+          gray400
           mr3
           fs0
           style={{
             width: '320px',
             height: '568px',
             maxHeight: '100%',
-            backgroundColor: 'hsl(208,15%,15%)',
+            backgroundColor: 'white',
             overflowY: 'hidden'
           }}
         >
@@ -38,14 +38,14 @@ function ComposerPreview() {
         </Box>
         <Box
           border
-          gray700
+          gray400
           mr3
           fs0
           style={{
             width: '188px',
             height: '406px',
             maxHeight: '100%',
-            backgroundColor: 'hsl(208,15%,15%)',
+            backgroundColor: 'white',
             overflowY: 'hidden'
           }}
         >
@@ -53,14 +53,14 @@ function ComposerPreview() {
         </Box>
         <Box
           border
-          gray700
+          gray400
           mr3
           fs0
           style={{
             width: '384px',
             minHeight: '512px',
             maxHeight: '100%',
-            backgroundColor: 'hsl(208,15%,15%)',
+            backgroundColor: 'white',
             overflowY: 'hidden'
           }}
         >
@@ -68,14 +68,14 @@ function ComposerPreview() {
         </Box>
         <Box
           border
-          gray700
+          gray400
           mr3
           fs0
           style={{
             width: '640px',
             minHeight: '450px',
             maxHeight: '100%',
-            backgroundColor: 'hsl(208,15%,15%)',
+            backgroundColor: 'white',
             overflowY: 'hidden'
           }}
         >

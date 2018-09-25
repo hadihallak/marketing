@@ -12,9 +12,9 @@ function ComposerLayerTree() {
     <Box
       br
       fs0
+      bcgray400
       style={{
         width: '20%',
-        borderColor: 'hsl(208, 18%, 22%)',
         overflowY: 'hidden',
       }}
     >

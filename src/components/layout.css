@@ -2,13 +2,11 @@
   font-family: 'UntitledSans';
   src:  local('UntitledSans'), url(../fonts/UntitledSansWeb-Regular.woff2) format('woff2'),
         local('UntitledSans'), url(../fonts/UntitledSansWeb-Regular.woff) format('woff');
-  font-display: swap;
 }
 @font-face {
   font-family: 'UntitledSans-Medium';
   src:  local('UntitledSans-Medium'), url(../fonts/UntitledSansWeb-Medium.woff2) format('woff2'),
         local('UntitledSans-Medium'), url(../fonts/UntitledSansWeb-Medium.woff) format('woff');
-  font-display: swap;
 }
 html,
 body,

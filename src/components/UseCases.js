@@ -10,9 +10,6 @@ import { Text } from 'radix-ds';
 const UseCases = () => (
   <Section
     size3
-    style={{
-      backgroundColor: 'hsl(208,30%,7%)',
-    }}
   >
     <Container
       size3
@@ -22,7 +19,6 @@ const UseCases = () => (
         <Heading
           size3
           lh5
-          white
         >
           A visual code editor for designing and building digital user interfaces&mdash;without writing code.
         </Heading>

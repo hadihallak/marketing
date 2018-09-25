@@ -4,12 +4,8 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
+import SupportedBy from '../components/SupportedBy'
 import LayoutSection from '../components/LayoutSection/LayoutSection'
-import NewStates from '../components/NewStates'
-import States from '../components/States'
-import CoolFeatures from '../components/CoolFeatures'
-import CodeExport from '../components/CodeExport'
-import Responsive from '../components/Responsive'
 import WallOfLove from '../components/WallOfLove'
 import Resources from '../components/Resources'
 import Navigation from '../components/Navigation'
@@ -19,12 +15,8 @@ const IndexPage = () => (
   <Layout>
     <ComposerHero />
     <UseCases />
+    <SupportedBy />
     <LayoutSection />
-    <NewStates />
-    <States />
-    <CoolFeatures />
-    <Responsive />
-    <CodeExport />
     <WallOfLove />
     <Resources />
     <Navigation />

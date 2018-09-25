@@ -1,55 +1,51 @@
 import React from 'react'
 
-import { Section } from 'radix-ds';
-import { Container } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { Heading } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Section,
+  Container,
+  Flexbox,
+  Box,
+  Heading,
+  Text,
+  Title,
+} from 'radix-ds';
 
 const SupportedBy = () => (
   <Section
     size3
-    style={{
-      backgroundColor: 'hsl(208,30%,97%)'
-    }}
   >
     <Container
       size4
     >
       <Box
-        mb5
+        mb7
+        center
       >
-        <Heading
+        <Title
           size2
-          lh4
+          gray600
+          style={{fontSize: '13px'}}
         >
-          Modulz is supported by
-        </Heading>
+          Supported by
+        </Title>
       </Box>
-    </Container>
-    <Container
-      size2
-    >
       <Flexbox
         jc_center
       >
         <Box
-          mr4
+          mr7
         >
           <Text
-            size3
-            lh3
+            size5
           >
             InVision
           </Text>
         </Box>
         <Box
-          ml4
+          ml7
         >
           <Text
-            size3
-            lh3
+            size5
           >
             Adobe
           </Text>

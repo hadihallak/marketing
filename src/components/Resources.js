@@ -8,117 +8,51 @@ import { Flexbox } from 'radix-ds';
 import { Heading } from 'radix-ds';
 import { Text } from 'radix-ds';
 
+import BlogCard from './BlogCard';
+
 const Resources = () => (
   <Section
     size3
-    gray200
   >
     <Container
       size2
     >
       <Box>
         <Heading
-          size5
+          size4
+          mb8
         >
          Further reading on what we are building
         </Heading>
       </Box>
-      <Flexbox>
-        <Box
-          p4
-          border
-          bcgray300
-          fg1
-          style={{
-            flexBasis: '0',
-            borderColor: 'hsl(208,90%,86%)',
-          }}
-        >
-          <Heading
-            size3
-            lh3
-          >
-            The design tool dilemma
-          </Heading>
-          <Text
-            size3
-            lh2
-            gray600
-          >
-            A detailed look at two opposing narratives emerging in the design tool space.
-          </Text>
-          <Link
-            to="/composer"
-            style={{
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-          >
-          </Link>
+      <Flexbox column bp3_row>
+        <Box bp3_fg1 bp3_fb0 mb4 bp3_mb0 bp3_ml4>
+          <BlogCard
+            heading="Help us Kickstart Modulz"
+            blurb="Modulz is a new design tool which exports to production code rather than static images."
+            url="https://www.medium.com"
+          />
         </Box>
-        <Box
-          p4
-          border
-          bcgray300
-          fg1
-          style={{
-            flexBasis: '0',
-            borderColor: 'hsl(208,90%,86%)',
-          }}
-        >
-          <Heading
-            size3
-            lh3
-          >
-            The Design Tool Dilemma
-          </Heading>
-          <Text
-            size3
-            lh2
-            gray600
-          >
-            A detailed look at two opposing narratives emerging in the design tool space.
-          </Text>
-          <Link
-            to="/composer"
-            style={{
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-          >
-          </Link>
+        <Box bp3_fg1 bp3_fb0 mb4 bp3_mb0 bp3_ml4>
+          <BlogCard
+            heading="The design tool dilemma"
+            blurb="A detailed look at two opposing narratives emerging in the design tool space."
+            url="https://www.medium.com"
+          />
         </Box>
-        <Box
-          p4
-          border
-          bcgray300
-          fg1
-          style={{
-            flexBasis: '0',
-            borderColor: 'hsl(208,90%,86%)',
-          }}
-        >
-          <Heading
-            size3
-            lh3
-          >
-            Designs tools are running out of track
-          </Heading>
-          <Text
-            size3
-            lh2
-            gray600
-          >
-            A detailed look at two opposing narratives emerging in the design tool space.
-          </Text>
-          <Link
-            to="/composer"
-            style={{
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-          >
-          </Link>
+        <Box bp3_fg1 bp3_fb0 mb4 bp3_mb0 bp3_ml4>
+          <BlogCard
+            heading="Design tools are running out of track"
+            blurb="A close look at where design tools are missing the mark."
+            url="https://www.medium.com"
+          />
+        </Box>
+        <Box bp3_fg1 bp3_fb0 mb4 bp3_mb0 bp3_ml4>
+          <BlogCard
+            heading="How to construct a design system"
+            blurb="Tips for designing and building a consistent design system."
+            url="https://www.medium.com"
+          />
         </Box>
       </Flexbox>
     </Container>

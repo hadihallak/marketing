@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { css } from 'styled-components';
 import { Theme } from 'radix-ds';
-import { Link } from 'gatsby'
 
 import { Section } from 'radix-ds';
 import { Container } from 'radix-ds';
@@ -9,7 +8,7 @@ import { Flexbox } from 'radix-ds';
 import { Box } from 'radix-ds';
 import { Text } from 'radix-ds';
 
-import FadeLink from './FadeLink'
+import FadeLinkNotGatsby from './FadeLinkNotGatsby'
 
 const Navigation = () => (
   <Section
@@ -31,20 +30,24 @@ const Navigation = () => (
         </Box>
         <nav>
           <Flexbox>
-            <FadeLink
-              to="https://www.twitter.com/modulz"
-              data-content="Follow our Twitter"
-              target="_blank"
-            >
-              Follow our Twitter
-            </FadeLink>
-            <FadeLink
-              to="/https://spectrum.chat/modulz"
-              data-content="Join our community"
-              target="_blank"
-            >
-              Join our community
-            </FadeLink>
+            <Box>
+              <FadeLinkNotGatsby
+                href="https://www.twitter.com/modulz"
+                data-content="Twitter"
+                target="_blank"
+              >
+                Twitter
+              </FadeLinkNotGatsby>
+            </Box>
+            <Box ml6>
+              <FadeLinkNotGatsby
+                href="https://spectrum.chat/modulz"
+                data-content="Spectrum"
+                target="_blank"
+              >
+                Spectrum
+              </FadeLinkNotGatsby>
+            </Box>
           </Flexbox>
         </nav>
       </Flexbox>

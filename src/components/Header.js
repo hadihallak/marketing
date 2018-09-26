@@ -14,9 +14,6 @@ import FadeLink from './FadeLink'
 const Header = () => (
   <Section
     size1
-    style={{
-      backgroundColor: 'hsl(208,30%,7%)',
-    }}
   >
     <Container
     >

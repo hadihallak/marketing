@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Header from '../components/Header'
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
 import SupportedBy from '../components/SupportedBy'
@@ -13,13 +14,13 @@ import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <Layout>
+    <Header />
     <ComposerHero />
     <UseCases />
     <SupportedBy />
     <LayoutSection />
     <WallOfLove />
     <Resources />
-    <Navigation />
     <Footer />
   </Layout>
 )

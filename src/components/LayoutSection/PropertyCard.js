@@ -5,7 +5,7 @@ import styled, { css } from 'styled-components';
 const Container = styled.div`
   position: absolute;
   right: -200px;
-  width: 220px;
+  width: 225px;
   opacity: 0;
   box-shadow: 0 35px 55px 10px hsla(208,30%,10%,.05);
   z-index: 9999;

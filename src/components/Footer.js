@@ -19,6 +19,8 @@ const Navigation = () => (
       <Flexbox
         ai_baseline
         jc_spacebetween
+        column_reverse
+        bp1_row
       >
         <Box>
           <Text
@@ -29,23 +31,35 @@ const Navigation = () => (
           </Text>
         </Box>
         <nav>
-          <Flexbox>
+          <Flexbox mb8 bp1_mb0>
             <Box>
               <FadeLinkNotGatsby
-                href="https://www.twitter.com/modulz"
-                data-content="Twitter"
+                href="https://github.com/modulz/radix"
                 target="_blank"
               >
+                <Text size4 bp1_size2>
+                  Radix
+                </Text>
+              </FadeLinkNotGatsby>
+            </Box>
+            <Box ml6>
+              <FadeLinkNotGatsby
+                href="https://www.twitter.com/modulz"
+                target="_blank"
+              >
+              <Text size4 bp1_size2>
                 Twitter
+              </Text>
               </FadeLinkNotGatsby>
             </Box>
             <Box ml6>
               <FadeLinkNotGatsby
                 href="https://spectrum.chat/modulz"
-                data-content="Spectrum"
                 target="_blank"
               >
+              <Text size4 bp1_size2>
                 Spectrum
+              </Text>
               </FadeLinkNotGatsby>
             </Box>
           </Flexbox>

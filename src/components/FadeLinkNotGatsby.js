@@ -7,24 +7,10 @@ const FadeLinkNotGatsby = styled.a`
   display: inline-flex;
   position: relative;
   text-decoration: none;
-  font-size: ${Theme.FONTSIZE_300};
-
-  &::before {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: ${Theme.GRAY_900};
-    content: attr(data-content);
-    transition-property: opacity;
-    transition-duration: 80ms;
-    transition-timing-function: linear;
-  }
+  transition: color 70ms linear;
 
   &:hover {
-    &::before {
-      opacity: 1;
-    }
+    color: ${Theme.GRAY_900};
   }
 `;
 

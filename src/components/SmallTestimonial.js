@@ -26,8 +26,8 @@ const SmallTestimonial = (props) => (
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="105"
-        height="105"
+        width="25"
+        height="25"
         viewBox="0 0 95 95"
         fill="none"
         stroke="currentColor"
@@ -40,10 +40,10 @@ const SmallTestimonial = (props) => (
       </svg>
     </Box>
     <Text
-      size4
+      size3
       lh3
     >
-      {props.quote}
+      &quot;{props.quote}&quot;
     </Text>
     <Flexbox
       ai_center
@@ -77,7 +77,12 @@ const SmallTestimonial = (props) => (
           color: 'inherit',
         }}
       >
-        Twitter
+        <Text
+          size1
+          gray600
+        >
+          View tweet
+        </Text>
       </Link>
     </Flexbox>
   </Box>

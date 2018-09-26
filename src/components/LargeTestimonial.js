@@ -40,7 +40,7 @@ const LargeTestimonial = (props) => (
       </svg>
     </Box>
     <Text
-      size6
+      size5
       lh5
     >
       {props.quote}

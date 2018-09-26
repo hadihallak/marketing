@@ -1,6 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import {
+  Section,
+  Divider,
+  Flexbox
+} from 'radix-ds';
+
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import ComposerHero from '../components/ComposerHero'
@@ -18,8 +24,18 @@ const IndexPage = () => (
     <ComposerHero />
     <UseCases />
     <SupportedBy />
+    <Section>
+      <Flexbox jc_center>
+        <Divider size3 />
+      </Flexbox>
+    </Section>
     <LayoutSection />
     <WallOfLove />
+    <Section>
+      <Flexbox jc_center>
+        <Divider size3 />
+      </Flexbox>
+    </Section>
     <Resources />
     <Footer />
   </Layout>

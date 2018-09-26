@@ -24,7 +24,6 @@ const SupportedBy = () => (
         <Title
           size2
           gray600
-          style={{fontSize: '13px'}}
         >
           Supported by
         </Title>

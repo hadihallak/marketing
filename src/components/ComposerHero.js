@@ -29,7 +29,8 @@ const ComposerHero = () => (
           size6
           center
           mb5
-          style={{fontFamily: '"UntitledSans-Medium"', letterSpacing: '-.052em'}}
+          bold
+          style={{letterSpacing: '-.052em'}}
         >
           The next step in visual coding
         </Heading>
@@ -38,7 +39,7 @@ const ComposerHero = () => (
         size3
       >
         <Heading
-          size2
+          size3
           lh3
           gray600
           center

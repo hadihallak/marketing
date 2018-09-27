@@ -10,13 +10,18 @@ import {
   GhostButton,
   Avatar,
   PillTab,
-  Button
+  Button,
+  List
 } from 'radix-ds';
 
 import ComposerToolbelt from './ComposerToolbelt'
 import ComposerLayerTree from './ComposerLayerTree'
 import ComposerPreview from './ComposerPreview'
 import ComposerProperties from './ComposerProperties'
+
+import PropHeader from './PropHeader'
+import PropNode from './PropNode'
+
 
 const Browser = styled.div`
   transform-origin: bottom center;
@@ -34,6 +39,7 @@ const Browser = styled.div`
 
 const ComposerScreen = () => (
   <figure
+     aria-hidden="true"
   >
     <AspectRatio ratio_169>
       <Browser
@@ -66,7 +72,64 @@ const ComposerScreen = () => (
                   </GhostButton>
                 </Flexbox>
               </Box>
-              <ComposerLayerTree />
+              <Box>
+              <List mt1 mb1>
+                <li>
+                  <PropNode label="Button" active />
+                </li>
+              </List>
+            </Box>
+            <Box
+              bt
+              bcgray300
+            >
+              <PropHeader label="Size" />
+              <List mt1 mb1>
+                <li>
+                  <PropNode label="Size 1" />
+                </li>
+                <li>
+                  <PropNode label="Size 2" />
+                </li>
+              </List>
+            </Box>
+            <Box
+              bt
+              bcgray300
+            >
+              <PropHeader label="Color" />
+              <List mt1 mb1>
+                <li>
+                  <PropNode label="Gray" />
+                </li>
+                <li>
+                  <PropNode label="Blue" />
+                </li>
+                <li>
+                  <PropNode label="Green" />
+                </li>
+                <li>
+                  <PropNode label="Red" />
+                </li>
+              </List>
+            </Box>
+            <Box
+              bt
+              bcgray300
+            >
+              <PropHeader label="Alignment" />
+              <List mt1 mb1>
+                <li>
+                  <PropNode label="Left" />
+                </li>
+                <li>
+                  <PropNode label="Middle" />
+                </li>
+                <li>
+                  <PropNode label="Right" />
+                </li>
+              </List>
+            </Box>
             </Flexbox>
           </Box>
           <Box fg1>
@@ -143,9 +206,9 @@ const ComposerScreen = () => (
                   </Flexbox>
                 </Flexbox>
               </Box>
-              <Box>
-                <Button blue>Button</Button>
-              </Box>
+              <Flexbox ai_center jc_center h100>
+                <Button size2 blue>Button</Button>
+              </Flexbox>
             </Flexbox>
           </Box>
           <Box fs0 bl bcgray400 style={{width: '225px'}}>

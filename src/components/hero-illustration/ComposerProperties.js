@@ -26,7 +26,7 @@ import PropertiesFilter from './PropertiesFilter'
 function ComposerProperties() {
   return (
     <Box
-      oyhidden
+      overflow_hidden
     >
       <PropertiesFlexbox />
       <PropertiesDimensions />

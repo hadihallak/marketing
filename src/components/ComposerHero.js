@@ -56,7 +56,7 @@ const ComposerHero = () => (
         >
           Coming Spring 2019
         </Badge>
-        <Box mt6 mb6>
+        <Box mt8 mb8>
           <LinesButton>
             Support us on Kickstarter
           </LinesButton>

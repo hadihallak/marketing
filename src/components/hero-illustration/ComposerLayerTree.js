@@ -10,11 +10,7 @@ import Layer from './ComposerLayerNode'
 function ComposerLayerTree() {
   return (
     <Box
-      br
-      fs0
-      bcgray400
       style={{
-        width: '20%',
         overflowY: 'hidden',
       }}
     >

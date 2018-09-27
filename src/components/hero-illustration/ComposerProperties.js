@@ -26,13 +26,7 @@ import PropertiesFilter from './PropertiesFilter'
 function ComposerProperties() {
   return (
     <Box
-      bl
-      bcgray400
-      fs0
-      style={{
-        width: '220px',
-        overflow: 'hidden',
-      }}
+      oyhidden
     >
       <PropertiesFlexbox />
       <PropertiesDimensions />

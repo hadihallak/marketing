@@ -1,10 +1,17 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import { Flexbox } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { AspectRatio } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Flexbox,
+  Box,
+  AspectRatio,
+  Text,
+  Theme,
+  GhostButton,
+  Avatar,
+  PillTab,
+  Button
+} from 'radix-ds';
 
 import ComposerToolbelt from './ComposerToolbelt'
 import ComposerLayerTree from './ComposerLayerTree'
@@ -14,9 +21,9 @@ import ComposerProperties from './ComposerProperties'
 const Browser = styled.div`
   transform-origin: bottom center;
   box-shadow: 0px 62.5px 125px -25px hsla(208,24%,10%,.46),0px 37.5px 75px -37.5px hsla(208,24%,10%,.08);
-  border-radius: 5px;
-  border: 1px solid hsl(208, 18%, 85%);
-  border-bottom-color: hsl(208, 18%, 75%);
+  border-radius: ${Theme.BORDERRADIUS_200};
+  border: 1px solid ${Theme.GRAY_400};
+  border-bottom-color: ${Theme.GRAY_500};
   height: 100%;
 
   @media screen and (min-width: 1000px) {
@@ -34,9 +41,163 @@ const ComposerScreen = () => (
         <Flexbox
           h100
         >
-          <ComposerLayerTree />
+          <Box fs0 br bcgray400 style={{width: '225px'}}>
+            <Flexbox
+              h100
+              column
+            >
+              <Box p1 bb bcgray400>
+                <Flexbox
+                  jc_spacebetween
+                >
+                  <GhostButton size2>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M4 18.5H21"/>
+                      <path d="M4 12.5H21"/>
+                      <path d="M4 6.5H21"/>
+                    </svg>
+                  </GhostButton>
+                </Flexbox>
+              </Box>
+              <ComposerLayerTree />
+            </Flexbox>
+          </Box>
+          <Box fg1>
+            <Flexbox
+              h100
+              column
+            >
+              <Box p1 bb bcgray400>
+                <Flexbox
+                  ai_center
+                >
+                  <Flexbox
+                    ai_center
+                    fg1
+                    fb0
+                    pl1
+                  >
+                    <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '50%',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'white'}}></Box>
+                  </Flexbox>
+                  <Box fg1 fb0>
+                    <Flexbox
+                      jc_spacebetween
+                    >
+                      <PillTab
+                        left
+                      >
+                        Theme
+                      </PillTab>
+                      <PillTab
+                        middle
+                        active
+                      >
+                        Editor
+                      </PillTab>
+                      <PillTab
+                        right
+                      >
+                        Composer
+                      </PillTab>
+                    </Flexbox>
+                  </Box>
+                  <Flexbox
+                    fb0
+                    fg1
+                    ai_center
+                    jc_flexend
+                  >
+                    <GhostButton size2>
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        stroke="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M6.5 4.5V20.5L18.5 12.5L6.5 4.5Z" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </GhostButton>
+                    <GhostButton size2>
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        stroke="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M14.5 4.5H20.5V10.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M11.5 13.5L20.5 4.5" strokeLinecap="round"/>
+                        <path d="M18.5 14.5V20C18.5 20.2761 18.2761 20.5 18 20.5H5C4.72386 20.5 4.5 20.2761 4.5 20V7C4.5 6.72386 4.72386 6.5 5 6.5H10.5" strokeLinecap="round"/>
+                      </svg>
+                    </GhostButton>
+                  </Flexbox>
+                </Flexbox>
+              </Box>
+              <Box>
+                <Button blue>Button</Button>
+              </Box>
+            </Flexbox>
+          </Box>
+          <Box fs0 bl bcgray400 style={{width: '225px'}}>
+            <Flexbox
+              h100
+              column
+            >
+              <Box p1
+                pr2
+                bb
+                bcgray400
+              >
+                <Flexbox ai_center jc_flexend>
+                  <GhostButton size2>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <circle cx="12.5" cy="12.5" r="3"/>
+                    <circle cx="12.5" cy="12.5" r="8"/>
+                    <path d="M6.5 18.5L10.5 14.5"/>
+                    <path d="M14.5 10.5L18.5 6.5"/>
+                    <path d="M10.5 10.5L6.5 6.5"/>
+                    <path d="M18 18L14.5 14.5"/>
+                    </svg>
+                  </GhostButton>
+                  <GhostButton size2>
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M9.55001 18.5H15.45C15.2184 19.6411 14.2095 20.5 13 20.5H12C10.7905 20.5 9.78164 19.6411 9.55001 18.5Z"/>
+                      <path d="M5.5 15V18.5H19.5V15L17.1667 13.5V10C17.1667 10 17.5 4.5 12.5 4.5C7.5 4.5 7.83333 10 7.83333 10V13.5L5.5 15Z" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </GhostButton>
+                  <Box pl2>
+                    <Avatar size2 url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"/>
+                  </Box>
+                </Flexbox>
+              </Box>
+              <ComposerProperties />
+            </Flexbox>
+          </Box>
           {/*<ComposerPreview />*/}
-          <ComposerProperties />
         </Flexbox>
       </Browser>
     </AspectRatio>

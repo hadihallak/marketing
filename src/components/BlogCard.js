@@ -19,7 +19,7 @@ const Card = styled.a`
   border-radius: ${Theme.BORDERRADIUS_100};
   text-decoration: none;
   padding: ${Theme.SPACING_400};
-  height: 100%
+  height: 100%;
   transition: border-color 70ms linear;
 
   &:hover {

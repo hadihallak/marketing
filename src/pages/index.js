@@ -20,8 +20,7 @@ import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <Layout>
-    <Header />
-    {/*<ComposerHero />*/}
+    <ComposerHero />
     <UseCases />
     <SupportedBy />
     <Section>

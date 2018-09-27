@@ -59,22 +59,11 @@ const Header = () => (
               </FadeLink>
             </Box>
             <Box
-              ml5
+              ml6
             >
               <FadeLink
                 to="/https://spectrum.chat/modulz"
-                data-content="Join our community"
-                target="_blank"
-              >
-                Why Modulz
-              </FadeLink>
-            </Box>
-            <Box
-              ml5
-            >
-              <FadeLink
-                to="/https://spectrum.chat/modulz"
-                data-content="Join our community"
+                data-content="About"
                 target="_blank"
               >
                 About

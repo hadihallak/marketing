@@ -21,7 +21,7 @@ import Footer from '../components/Footer'
 const IndexPage = () => (
   <Layout>
     <Header />
-    <ComposerHero />
+    {/*<ComposerHero />*/}
     <UseCases />
     <SupportedBy />
     <Section>
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <Divider size3 />
       </Flexbox>
     </Section>
-    <LayoutSection />
+    {/*<LayoutSection />*/}
     <WallOfLove />
     <Section>
       <Flexbox jc_center>

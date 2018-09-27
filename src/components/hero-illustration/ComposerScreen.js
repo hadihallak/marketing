@@ -35,7 +35,7 @@ const ComposerScreen = () => (
           h100
         >
           <ComposerLayerTree />
-          <ComposerPreview />
+          {/*<ComposerPreview />*/}
           <ComposerProperties />
         </Flexbox>
       </Browser>

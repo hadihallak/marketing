@@ -17,10 +17,10 @@ const UseCases = () => (
       <Box
       >
         <Heading
-          size3
-          lh5
+          size4
+          lh6
         >
-          A visual code editor for designing and building digital user interfaces&mdash;without writing code.
+          The visual code editor for designing and building digital user interfaces&mdash;without writing code.
         </Heading>
       </Box>
     </Container>

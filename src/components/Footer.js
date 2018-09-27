@@ -31,8 +31,8 @@ const Navigation = () => (
           </Text>
         </Box>
         <nav>
-          <Flexbox mb8 bp1_mb0>
-            <Box>
+          <Flexbox column bp1_row mb8 bp1_mb0>
+            <Box mb6 bp1_mb0>
               <FadeLinkNotGatsby
                 href="https://github.com/modulz/radix"
                 target="_blank"
@@ -42,7 +42,7 @@ const Navigation = () => (
                 </Text>
               </FadeLinkNotGatsby>
             </Box>
-            <Box ml6>
+            <Box mb6 bp1_mb0 bp1_ml6>
               <FadeLinkNotGatsby
                 href="https://www.twitter.com/modulz"
                 target="_blank"
@@ -52,7 +52,7 @@ const Navigation = () => (
               </Text>
               </FadeLinkNotGatsby>
             </Box>
-            <Box ml6>
+            <Box bp1_ml6>
               <FadeLinkNotGatsby
                 href="https://spectrum.chat/modulz"
                 target="_blank"

@@ -14,7 +14,7 @@ import UseCases from '../components/UseCases'
 import SupportedBy from '../components/SupportedBy'
 import LayoutSection from '../components/LayoutSection/LayoutSection'
 import WallOfLove from '../components/WallOfLove'
-import Resources from '../components/Resources'
+import Blog from '../components/Blog'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
@@ -36,7 +36,7 @@ const IndexPage = () => (
         <Divider size3 />
       </Flexbox>
     </Section>
-    <Resources />
+    <Blog />
     <Footer />
   </Layout>
 )

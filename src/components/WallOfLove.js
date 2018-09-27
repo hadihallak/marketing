@@ -19,37 +19,11 @@ const WallOfLove = () => (
     }}
   >
     <Container
-      size2
+      size3
     >
-      <Flexbox
-        ai_center
-      >
-        <Box
-          fg1
-          pr4
-          style={{
-            flexBasis: '0',
-          }}
-        >
-          <SmallTestimonial
-            quote="I can’t describe how excited I am for Modulz. You should follow along if you aren’t already."
-          />
-          <SmallTestimonial
-            quote="I can’t describe how excited I am for Modulz. You should follow along if you aren’t already."
-          />
-        </Box>
-        <Box
-          fg1
-          pl4
-          style={{
-            flexBasis: '0',
-          }}
-        >
           <LargeTestimonial
             quote="It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."
           />
-        </Box>
-      </Flexbox>
     </Container>
   </Section>
 )

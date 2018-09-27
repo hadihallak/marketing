@@ -1,68 +1,51 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Box } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Box,
+  Avatar,
+  Flexbox,
+  Text
+} from 'radix-ds';
 
 const LargeTestimonial = (props) => (
   <Box
-    pt7
-    pl8
-    style={{
-      borderColor: 'hsl(208,22%,15%)',
-      position: 'relative',
-      zIndex: '1',
-    }}
+    bp2_center
   >
-    <Box
-      style={{
-        position: 'absolute',
-        color: 'hsl(208,18%,24%)',
-        top: '0',
-        left: '0',
-        zIndex: '-1',
-      }}
+    <Flexbox
+      bp2_jc_center
+      mb6
     >
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="105"
-        height="105"
-        viewBox="0 0 95 95"
+        width="45"
+        height="45"
+        viewBox="0 0 45 45"
         fill="none"
-        stroke="currentColor"
-        style={{
-          display: 'block'
-        }}
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="hsl(208, 12%, 50%)"
       >
-        <path d="M7.5 53.5V16.5H44.5V53.5L33.5 78H13L23 53.5H7.5Z"/>
-        <path d="M50.5 53.5V16.5H87.5V53.5L76.5 78H56L66 53.5H50.5Z"/>
+        <path d="M4.5 25V10C4.5 9.72386 4.72386 9.5 5 9.5H20C20.2761 9.5 20.5 9.72386 20.5 10V25.5L16.5 36.5H7.5L11.5 25.5H5C4.72386 25.5 4.5 25.2761 4.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M24.5 25V10C24.5 9.72386 24.7239 9.5 25 9.5H40C40.2761 9.5 40.5 9.72386 40.5 10V25.5L36.5 36.5H27.5L31.5 25.5H25C24.7239 25.5 24.5 25.2761 24.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
-    </Box>
+    </Flexbox>
     <Text
-      size5
-      lh5
+      size6
+      lh6
     >
       {props.quote}
     </Text>
     <Flexbox
       ai_center
-      mt4
+      bp2_jc_center
+      mt7
     >
       <Box
-        mr4
-        style={{
-          width: '45px',
-          height: '45px',
-          borderRadius: '50%',
-          overflow: 'hidden',
-        }}
+        mr3
       >
-        <img
-          width="45"
-          height="45"
-          src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
-        />
+      <Avatar
+        size3
+        url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
+      />
       </Box>
       <Text
         size2

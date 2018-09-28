@@ -22,6 +22,11 @@ const IndexPage = () => (
   <Layout>
     <ComposerHero />
     <UseCases />
+    <Section>
+      <Flexbox jc_center>
+        <Divider size3 />
+      </Flexbox>
+    </Section>
     <SupportedBy />
     <Section>
       <Flexbox jc_center>

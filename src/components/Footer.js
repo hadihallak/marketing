@@ -47,9 +47,9 @@ const Navigation = () => (
                 href="https://www.twitter.com/modulz"
                 target="_blank"
               >
-              <Text size4 bp1_size2>
-                Twitter
-              </Text>
+                <Text size4 bp1_size2>
+                  Twitter
+                </Text>
               </FadeLinkNotGatsby>
             </Box>
             <Box bp1_ml6>
@@ -57,9 +57,9 @@ const Navigation = () => (
                 href="https://spectrum.chat/modulz"
                 target="_blank"
               >
-              <Text size4 bp1_size2>
-                Spectrum
-              </Text>
+                <Text size4 bp1_size2>
+                  Spectrum
+                </Text>
               </FadeLinkNotGatsby>
             </Box>
           </Flexbox>

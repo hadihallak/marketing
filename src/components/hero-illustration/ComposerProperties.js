@@ -28,9 +28,9 @@ function ComposerProperties() {
     <Box
       overflow_hidden
     >
-      <PropertiesFlexbox />
+      {/*<PropertiesFlexbox />*/}
       <PropertiesDimensions />
-      <PropertiesMargin />
+      {/*<PropertiesMargin />*/}
       <PropertiesPadding />
       <PropertiesFill />
       <PropertiesOpacity />
@@ -39,7 +39,7 @@ function ComposerProperties() {
       <PropertiesPin />
       <PropertiesTransform />
       <PropertiesTransition />
-      <PropertiesFilter />
+      {/*<PropertiesFilter />*/}
     </Box>
   );
 }

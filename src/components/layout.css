@@ -192,3 +192,7 @@ textarea {
 #___gatsby {
   height: 100%;
 }
+
+svg {
+  display: block;
+}

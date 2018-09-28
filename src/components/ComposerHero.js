@@ -14,7 +14,7 @@ import ComposerScreen from '../components/hero-illustration/ComposerScreen'
 
 const ComposerHero = () => (
   <Section
-    size3
+    size2
     style={{
       paddingBottom: '0',
     }}

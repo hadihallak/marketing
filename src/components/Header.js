@@ -9,67 +9,51 @@ import { Flexbox } from 'radix-ds';
 import { Box } from 'radix-ds';
 import { Text } from 'radix-ds';
 
-import FadeLink from './FadeLink'
+import FadeLinkNotGatsby from './FadeLinkNotGatsby'
 
 const Header = () => (
-  <Section
-    size1
-  >
-    <Container
-    >
+  <Section size1>
+    <Container>
       <Flexbox
-        ai_baseline
+        ai_flexstart
         jc_spacebetween
       >
         <Box>
-          <Text
-            size1
-            gray500
+          <Link
+            to="/"
+            style={{color: 'inherit'}}
           >
-            &copy; Modulz
-          </Text>
+            <svg
+              width="35"
+              height="35"
+              viewBox="0 0 35 35"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 26.5L4 31V22L10 26.5Z"/>
+              <path d="M10 14.5L4 19V10L10 14.5Z"/>
+              <path d="M17 8.5L11 13V4L17 8.5Z"/>
+              <path d="M24 14.5L18 19V10L24 14.5Z"/>
+              <path d="M31 8.5L25 13V4L31 8.5Z"/>
+              <path d="M31 20.5L25 25V16L31 20.5Z"/>
+              <path d="M10 25L4 20.5L10 16V25Z"/>
+              <path d="M17 19L11 14.5L17 10V19Z"/>
+              <path d="M10 13L4 8.5L10 4V13Z"/>
+              <path d="M24 13L18 8.5L24 4V13Z"/>
+              <path d="M31 19L25 14.5L31 10V19Z"/>
+              <path d="M31 31L25 26.5L31 22V31Z"/>
+            </svg>
+          </Link>
         </Box>
         <nav>
-          <Flexbox>
-            <Box>
-              <FadeLink
-                to="https://www.twitter.com/modulz"
-                data-content="Product"
-                target="_blank"
-              >
-                Product
-                <Box
-                  ml1
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="none"
-                    stroke="currentColor"
-                    style={{
-                      display: 'block'
-                    }}
-                  >
-                    <path d="M0 0H10" transform="translate(2.5 7.5)" strokeLinecap="round"/>
-                    <path d="M0 10V0" transform="translate(7.5 2.5)" strokeLinecap="round"/>
-                  </svg>
-                </Box>
-              </FadeLink>
-            </Box>
-            <Box
-              ml6
-            >
-              <FadeLink
-                to="/https://spectrum.chat/modulz"
-                data-content="About"
-                target="_blank"
-              >
-                About
-              </FadeLink>
-            </Box>
-          </Flexbox>
+          <FadeLinkNotGatsby
+            href="https://spectrum.chat/modulz"
+            target="_blank"
+          >
+            <Text size4 bp1_size2>
+              Support our Kickstarter
+            </Text>
+          </FadeLinkNotGatsby>
         </nav>
       </Flexbox>
     </Container>

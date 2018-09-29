@@ -21,10 +21,11 @@ const Resources = () => (
       size2
     >
       <Heading
-        size4
+        size5
         bold
         mb_3
         as="h5"
+        ta_center
       >
         Blog
       </Heading>
@@ -32,6 +33,7 @@ const Resources = () => (
         size5
         color_gray600
         mb_8
+        ta_center
       >
        More about what we're doing.
       </Text>

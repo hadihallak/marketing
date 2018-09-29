@@ -23,7 +23,7 @@ const SupportedBy = () => (
       >
         <Title
           size2
-          gray600
+          color_gray600
           as="h4"
         >
           Supported by

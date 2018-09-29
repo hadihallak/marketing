@@ -1,90 +1,69 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Box } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Box,
+  Flexbox,
+  Text,
+  Avatar
+} from 'radix-ds';
 
 const SmallTestimonial = (props) => (
   <Box
-    pt7
-    pl8
-    style={{
-      borderColor: 'hsl(208,22%,15%)',
-      position: 'relative',
-      zIndex: '1',
-    }}
+    ta_center
   >
-    <Box
-      style={{
-        position: 'absolute',
-        color: 'hsl(208,18%,24%)',
-        top: '0',
-        left: '0',
-        zIndex: '-1',
-      }}
-    >
+    <Flexbox jc_center mb_4>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="25"
-        height="25"
-        viewBox="0 0 95 95"
+        width="45"
+        height="45"
+        viewBox="0 0 45 45"
         fill="none"
-        stroke="currentColor"
-        style={{
-          display: 'block'
-        }}
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="hsl(208, 12%, 46%)"
       >
-        <path d="M7.5 53.5V16.5H44.5V53.5L33.5 78H13L23 53.5H7.5Z"/>
-        <path d="M50.5 53.5V16.5H87.5V53.5L76.5 78H56L66 53.5H50.5Z"/>
+        <path d="M0.5 25V7C0.5 6.72386 0.723857 6.5 1 6.5H20C20.2761 6.5 20.5 6.72386 20.5 7V25.5L15.5 38.5H4.5L9.5 25.5H1C0.723858 25.5 0.5 25.2761 0.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M24.5 25V7C24.5 6.72386 24.7239 6.5 25 6.5H44C44.2761 6.5 44.5 6.72386 44.5 7V25.5L39.5 38.5H28.5L33.5 25.5H25C24.7239 25.5 24.5 25.2761 24.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
       </svg>
-    </Box>
-    <Text
-      size3
-      lh3
-    >
-      &quot;{props.quote}&quot;
-    </Text>
-    <Flexbox
-      ai_center
-      mt_2
-    >
-      <Box
-        mr_3
-        style={{
-          width: '35px',
-          height: '35px',
-          borderRadius: '50%',
-          overflow: 'hidden',
-        }}
-      >
-        <img
-          width="35"
-          height="35"
-          src="https://pbs.twimg.com/profile_images/1010363374725550080/lb8juiVi_bigger.jpg"
-        />
-      </Box>
-      <Text
-        size1
-        gray600
-      >
-        Steve Schoger
-      </Text>
-      <Link
-        to="/composer"
-        style={{
-          textDecoration: 'none',
-          color: 'inherit',
-        }}
-      >
-        <Text
-          size1
-          gray600
-        >
-          View tweet
-        </Text>
-      </Link>
     </Flexbox>
+    <blockquote cite="">
+      <Text
+        size7
+        lh_4
+        as="p"
+        color_gray600
+        style={{letterSpacing: '-.018em'}}
+      >
+        {props.quote}
+      </Text>
+      <Flexbox
+        ai_center
+        bp2_jc_center
+        mt_5
+      >
+        <Box
+          mr_3
+        >
+        <Avatar
+          size3
+          url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
+        />
+        </Box>
+        <Text
+          size3
+          color_gray600
+        >
+          Tony Ennis
+        </Text>
+        <Link
+          to="/composer"
+          style={{
+            textDecoration: 'none',
+            color: 'inherit',
+          }}
+        >
+        </Link>
+      </Flexbox>
+    </blockquote>
   </Box>
 )
 

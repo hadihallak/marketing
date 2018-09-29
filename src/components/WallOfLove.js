@@ -16,11 +16,43 @@ const WallOfLove = () => (
     size3
   >
     <Container
+      size2
+    >
+      <Flexbox mb_7>
+        <Box mr_5>
+          <SmallTestimonial
+            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+          />
+        </Box>
+        <Box ml_5>
+          <SmallTestimonial
+            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+          />
+        </Box>
+      </Flexbox>
+    </Container>
+    <Container
       size3
     >
       <LargeTestimonial
-        quote="It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."
+        quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
       />
+    </Container>
+    <Container
+      size2
+    >
+      <Flexbox mt_7>
+        <Box mr_5>
+          <SmallTestimonial
+            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+          />
+        </Box>
+        <Box ml_5>
+          <SmallTestimonial
+            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+          />
+        </Box>
+      </Flexbox>
     </Container>
   </Section>
 )
@@ -31,8 +63,8 @@ const WallOfLove = () => (
 // This is going to be pretty sweet I think 👍🏻 a design tool that fully embraces the fact that it's helping you work with HTML and CSS. - Adam Wathan
 // Any tool that reduces friction in getting prototypes in front of customers and stakeholders is a winner, but Modulz promises even more. Empowering designers to iterate on the *actual* product they're working on, not just pictures of it — this is the future of our industry. - Jack Lo Russo
 // Our workflows as digital designers don't quite fit with traditional tooling. Terribly excited to see how Modulz redefines how we think about designing for screens. - Adam Morse
-// "Whatever @colmtuite and his class of shameless Front End Design pals don’t stand to make money on/are not good at, is by definition totally unnecessary and actually an evil to be purged and eliminated from the design industry."
-// "This is one of those things, that upon first viewing, makes one question why it hasn't existed before."
+// "Whatever @colmtuite and his class of shameless Front End Design pals don’t stand to make money on/are not good at, is by definition totally unnecessary and actually an evil to be purged and eliminated from the design industry."'
+// "This is one of those things, that upon first viewing, makes one question why it hasn't existed before."'
 
 // Modulz is full of interesting ideas. Can't wait to try it out. - Koen Bok
 

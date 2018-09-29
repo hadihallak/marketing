@@ -37,14 +37,14 @@ const UseCases = () => (
           color_gray600
           mb_5
         >
-          Almost all design tools are optimised for illustration. Vector-based tools are great for wireframing and exploration. But when it comes to designing interactive components, complex layouts and stateful user interfaces—we need something more powerful.
+          Almost all design tools are optimised for illustration. Vector-based tools are great for wireframing and exploration, but when it comes to designing interactive components, complex layouts and stateful user interfaces—we need something more powerful.
         </Text>
         <Text
           size5
           lh_4
           color_gray600
         >
-          Modulz will enable you to create fully interactive components and interfaces, with zero coding skills.
+          Modulz is specifically designed to produce robust, accessible, production-grade components and interfaces.
         </Text>
       </Box>
     </Container>

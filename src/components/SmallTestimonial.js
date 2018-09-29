@@ -50,7 +50,7 @@ const SmallTestimonial = (props) => (
       mt_2
     >
       <Box
-        mr3
+        mr_3
         style={{
           width: '35px',
           height: '35px',

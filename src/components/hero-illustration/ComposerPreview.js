@@ -24,7 +24,7 @@ function ComposerPreview() {
         <Box
           border
           gray400
-          mr3
+          mr_3
           fs_0
           style={{
             width: '320px',
@@ -39,7 +39,7 @@ function ComposerPreview() {
         <Box
           border
           gray400
-          mr3
+          mr_3
           fs_0
           style={{
             width: '188px',
@@ -54,7 +54,7 @@ function ComposerPreview() {
         <Box
           border
           gray400
-          mr3
+          mr_3
           fs_0
           style={{
             width: '384px',
@@ -69,7 +69,7 @@ function ComposerPreview() {
         <Box
           border
           gray400
-          mr3
+          mr_3
           fs_0
           style={{
             width: '640px',

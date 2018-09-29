@@ -29,7 +29,6 @@ const IndexPage = () => (
         <Divider size3 />
       </Flexbox>
     </Section>
-    {/*<LayoutSection />*/}
     <WallOfLove />
     <Section>
       <Flexbox jc_center>

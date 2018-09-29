@@ -196,3 +196,7 @@ textarea {
 svg {
   display: block;
 }
+
+html {
+  overflow-x: hidden;
+}

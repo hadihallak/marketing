@@ -10,12 +10,13 @@ import { Text } from 'radix-ds';
 const UseCases = () => (
   <Section
     size3
+    bp2_nmt_9
   >
     <Container
       size3
-      style={{marginTop: '-130px'}}
     >
       <Box
+        bp2_nmt_9
       >
         <Heading
           size4
@@ -26,22 +27,26 @@ const UseCases = () => (
       </Box>
     </Container>
     <Container
-      size4
+      bp2_size4
     >
       <Box
         mt_7
       >
         <Text
-          size5
-          lh_4
+          size4
+          bp2_size5
+          lh_3
+          bp2_lh_4
           color_gray600
           mb_5
         >
           Almost all design tools are optimised for illustration. Vector-based tools are great for wireframing and exploration, but when it comes to designing interactive components, complex layouts and stateful user interfaces—we need something more powerful.
         </Text>
         <Text
-          size5
-          lh_4
+          size4
+          bp2_size5
+          lh_3
+          bp2_lh_4
           color_gray600
         >
           Modulz is specifically designed to produce robust, accessible, production-grade components and interfaces.

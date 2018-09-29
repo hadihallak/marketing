@@ -6,12 +6,12 @@ import {
   Box,
   AspectRatio,
   Text,
-  Theme,
   GhostButton,
   Avatar,
   PillTab,
   Button,
-  List
+  List,
+  Theme
 } from 'radix-ds';
 
 import ComposerToolbelt from './ComposerToolbelt'
@@ -22,6 +22,14 @@ import ComposerProperties from './ComposerProperties'
 import PropHeader from './PropHeader'
 import PropNode from './PropNode'
 
+const Figure = styled.figure`
+  width: 1000px;
+  pointer-events: none;
+
+  @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
+    width: auto;
+  }
+`;
 
 const Browser = styled.div`
   transform-origin: bottom center;
@@ -31,16 +39,15 @@ const Browser = styled.div`
   border-bottom-color: ${Theme.GRAY_500};
   height: 100%;
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
     transform: perspective(70em) rotateX(26deg);
     margin-top: -190px;
   }
 `;
 
 const ComposerScreen = () => (
-  <figure
+  <Figure
      aria-hidden="true"
-     style={{pointerEvents: 'none'}}
   >
     <AspectRatio ratio_169>
       <Browser>
@@ -264,7 +271,7 @@ const ComposerScreen = () => (
         </Flexbox>
       </Browser>
     </AspectRatio>
-  </figure>
+  </Figure>
 )
 
 export default ComposerScreen

@@ -14,9 +14,6 @@ import LargeTestimonial from './LargeTestimonial'
 const WallOfLove = () => (
   <Section
     size3
-    style={{
-      position: 'relative'
-    }}
   >
     <Container
       size3

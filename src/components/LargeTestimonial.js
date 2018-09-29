@@ -49,6 +49,8 @@ const LargeTestimonial = (props) => (
         <Avatar
           size3
           url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
+          caption={props.author}
+          initial={props.initial}
         />
         </Box>
         <Text

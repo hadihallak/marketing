@@ -26,7 +26,7 @@ function PropertiesFill() {
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,99%,99%)'}}></Box>
       </Box>
       <Box fg_1 pr_2>
-        <Input value="Blue 100" readOnly />
+        <Input defaultValue="Blue 100" readOnly />
       </Box>
       <Flexbox
         ai_center

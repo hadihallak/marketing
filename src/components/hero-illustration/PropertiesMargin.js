@@ -24,8 +24,8 @@ function PropertiesMargin() {
       <Flexbox mt_2 ai_center>
         <Box fg_1 fb_0 pr_2>
           <Box position_relative>
-            <Select>
-              <option selected>0</option>
+            <Select defaultValue="0">
+              <option>0</option>
               <option>5</option>
               <option>10</option>
               <option>15</option>
@@ -50,8 +50,8 @@ function PropertiesMargin() {
         </Box>
         <Box fg_1 fb_0 pr_2>
           <Box position_relative>
-            <Select>
-              <option selected>0</option>
+            <Select defaultValue="0">
+              <option>0</option>
               <option>5</option>
               <option>10</option>
               <option>15</option>
@@ -90,8 +90,8 @@ function PropertiesMargin() {
             </CheckboxButton>
           </Flexbox>
           <Box position_relative>
-            <Select>
-              <option selected>0</option>
+            <Select defaultValue="0">
+              <option>0</option>
               <option>5</option>
               <option>10</option>
               <option>15</option>
@@ -116,8 +116,8 @@ function PropertiesMargin() {
         </Box>
         <Box fg_1 fb_0>
           <Box position_relative>
-            <Select>
-              <option selected>0</option>
+            <Select defaultValue="0">
+              <option>0</option>
               <option>5</option>
               <option>10</option>
               <option>15</option>

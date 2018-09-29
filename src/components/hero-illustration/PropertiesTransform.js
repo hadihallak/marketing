@@ -42,7 +42,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Translate">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
@@ -103,9 +103,9 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Scale">
           <option>Translate</option>
-          <option selected>Scale</option>
+          <option>Scale</option>
           <option>Rotate</option>
           <option>Skew</option>
         </Select>
@@ -164,10 +164,10 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Rotate">
           <option>Translate</option>
           <option>Scale</option>
-          <option selected>Rotate</option>
+          <option>Rotate</option>
           <option>Skew</option>
         </Select>
       </Box>
@@ -225,11 +225,11 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Skew">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
-          <option selected>Skew</option>
+          <option>Skew</option>
         </Select>
       </Box>
       <Box>

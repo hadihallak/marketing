@@ -54,7 +54,7 @@ function PropertiesFilter() {
       </Box>
       <Box pr_2>
         <Box position_relative>
-          <Input value="5" />
+          <Input defaultValue="5" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
@@ -124,7 +124,7 @@ function PropertiesFilter() {
       </Box>
       <Box pr_2>
         <Box position_relative>
-          <Input value="5" />
+          <Input defaultValue="5" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>

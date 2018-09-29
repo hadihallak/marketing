@@ -25,7 +25,7 @@ function PropertiesText() {
         Text
       </Heading>
       <Box mt_2>
-      <Select>
+      <Select defaultValue="Untitled Sans">
         <option>Untitled Sans</option>
         <option>San Francisco</option>
         <option>Helvetica</option>
@@ -42,23 +42,23 @@ function PropertiesText() {
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,82%,45%)'}}></Box>
       </Box>
       <Box fg_1>
-        <Input value="Blue 600" readOnly />
+        <Input defaultValue="Blue 600" readOnly />
       </Box>
     </Flexbox>
     <Flexbox mt_2>
       <Box fg_1 fb_0 pr_2>
-        <Select>
+        <Select defaultValue="500">
           <option>400</option>
-          <option selected>500</option>
+          <option>500</option>
           <option>700</option>
         </Select>
       </Box>
       <Box fg_1 fb_0 pl_2>
-        <Select>
+        <Select defaultValue="15">
           <option>9</option>
           <option>11</option>
           <option>13</option>
-          <option selected>15</option>
+          <option>15</option>
           <option>17</option>
           <option>19</option>
           <option>21</option>
@@ -93,10 +93,10 @@ function PropertiesText() {
           </svg>
         </Box>
         <Box fg_1>
-          <Select>
+          <Select defaultValue="125%">
             <option>100%</option>
             <option>115%</option>
-            <option selected>125%</option>
+            <option>125%</option>
             <option>150%</option>
           </Select>
         </Box>
@@ -123,7 +123,7 @@ function PropertiesText() {
           </svg>
         </Box>
         <Box fg_1 position_relative>
-          <Input value="0.0" />
+          <Input defaultValue="0.0" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>em</Text>
           </Flexbox>

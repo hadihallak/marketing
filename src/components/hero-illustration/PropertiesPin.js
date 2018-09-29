@@ -115,7 +115,7 @@ function PropertiesFill() {
     <Flexbox mt_2 ai_center>
       <Box fg_1 fb_0 pr_2>
         <Box position_relative>
-          <Input value="0" />
+          <Input defaultValue="0" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
@@ -123,7 +123,7 @@ function PropertiesFill() {
       </Box>
       <Box fg_1 fb_0 pr_2>
         <Box position_relative>
-          <Input value="0" />
+          <Input defaultValue="0" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
@@ -143,7 +143,7 @@ function PropertiesFill() {
           </AspectRatio>
         </Flexbox>
         <Box position_relative>
-          <Input value="0" />
+          <Input defaultValue="0" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
@@ -151,7 +151,7 @@ function PropertiesFill() {
       </Box>
       <Box fg_1 fb_0>
         <Box position_relative>
-          <Input value="0" />
+          <Input defaultValue="0" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
@@ -172,7 +172,7 @@ function PropertiesFill() {
             </svg>
           </Box>
           <Box position_relative>
-            <Input value="0" />
+            <Input defaultValue="0" />
             <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
               <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
             </Flexbox>
@@ -187,7 +187,7 @@ function PropertiesFill() {
             </svg>
           </Box>
           <Box position_relative>
-            <Input value="0" />
+            <Input defaultValue="0" />
             <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
               <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
             </Flexbox>
@@ -202,7 +202,7 @@ function PropertiesFill() {
             </svg>
           </Box>
           <Box position_relative>
-            <Input value="0" />
+            <Input defaultValue="0" />
             <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
               <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
             </Flexbox>
@@ -217,7 +217,7 @@ function PropertiesFill() {
             </svg>
           </Box>
           <Box position_relative>
-            <Input value="0" />
+            <Input defaultValue="0" />
             <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
               <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
             </Flexbox>
@@ -249,7 +249,7 @@ function PropertiesFill() {
           </svg>
         </GhostButton>
         <Box>
-          <Input value="0" style={{textAlign: 'center'}} />
+          <Input defaultValue="0" style={{textAlign: 'center'}} />
         </Box>
         <GhostButton size1 style={{color: 'hsl(208,100%,50%)'}}>
           <svg

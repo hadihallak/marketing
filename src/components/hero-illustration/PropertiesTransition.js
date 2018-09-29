@@ -42,9 +42,9 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Opacity">
           <option>Transform</option>
-          <option selected>Opacity</option>
+          <option>Opacity</option>
           <option>Background color</option>
           <option>Color</option>
         </Select>
@@ -103,7 +103,7 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select>
+        <Select defaultValue="Transform">
           <option>Transform</option>
           <option>Opacity</option>
           <option>Background color</option>

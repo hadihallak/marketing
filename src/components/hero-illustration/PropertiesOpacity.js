@@ -44,10 +44,10 @@ function PropertiesOpacity() {
         </Select>
       </Box>
       <Box fg_1 pr_4>
-        <Slider value="100" />
+        <Slider defaultValue="100" />
       </Box>
       <Box>
-        <Input tnum value="100" style={{width: '3ch'}} />
+        <Input tnum defaultValue="100" style={{width: '3ch'}} />
       </Box>
     </Flexbox>
     </Box>

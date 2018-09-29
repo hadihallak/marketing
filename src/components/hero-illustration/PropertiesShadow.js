@@ -42,7 +42,7 @@ function PropertiesShadow() {
         </GhostButton>
       </Box>
       <Box fg_1 mr2>
-        <Select>
+        <Select defaultValue="Inner shadow">
           <option>Inner shadow</option>
           <option>Drop shadow</option>
         </Select>
@@ -103,9 +103,9 @@ function PropertiesShadow() {
         </GhostButton>
       </Box>
       <Box fg_1 mr2>
-        <Select>
+        <Select defaultValue="Drop shadow">
           <option>Inner shadow</option>
-          <option selected>Drop shadow</option>
+          <option>Drop shadow</option>
         </Select>
       </Box>
       <Flexbox

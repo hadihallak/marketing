@@ -23,11 +23,11 @@ function PropertiesPadding() {
       </Heading>
       <Flexbox mt_2 ai_center>
               <Box fg_1 fb_0 pr_2>
-                <Select>
+                <Select defaultValue="15">
                   <option>0</option>
                   <option>5</option>
                   <option>10</option>
-                  <option selected>15</option>
+                  <option>15</option>
                   <option>20</option>
                   <option>25</option>
                   <option>35</option>
@@ -38,8 +38,8 @@ function PropertiesPadding() {
                 </Select>
               </Box>
               <Box fg_1 fb_0 pr_2>
-                <Select>
-                  <option selected>0</option>
+                <Select defaultValue="0">
+                  <option>0</option>
                   <option>5</option>
                   <option>10</option>
                   <option>15</option>
@@ -67,8 +67,8 @@ function PropertiesPadding() {
                     </svg>
                   </CheckboxButton>
                 </Flexbox>
-                <Select>
-                  <option selected>0</option>
+                <Select defaultValue="0">
+                  <option>0</option>
                   <option>5</option>
                   <option>10</option>
                   <option>15</option>
@@ -82,11 +82,11 @@ function PropertiesPadding() {
                 </Select>
               </Box>
               <Box fg_1 fb_0>
-                <Select>
+                <Select defaultValue="15">
                   <option>0</option>
                   <option>5</option>
                   <option>10</option>
-                  <option selected>15</option>
+                  <option>15</option>
                   <option>20</option>
                   <option>25</option>
                   <option>35</option>

@@ -1,13 +1,7 @@
 import React from 'react';
 
 import {
-  Flexbox,
   Box,
-  List,
-  Heading,
-  Text,
-  Button,
-  Select
 } from 'radix-ds';
 
 import PropertiesFlexbox from './PropertiesFlexbox'

@@ -23,12 +23,14 @@ const WallOfLove = () => (
           <SmallTestimonial
             quote='"Modulz is one of the most exciting design tools I’ve seen. This could revolutionize design workflows."'
             author="Michael Dick"
+            initial="M"
           />
         </Box>
         <Box fg_1 fb_0 ml_8>
           <SmallTestimonial
             quote='"I can’t describe how excited I am for Modulz to launch. You should follow along if you’re not already."'
             author="Steve Schoger"
+            initial="S"
           />
         </Box>
       </Flexbox>
@@ -39,6 +41,7 @@ const WallOfLove = () => (
       <LargeTestimonial
         quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
         author="Tony Ennis"
+        initial="T"
       />
     </Container>
     <Container
@@ -49,12 +52,14 @@ const WallOfLove = () => (
           <SmallTestimonial
             quote='"This is one of those things, that upon first viewing, makes one question why it hasn’t existed before."'
             author="Rami"
+            initial="R"
           />
         </Box>
         <Box fg_1 fb_0 ml_8>
           <SmallTestimonial
             quote='"Empowering designers to iterate on the *actual* product they are working on—this is the future of our industry"'
             author="Jack Lo Russo"
+            initial="J"
           />
         </Box>
       </Flexbox>

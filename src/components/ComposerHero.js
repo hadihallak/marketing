@@ -31,6 +31,7 @@ const ComposerHero = () => (
           ta_center
           mb_5
           bold
+          as="h1"
         >
           The next step in visual coding
         </Heading>
@@ -43,11 +44,16 @@ const ComposerHero = () => (
           lh_4
           gray600
           ta_center
+          as="h2"
         >
-          Like Sketch but with <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> interactive components, <Text color_gray500 as="s" style={{display: 'inline'}}>freeform</Text> box model layout and <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> React export.
+          Like Sketch but with <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> interactive components, <Text color_gray500 as="s" style={{display: 'inline'}}>freeform</Text> box model layout and <Text color_gray500 as="s" style={{display: 'inline'}}>handoff</Text> React export.
         </Heading>
         <Box mt_7 mb_8>
-          <LinesButton>
+          <LinesButton
+            as="a"
+            href="https://www.kickstarter.com"
+            target="_blank"
+          >
             Support us on Kickstarter
           </LinesButton>
         </Box>

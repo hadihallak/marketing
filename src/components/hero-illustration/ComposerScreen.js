@@ -40,10 +40,10 @@ const Browser = styled.div`
 const ComposerScreen = () => (
   <figure
      aria-hidden="true"
+     style={{pointerEvents: 'none'}}
   >
     <AspectRatio ratio_169>
-      <Browser
-      >
+      <Browser>
         <Flexbox
           height_100
         >

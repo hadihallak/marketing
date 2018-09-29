@@ -24,16 +24,17 @@ const Resources = () => (
         size4
         bold
         mb_3
+        as="h5"
       >
         Blog
       </Heading>
-      <Heading
-        size2
-        gray600
+      <Text
+        size5
+        color_gray600
         mb_8
       >
        More about what we're doing.
-      </Heading>
+      </Text>
       <Flexbox column bp2_row bp2_nml_4>
         <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard

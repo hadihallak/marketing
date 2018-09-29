@@ -21,7 +21,7 @@ const UseCases = () => (
           size4
           lh_5
         >
-          The visual code editor for designing and building digital user interfaces&mdash;without writing code.
+          The visual code editor for designing and building digital products&mdash;without writing code.
         </Heading>
       </Box>
     </Container>
@@ -35,8 +35,16 @@ const UseCases = () => (
           size5
           lh_4
           color_gray600
+          mb_5
         >
-          The visual code editor for designing and building digital user interfaces. Stripe is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+          Almost all design tools are optimised for illustration. Vector-based tools are great for wireframing and exploration. But when it comes to designing interactive components, complex layouts and stateful user interfaces—we need something more powerful.
+        </Text>
+        <Text
+          size5
+          lh_4
+          color_gray600
+        >
+          Modulz will enable you to create fully interactive components and interfaces, with zero coding skills.
         </Text>
       </Box>
     </Container>

@@ -38,9 +38,10 @@ const BlogCard = (props) => (
           <Heading
             size2
             lh_2
-            nmt1
+            nmt_1
             mb_1
             bold
+            as="h6"
           >
             {props.heading}
           </Heading>

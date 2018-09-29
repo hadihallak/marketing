@@ -24,6 +24,7 @@ const SupportedBy = () => (
         <Title
           size2
           gray600
+          as="h4"
         >
           Supported by
         </Title>

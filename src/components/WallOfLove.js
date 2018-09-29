@@ -21,9 +21,9 @@ const WallOfLove = () => (
     <Container
       size3
     >
-          <LargeTestimonial
-            quote="It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."
-          />
+      <LargeTestimonial
+        quote="It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."
+      />
     </Container>
   </Section>
 )

@@ -82,7 +82,7 @@ const ComposerScreen = () => (
               <Box>
                 <List mt_1 mb_1>
                   <li>
-
+                    <PropNode label="Button" active />
                   </li>
                 </List>
               </Box>
@@ -93,10 +93,10 @@ const ComposerScreen = () => (
                 <PropHeader label="Size" />
                 <List mt_1 mb_1>
                   <li>
-
+                    <PropNode label="Size 1" />
                   </li>
                   <li>
-
+                    <PropNode label="Size 2" />
                   </li>
                 </List>
               </Box>
@@ -107,16 +107,16 @@ const ComposerScreen = () => (
                 <PropHeader label="Color" />
                 <List mt_1 mb_1>
                   <li>
-
+                    <PropNode label="Gray" />
                   </li>
                   <li>
-
+                    <PropNode label="Blue" />
                   </li>
                   <li>
-
+                    <PropNode label="Green" />
                   </li>
                   <li>
-
+                    <PropNode label="Red" />
                   </li>
                 </List>
               </Box>
@@ -127,13 +127,13 @@ const ComposerScreen = () => (
                 <PropHeader label="Alignment" />
                 <List mt_1 mb_1>
                   <li>
-
+                    <PropNode label="Left" />
                   </li>
                   <li>
-
+                    <PropNode label="Middle" />
                   </li>
                   <li>
-                    
+                    <PropNode label="Right" />
                   </li>
                 </List>
               </Box>

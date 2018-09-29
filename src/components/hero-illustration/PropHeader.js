@@ -16,7 +16,7 @@ const PropHeader = (props) => (
   >
     <Heading
       size1
-      gray600
+      color_gray600
     >
       {props.label}
     </Heading>

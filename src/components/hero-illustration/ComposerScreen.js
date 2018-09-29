@@ -80,63 +80,63 @@ const ComposerScreen = () => (
                 </Flexbox>
               </Box>
               <Box>
-              <List mt_1 mb_1>
-                <li>
-                  <PropNode label="Button" active />
-                </li>
-              </List>
-            </Box>
-            <Box
-              bt
-              bcgray300
-            >
-              <PropHeader label="Size" />
-              <List mt_1 mb_1>
-                <li>
-                  <PropNode label="Size 1" />
-                </li>
-                <li>
-                  <PropNode label="Size 2" />
-                </li>
-              </List>
-            </Box>
-            <Box
-              bt
-              bcgray300
-            >
-              <PropHeader label="Color" />
-              <List mt_1 mb_1>
-                <li>
-                  <PropNode label="Gray" />
-                </li>
-                <li>
-                  <PropNode label="Blue" />
-                </li>
-                <li>
-                  <PropNode label="Green" />
-                </li>
-                <li>
-                  <PropNode label="Red" />
-                </li>
-              </List>
-            </Box>
-            <Box
-              bt
-              bcgray300
-            >
-              <PropHeader label="Alignment" />
-              <List mt_1 mb_1>
-                <li>
-                  <PropNode label="Left" />
-                </li>
-                <li>
-                  <PropNode label="Middle" />
-                </li>
-                <li>
-                  <PropNode label="Right" />
-                </li>
-              </List>
-            </Box>
+                <List mt_1 mb_1>
+                  <li>
+                    <PropNode label="Button" active />
+                  </li>
+                </List>
+              </Box>
+              <Box
+                bt
+                bcgray300
+              >
+                <PropHeader label="Size" />
+                <List mt_1 mb_1>
+                  <li>
+                    <PropNode label="Size 1" />
+                  </li>
+                  <li>
+                    <PropNode label="Size 2" />
+                  </li>
+                </List>
+              </Box>
+              <Box
+                bt
+                bcgray300
+              >
+                <PropHeader label="Color" />
+                <List mt_1 mb_1>
+                  <li>
+                    <PropNode label="Gray" />
+                  </li>
+                  <li>
+                    <PropNode label="Blue" />
+                  </li>
+                  <li>
+                    <PropNode label="Green" />
+                  </li>
+                  <li>
+                    <PropNode label="Red" />
+                  </li>
+                </List>
+              </Box>
+              <Box
+                bt
+                bcgray300
+              >
+                <PropHeader label="Alignment" />
+                <List mt_1 mb_1>
+                  <li>
+                    <PropNode label="Left" />
+                  </li>
+                  <li>
+                    <PropNode label="Middle" />
+                  </li>
+                  <li>
+                    <PropNode label="Right" />
+                  </li>
+                </List>
+              </Box>
             </Flexbox>
           </Box>
           <Box fg_1>
@@ -214,7 +214,9 @@ const ComposerScreen = () => (
                 </Flexbox>
               </Box>
               <Flexbox ai_center jc_center height_100>
-                <Button size2 blue>Button</Button>
+                <Button size2 blue>
+                  Button
+                </Button>
               </Flexbox>
             </Flexbox>
           </Box>
@@ -264,10 +266,9 @@ const ComposerScreen = () => (
                   </Box>
                 </Flexbox>
               </Box>
-              <ComposerProperties />
+
             </Flexbox>
           </Box>
-          {/*<ComposerPreview />*/}
         </Flexbox>
       </Browser>
     </AspectRatio>

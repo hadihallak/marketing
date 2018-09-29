@@ -67,6 +67,8 @@ const BlogCard = (props) => (
                 <Avatar
                   size2
                   url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
+                  caption="Colm Tuite"
+                  initial="C"
                 />
               </Box>
               <Text

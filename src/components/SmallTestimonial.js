@@ -10,9 +10,9 @@ import {
 
 const SmallTestimonial = (props) => (
   <Box
-    ta_center
+    bp2_ta_center
   >
-    <Flexbox jc_center mb_4>
+    <Flexbox bp2_jc_center mb_4>
       <svg
         width="45"
         height="45"

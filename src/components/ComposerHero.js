@@ -46,7 +46,7 @@ const ComposerHero = () => (
           ta_center
           as="h2"
         >
-          Like Sketch but with <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> interactive components, <Text color_gray500 as="s" style={{display: 'inline'}}>freeform</Text> box model layout and <Text color_gray500 as="s" style={{display: 'inline'}}>handoff</Text> React export.
+          Like Sketch but with <Text color_gray500 inline as="s">vectors</Text> interactive components, <Text color_gray500 inline as="s">freeform</Text> box model layout and <Text color_gray500 inline as="s">handoff</Text> React export.
         </Heading>
         <Box mt_7 mb_8>
           <LinesButton

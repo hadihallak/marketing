@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <Layout>
-    <ComposerHero />
+    {/*<ComposerHero />*/}
     <UseCases />
     <DividerSection />
     <SupportedBy />

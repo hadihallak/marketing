@@ -18,8 +18,8 @@ const SupportedBy = () => (
       size4
     >
       <Box
-        mb7
-        center
+        mb_7
+        ta_center
       >
         <Title
           size2
@@ -32,19 +32,19 @@ const SupportedBy = () => (
         jc_center
       >
         <Box
-          mr7
+          mr_7
         >
           <Text
-            size5
+            size8
           >
             InVision
           </Text>
         </Box>
         <Box
-          ml7
+          ml_7
         >
           <Text
-            size5
+            size8
           >
             Adobe
           </Text>

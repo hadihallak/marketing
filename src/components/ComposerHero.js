@@ -20,17 +20,16 @@ const ComposerHero = () => (
     }}
   >
     <Box
-      center
+      ta_center
     >
       <Container
         size2
       >
         <Heading
           size6
-          center
-          mb5
+          ta_center
+          mb_5
           bold
-          style={{letterSpacing: '-.052em'}}
         >
           The next step in visual coding
         </Heading>
@@ -40,23 +39,20 @@ const ComposerHero = () => (
       >
         <Heading
           size3
-          lh3
+          lh_3
           gray600
-          center
-          mb6
+          ta_center
+          mb_6
         >
           Like Sketch but with <s>vectors</s> interactive components, <s>freeform</s> box model layout and <s>handoff</s> React export.
         </Heading>
         <Badge
+          size2
           gray
-          style={{
-            height: '25px',
-            fontSize: '11px',
-          }}
         >
           Coming Spring 2019
         </Badge>
-        <Box mt8 mb8>
+        <Box mt_8 mb_8>
           <LinesButton>
             Support us on Kickstarter
           </LinesButton>

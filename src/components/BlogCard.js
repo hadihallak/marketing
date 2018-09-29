@@ -33,58 +33,58 @@ const BlogCard = (props) => (
       href={props.url}
       target="_blank"
     >
-      <Flexbox h100 column jc_spacebetween>
+      <Flexbox height_100 column jc_spacebetween>
         <Box>
           <Heading
             size2
-            lh2
+            lh_2
             nmt1
-            mb1
+            mb_1
             bold
           >
             {props.heading}
           </Heading>
           <Text
-            size2
-            lh2
-            gray600
+            size3
+            lh_2
+            color_gray600
           >
             {props.blurb}
           </Text>
         </Box>
         <Flexbox
           ai_center
-          mt4
-          bp2_mt9
+          mt_4
+          bp2_mt_9
           jc_spacebetween
         >
           <Box>
             <Flexbox
               ai_center
             >
-              <Box mr2>
+              <Box mr_2>
                 <Avatar
                   size2
                   url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
                 />
               </Box>
               <Text
-                size1
-                gray600
+                size2
+                color_gray600
               >
                 Colm Tuite
               </Text>
             </Flexbox>
           </Box>
-          <Flexbox ai_center relative>
+          <Flexbox ai_center position_relative>
             <Text
-              size1
-              gray600
+              size2
+              color_gray600
             >
               {props.date}
             </Text>
             <HoverZonePanel>
-              <Flexbox ai_center jc_flexend w100 h100 white absolute style={{top: '0',right: '0'}}>
+              <Flexbox ai_center jc_flexend width_100 height_100 bc_white position_absolute style={{top: '0',right: '0'}}>
                   <svg
                     width="15"
                     height="15"

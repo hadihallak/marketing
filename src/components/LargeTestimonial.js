@@ -14,7 +14,7 @@ const LargeTestimonial = (props) => (
   >
     <Flexbox
       bp2_jc_center
-      mb6
+      mb_6
     >
       <svg
         width="45"
@@ -29,18 +29,19 @@ const LargeTestimonial = (props) => (
       </svg>
     </Flexbox>
     <Text
-      size6
-      lh6
+      size8
+      lh_6
+      ta_center
     >
       {props.quote}
     </Text>
     <Flexbox
       ai_center
       bp2_jc_center
-      mt7
+      mt_7
     >
       <Box
-        mr3
+        mr_3
       >
       <Avatar
         size3
@@ -48,8 +49,8 @@ const LargeTestimonial = (props) => (
       />
       </Box>
       <Text
-        size2
-        gray600
+        size3
+        color_gray600
       >
         Tony Ennis
       </Text>

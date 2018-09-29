@@ -50,7 +50,7 @@ const Header = () => (
             href="https://spectrum.chat/modulz"
             target="_blank"
           >
-            <Text size4 bp1_size2>
+            <Text size3>
               Support our Kickstarter
             </Text>
           </FadeLinkNotGatsby>

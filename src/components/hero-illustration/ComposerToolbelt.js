@@ -19,12 +19,12 @@ function ComposerToolbelt() {
       <Flexbox
         pt1
         pb1
-        column
+        fd_column
         height_100
         jc_spacebetween
       >
         <Flexbox
-          column
+          fd_column
         >
           <Box
             style={{

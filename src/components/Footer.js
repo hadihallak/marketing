@@ -19,8 +19,8 @@ const Navigation = () => (
       <Flexbox
         ai_baseline
         jc_spacebetween
-        column_reverse
-        bp1_row
+        fd_column_reverse
+        bp1_fd_row
       >
         <Box>
           <Text
@@ -31,7 +31,7 @@ const Navigation = () => (
           </Text>
         </Box>
         <nav>
-          <Flexbox column bp1_row mb_8 bp1_mb_0>
+          <Flexbox fd_column bp1_fd_row mb_8 bp1_mb_0>
             <Box mb_6 bp1_mb_0>
               <FadeLinkNotGatsby
                 href="https://github.com/modulz/radix"

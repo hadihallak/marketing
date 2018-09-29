@@ -130,7 +130,7 @@ function PropertiesFill() {
         </Box>
         <Flexbox p3>
           <AspectRatio style={{width: '100%'}}>
-            <Flexbox column height_100 jc_spacebetween style={{border: '1px dashed lightgray'}}>
+            <Flexbox fd_column height_100 jc_spacebetween style={{border: '1px dashed lightgray'}}>
               <Flexbox jc_spacebetween style={{marginTop: '-6px'}}>
                 <Box fs_0 style={{width: '11px',height: '11px',border: '1px solid hsl(208,100%,50%)',backgroundColor: 'white',marginLeft: '-6px', cursor: 'pointer'}}></Box>
                 <Box fs_0 style={{width: '11px',height: '11px',border: '1px solid hsl(208,100%,50%)',backgroundColor: 'white',marginRight: '-6px', cursor: 'pointer'}}></Box>

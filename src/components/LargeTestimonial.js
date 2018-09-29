@@ -35,7 +35,6 @@ const LargeTestimonial = (props) => (
         size8
         lh_5
         as="p"
-        style={{letterSpacing: '-.024em'}}
       >
         {props.quote}
       </Text>

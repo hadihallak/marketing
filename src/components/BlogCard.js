@@ -33,7 +33,7 @@ const BlogCard = (props) => (
       href={props.url}
       target="_blank"
     >
-      <Flexbox height_100 column jc_spacebetween>
+      <Flexbox height_100 fd_column jc_spacebetween>
         <Box>
           <Heading
             size2

@@ -29,7 +29,7 @@ const ComposerHero = () => (
         <Heading
           size6
           ta_center
-          mb_5
+          mb_4
           bold
           as="h1"
         >
@@ -42,7 +42,7 @@ const ComposerHero = () => (
         <Heading
           size3
           lh_4
-          gray600
+          color_gray600
           ta_center
           as="h2"
         >
@@ -53,6 +53,7 @@ const ComposerHero = () => (
             as="a"
             href="https://www.kickstarter.com"
             target="_blank"
+            mt_1
           >
             Support us on Kickstarter
           </LinesButton>

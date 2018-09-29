@@ -35,7 +35,7 @@ const Resources = () => (
       >
        More about what we're doing.
       </Text>
-      <Flexbox column bp2_row bp2_nml_4>
+      <Flexbox fd_column bp2_fd_row bp2_nml_4>
         <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard
             heading="Help us Kickstart Modulz"

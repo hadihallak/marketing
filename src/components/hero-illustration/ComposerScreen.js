@@ -57,7 +57,7 @@ const ComposerScreen = () => (
           <Box fs_0 br bcgray400 style={{width: '225px'}}>
             <Flexbox
               height_100
-              column
+              fd_column
             >
               <Box padding_1 bb bcgray400>
                 <Flexbox
@@ -142,7 +142,7 @@ const ComposerScreen = () => (
           <Box fg_1>
             <Flexbox
               height_100
-              column
+              fd_column
             >
               <Box padding_1 bb bcgray400>
                 <Flexbox
@@ -221,7 +221,7 @@ const ComposerScreen = () => (
           <Box fs_0 bl bcgray400 style={{width: '225px'}}>
             <Flexbox
               height_100
-              column
+              fd_column
             >
               <Box padding_1
                 pr_2

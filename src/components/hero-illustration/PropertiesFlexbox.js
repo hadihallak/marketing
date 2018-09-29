@@ -24,7 +24,7 @@ function PropertiesFlexbox() {
         Row
       </ToggleButton>
       <ToggleButton group="flex-direction" size2 right>
-        Column
+        fd_column
       </ToggleButton>
     </Flexbox>
     <Flexbox mt_2>

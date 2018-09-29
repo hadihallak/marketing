@@ -50,10 +50,11 @@ const ComposerHero = () => (
         </Heading>
         <Box mt_7 mb_8>
           <LinesButton
+            mt_1
             as="a"
             href="https://www.kickstarter.com"
             target="_blank"
-            mt_1
+            rel="noopener noreferrer"
           >
             Support us on Kickstarter
           </LinesButton>

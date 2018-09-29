@@ -49,6 +49,7 @@ const Header = () => (
           <FadeLinkNotGatsby
             href="https://spectrum.chat/modulz"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Text size3>
               Support our Kickstarter

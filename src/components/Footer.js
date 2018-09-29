@@ -36,6 +36,7 @@ const Navigation = () => (
               <FadeLinkNotGatsby
                 href="https://github.com/modulz/radix"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Text size5 bp1_size3>
                   Radix
@@ -46,6 +47,7 @@ const Navigation = () => (
               <FadeLinkNotGatsby
                 href="https://www.twitter.com/modulz"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Text size5 bp1_size3>
                   Twitter
@@ -56,6 +58,7 @@ const Navigation = () => (
               <FadeLinkNotGatsby
                 href="https://spectrum.chat/modulz"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Text size5 bp1_size3>
                   Spectrum

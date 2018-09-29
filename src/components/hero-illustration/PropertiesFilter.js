@@ -18,7 +18,7 @@ function PropertiesFilter() {
     >
       <Heading
         size1
-        gray600
+        color_gray600
         mb_2
       >
         Filter

@@ -27,7 +27,7 @@ const SmallTestimonial = (props) => (
     </Flexbox>
     <blockquote cite="">
       <Text
-        size7
+        size6
         lh_4
         as="p"
         color_gray600

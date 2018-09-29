@@ -1,40 +1,23 @@
 import React from 'react'
 
-import {
-  Section,
-  Divider,
-  Flexbox
-} from 'radix-ds';
-
 import Layout from '../components/Layout'
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
 import SupportedBy from '../components/SupportedBy'
 import WallOfLove from '../components/WallOfLove'
 import Blog from '../components/Blog'
+import DividerSection from '../components/DividerSection'
 import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <Layout>
     <ComposerHero />
     <UseCases />
-    <Section>
-      <Flexbox jc_center>
-        <Divider size3 />
-      </Flexbox>
-    </Section>
+    <DividerSection />
     <SupportedBy />
-    <Section>
-      <Flexbox jc_center>
-        <Divider size3 />
-      </Flexbox>
-    </Section>
+    <DividerSection />
     <WallOfLove />
-    <Section>
-      <Flexbox jc_center>
-        <Divider size3 />
-      </Flexbox>
-    </Section>
+    <DividerSection />
     <Blog />
     <Footer />
   </Layout>

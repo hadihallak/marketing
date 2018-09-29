@@ -55,90 +55,11 @@ const ComposerScreen = () => (
           height_100
         >
           <Box fs_0 br bcgray400 style={{width: '225px'}}>
-            <Flexbox
-              height_100
-              fd_column
-            >
-              <Box padding_1 bb bcgray400>
-                <Flexbox
-                  jc_spacebetween
-                >
-                  <GhostButton size2>
-                    <svg
-                      width="25"
-                      height="25"
-                      viewBox="0 0 25 25"
-                      fill="none"
-                      stroke="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M4 18.5H21"/>
-                      <path d="M4 12.5H21"/>
-                      <path d="M4 6.5H21"/>
-                    </svg>
-                  </GhostButton>
-                </Flexbox>
-              </Box>
-              <Box>
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Button" active />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Size" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Size 1" />
-                  </li>
-                  <li>
-                    <PropNode label="Size 2" />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Color" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Gray" />
-                  </li>
-                  <li>
-                    <PropNode label="Blue" />
-                  </li>
-                  <li>
-                    <PropNode label="Green" />
-                  </li>
-                  <li>
-                    <PropNode label="Red" />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Alignment" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Left" />
-                  </li>
-                  <li>
-                    <PropNode label="Middle" />
-                  </li>
-                  <li>
-                    <PropNode label="Right" />
-                  </li>
-                </List>
-              </Box>
-            </Flexbox>
+          
           </Box>
+
+
+
           <Box fg_1>
             <Flexbox
               height_100
@@ -266,7 +187,7 @@ const ComposerScreen = () => (
                   </Box>
                 </Flexbox>
               </Box>
-
+              <ComposerProperties />
             </Flexbox>
           </Box>
         </Flexbox>

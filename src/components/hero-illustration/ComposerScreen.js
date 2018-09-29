@@ -33,7 +33,7 @@ const Figure = styled.figure`
 
 const Browser = styled.div`
   transform-origin: bottom center;
-  box-shadow: 0px 62.5px 125px -25px hsla(208,24%,10%,.46),0px 37.5px 75px -37.5px hsla(208,24%,10%,.08);
+  box-shadow: 0px 60px 123px -25px hsla(208,29%,12%,.42),0px 35px 75px -35px hsla(208,24%,10%,.08);
   border-radius: ${Theme.BORDERRADIUS_200};
   border: 1px solid ${Theme.GRAY_400};
   border-bottom-color: ${Theme.GRAY_500};

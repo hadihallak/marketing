@@ -19,14 +19,16 @@ const WallOfLove = () => (
       size2
     >
       <Flexbox mb_7>
-        <Box mr_5>
+        <Box fg_1 fb_0 mr_8>
           <SmallTestimonial
-            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+            quote='"Modulz is one of the most exciting design tools I’ve seen. This could revolutionize design workflows."'
+            author="Michael Dick"
           />
         </Box>
-        <Box ml_5>
+        <Box fg_1 fb_0 ml_8>
           <SmallTestimonial
-            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+            quote='"I can’t describe how excited I am for Modulz to launch. You should follow along if you’re not already."'
+            author="Steve Schoger"
           />
         </Box>
       </Flexbox>
@@ -36,20 +38,23 @@ const WallOfLove = () => (
     >
       <LargeTestimonial
         quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+        author="Tony Ennis"
       />
     </Container>
     <Container
       size2
     >
       <Flexbox mt_7>
-        <Box mr_5>
+        <Box fg_1 fb_0 mr_8>
           <SmallTestimonial
-            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+            quote='"This is one of those things, that upon first viewing, makes one question why it hasn’t existed before."'
+            author="Rami"
           />
         </Box>
-        <Box ml_5>
+        <Box fg_1 fb_0 ml_8>
           <SmallTestimonial
-            quote='"It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."'
+            quote='"Empowering designers to iterate on the *actual* product they are working on—this is the future of our industry"'
+            author="Jack Lo Russo"
           />
         </Box>
       </Flexbox>
@@ -58,8 +63,6 @@ const WallOfLove = () => (
 )
 
 // "It’s exciting to watch a small group of people working on an idea which will fundamentally change a discipline."
-// "Modulz is one of the most exciting design tools I've seen. This could completely revolutionize design workflows."
-// "I can’t describe how excited I am for Modulz. You should follow along if you aren’t already."
 // This is going to be pretty sweet I think 👍🏻 a design tool that fully embraces the fact that it's helping you work with HTML and CSS. - Adam Wathan
 // Any tool that reduces friction in getting prototypes in front of customers and stakeholders is a winner, but Modulz promises even more. Empowering designers to iterate on the *actual* product they're working on, not just pictures of it — this is the future of our industry. - Jack Lo Russo
 // Our workflows as digital designers don't quite fit with traditional tooling. Terribly excited to see how Modulz redefines how we think about designing for screens. - Adam Morse

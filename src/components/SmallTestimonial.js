@@ -30,8 +30,7 @@ const SmallTestimonial = (props) => (
         size6
         lh_4
         as="p"
-        color_gray600
-        style={{letterSpacing: '-.018em'}}
+        style={{letterSpacing: '-.006em'}}
       >
         {props.quote}
       </Text>
@@ -52,7 +51,7 @@ const SmallTestimonial = (props) => (
           size3
           color_gray600
         >
-          Tony Ennis
+          {props.author}
         </Text>
         <Link
           to="/composer"

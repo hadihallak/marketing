@@ -55,7 +55,7 @@ const LargeTestimonial = (props) => (
           size3
           color_gray600
         >
-          Tony Ennis
+          {props.author}
         </Text>
         <Link
           to="/composer"

@@ -10,9 +10,9 @@ const PropHeader = (props) => (
   <Flexbox
     ai_center
     jc_spacebetween
-    p2
-    pl3
-    style={{marginRight: '-5px'}}
+    padding_2
+    pl_3
+    nmr_1
   >
     <Heading
       size1

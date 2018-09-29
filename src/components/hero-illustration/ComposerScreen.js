@@ -45,14 +45,14 @@ const ComposerScreen = () => (
       <Browser
       >
         <Flexbox
-          h100
+          height_100
         >
-          <Box fs0 br bcgray400 style={{width: '225px'}}>
+          <Box fs_0 br bcgray400 style={{width: '225px'}}>
             <Flexbox
-              h100
+              height_100
               column
             >
-              <Box p1 bb bcgray400>
+              <Box padding_1 bb bcgray400>
                 <Flexbox
                   jc_spacebetween
                 >
@@ -73,7 +73,7 @@ const ComposerScreen = () => (
                 </Flexbox>
               </Box>
               <Box>
-              <List mt1 mb1>
+              <List mt_1 mb_1>
                 <li>
                   <PropNode label="Button" active />
                 </li>
@@ -84,7 +84,7 @@ const ComposerScreen = () => (
               bcgray300
             >
               <PropHeader label="Size" />
-              <List mt1 mb1>
+              <List mt_1 mb_1>
                 <li>
                   <PropNode label="Size 1" />
                 </li>
@@ -98,7 +98,7 @@ const ComposerScreen = () => (
               bcgray300
             >
               <PropHeader label="Color" />
-              <List mt1 mb1>
+              <List mt_1 mb_1>
                 <li>
                   <PropNode label="Gray" />
                 </li>
@@ -118,7 +118,7 @@ const ComposerScreen = () => (
               bcgray300
             >
               <PropHeader label="Alignment" />
-              <List mt1 mb1>
+              <List mt_1 mb_1>
                 <li>
                   <PropNode label="Left" />
                 </li>
@@ -132,24 +132,24 @@ const ComposerScreen = () => (
             </Box>
             </Flexbox>
           </Box>
-          <Box fg1>
+          <Box fg_1>
             <Flexbox
-              h100
+              height_100
               column
             >
-              <Box p1 bb bcgray400>
+              <Box padding_1 bb bcgray400>
                 <Flexbox
                   ai_center
                 >
                   <Flexbox
                     ai_center
-                    fg1
-                    fb0
-                    pl1
+                    fg_1
+                    fb_0
+                    pl_1
                   >
                     <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '50%',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'white'}}></Box>
                   </Flexbox>
-                  <Box fg1 fb0>
+                  <Box fg_1 fb_0>
                     <Flexbox
                       jc_spacebetween
                     >
@@ -172,8 +172,8 @@ const ComposerScreen = () => (
                     </Flexbox>
                   </Box>
                   <Flexbox
-                    fb0
-                    fg1
+                    fb_0
+                    fg_1
                     ai_center
                     jc_flexend
                   >
@@ -206,18 +206,18 @@ const ComposerScreen = () => (
                   </Flexbox>
                 </Flexbox>
               </Box>
-              <Flexbox ai_center jc_center h100>
+              <Flexbox ai_center jc_center height_100>
                 <Button size2 blue>Button</Button>
               </Flexbox>
             </Flexbox>
           </Box>
-          <Box fs0 bl bcgray400 style={{width: '225px'}}>
+          <Box fs_0 bl bcgray400 style={{width: '225px'}}>
             <Flexbox
-              h100
+              height_100
               column
             >
-              <Box p1
-                pr2
+              <Box padding_1
+                pr_2
                 bb
                 bcgray400
               >
@@ -252,7 +252,7 @@ const ComposerScreen = () => (
                       <path d="M5.5 15V18.5H19.5V15L17.1667 13.5V10C17.1667 10 17.5 4.5 12.5 4.5C7.5 4.5 7.83333 10 7.83333 10V13.5L5.5 15Z" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </GhostButton>
-                  <Box pl2>
+                  <Box pl_2>
                     <Avatar size2 url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"/>
                   </Box>
                 </Flexbox>

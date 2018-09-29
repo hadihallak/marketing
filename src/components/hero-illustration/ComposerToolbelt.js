@@ -10,7 +10,7 @@ function ComposerToolbelt() {
   return (
     <Box
       br
-      fs0
+      fs_0
       style={{
         width: '35px',
         borderColor: 'hsl(208, 18%, 22%)',
@@ -20,7 +20,7 @@ function ComposerToolbelt() {
         pt1
         pb1
         column
-        h100
+        height_100
         jc_spacebetween
       >
         <Flexbox

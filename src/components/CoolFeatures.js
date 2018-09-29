@@ -29,7 +29,7 @@ const CoolFeatures = () => (
         <Flexbox>
           <Box
             mr6
-            fg1
+            fg_1
             style={{
               flexBasis: '0',
             }}
@@ -57,7 +57,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -85,7 +85,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -113,7 +113,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -141,7 +141,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -169,7 +169,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -197,7 +197,7 @@ const CoolFeatures = () => (
               >
                 <Box
                   tablecell
-                  pr4
+                  pr_4
                 >
                   <Text
                     size2
@@ -223,7 +223,7 @@ const CoolFeatures = () => (
           </Box>
           <Box
             ml6
-            fg1
+            fg_1
             style={{
               flexBasis: '0',
             }}

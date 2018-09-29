@@ -4,26 +4,25 @@ import {
   Box,
   Heading,
   Select,
-  CheckboxButton,
   GhostButton
 } from 'radix-ds';
 
 function PropertiesTransform() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Transform
       </Heading>
-      <Flexbox mt2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+      <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -42,7 +41,7 @@ function PropertiesTransform() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg1 fs0 pr2>
+      <Box fg_1 fs_0 pr_2>
         <Select>
           <option>Translate</option>
           <option>Scale</option>
@@ -83,8 +82,8 @@ function PropertiesTransform() {
       </Box>
     </Flexbox>
 
-    <Flexbox mt2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+    <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -103,7 +102,7 @@ function PropertiesTransform() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg1 fs0 pr2>
+      <Box fg_1 fs_0 pr_2>
         <Select>
           <option>Translate</option>
           <option selected>Scale</option>
@@ -144,8 +143,8 @@ function PropertiesTransform() {
       </Box>
     </Flexbox>
 
-    <Flexbox mt2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+    <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -164,7 +163,7 @@ function PropertiesTransform() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg1 fs0 pr2>
+      <Box fg_1 fs_0 pr_2>
         <Select>
           <option>Translate</option>
           <option>Scale</option>
@@ -205,8 +204,8 @@ function PropertiesTransform() {
       </Box>
     </Flexbox>
 
-    <Flexbox mt2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+    <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -225,7 +224,7 @@ function PropertiesTransform() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg1 fs0 pr2>
+      <Box fg_1 fs_0 pr_2>
         <Select>
           <option>Translate</option>
           <option>Scale</option>

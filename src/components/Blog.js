@@ -35,7 +35,7 @@ const Resources = () => (
        More about what we're doing.
       </Heading>
       <Flexbox column bp2_row bp2_nml_4>
-        <Box bp2_fg_1 bp2_fb_0 mb4 bp2_mb_0 bp2_ml_4>
+        <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard
             heading="Help us Kickstart Modulz"
             blurb="Who we are, what we're building and how you can support us."
@@ -43,7 +43,7 @@ const Resources = () => (
             date="Oct '18"
           />
         </Box>
-        <Box bp2_fg_1 bp2_fb_0 mb4 bp2_mb_0 bp2_ml_4>
+        <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard
             heading="The design tool dilemma"
             blurb="A detailed look at two opposing narratives emerging in the design tool space."
@@ -51,7 +51,7 @@ const Resources = () => (
             date="Jul '18"
           />
         </Box>
-        <Box bp2_fg_1 bp2_fb_0 mb4 bp2_mb_0 bp2_ml_4>
+        <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard
             heading="Design tools are running out of track"
             blurb="A close look at where design tools are missing the mark."
@@ -59,7 +59,7 @@ const Resources = () => (
             date="Sep '17"
           />
         </Box>
-        <Box bp2_fg_1 bp2_fb_0 mb4 bp2_mb_0 bp2_ml_4>
+        <Box bp2_fg_1 bp2_fb_0 mb_4 bp2_mb_0 bp2_ml_4>
           <BlogCard
             heading="How to construct a design system"
             blurb="Tips for designing and building a consistent design system."

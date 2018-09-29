@@ -11,19 +11,19 @@ import {
 function PropertiesOpacity() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Opacity
       </Heading>
-      <Flexbox mt2 ai_center>
-      <Box fg1 fs0 pr4>
+      <Flexbox mt_2 ai_center>
+      <Box fg_1 fs_0 pr_4>
         <Select>
           <option>Normal</option>
           <option>Multiply</option>
@@ -43,7 +43,7 @@ function PropertiesOpacity() {
           <option>Luminosity</option>
         </Select>
       </Box>
-      <Box fg1 pr4>
+      <Box fg_1 pr_4>
         <Slider value="100" />
       </Box>
       <Box>

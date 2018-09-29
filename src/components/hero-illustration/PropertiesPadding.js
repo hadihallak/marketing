@@ -10,19 +10,19 @@ import {
 function PropertiesPadding() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Padding
       </Heading>
-      <Flexbox mt2 ai_center>
-              <Box fg1 fb0 pr2>
+      <Flexbox mt_2 ai_center>
+              <Box fg_1 fb_0 pr_2>
                 <Select>
                   <option>0</option>
                   <option>5</option>
@@ -37,7 +37,7 @@ function PropertiesPadding() {
                   <option>Auto</option>
                 </Select>
               </Box>
-              <Box fg1 fb0 pr2>
+              <Box fg_1 fb_0 pr_2>
                 <Select>
                   <option selected>0</option>
                   <option>5</option>
@@ -51,7 +51,7 @@ function PropertiesPadding() {
                   <option>80</option>
                   <option>Auto</option>
                 </Select>
-                <Flexbox jc_center mt3 mb3>
+                <Flexbox jc_center mt_3 mb_3>
                   <CheckboxButton>
                     <svg
                       width="15"
@@ -81,7 +81,7 @@ function PropertiesPadding() {
                   <option>Auto</option>
                 </Select>
               </Box>
-              <Box fg1 fb0>
+              <Box fg_1 fb_0>
                 <Select>
                   <option>0</option>
                   <option>5</option>

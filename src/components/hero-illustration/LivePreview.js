@@ -26,7 +26,7 @@ function LivePreview() {
         <Flexbox
           ai_center
           jc_spacebetween
-          h100
+          height_100
         >
           <Box>
             <svg
@@ -71,8 +71,8 @@ function LivePreview() {
       </Box>
       <Box
         p2
-        mt1
-        mb1
+        mt_1
+        mb_1
         white
       >
         <Heading
@@ -81,13 +81,13 @@ function LivePreview() {
           Upcoming events
         </Heading>
         <Box
-          mt2
-          mb2
+          mt_2
+          mb_2
         >
           <Divider/>
         </Box>
         <Box
-          mb2
+          mb_2
         >
           <Text
             size1
@@ -100,7 +100,7 @@ function LivePreview() {
           blue
         >
           <Box
-            mr1
+            mr_1
           >
             <svg
               width="15"
@@ -122,8 +122,8 @@ function LivePreview() {
       </Box>
 
       <Box
-        mt1
-        mb1
+        mt_1
+        mb_1
         white
         style={{
           // display: 'none',
@@ -171,7 +171,7 @@ function LivePreview() {
             bcgray300
             mr2
             ml2
-            fs0
+            fs_0
             style={{
               width: '240px'
             }}
@@ -195,7 +195,7 @@ function LivePreview() {
               >
                 <Box
                   center
-                  pl2
+                  pl_2
                   pr3
                 >
                   <Text
@@ -225,8 +225,8 @@ function LivePreview() {
                   </Text>
                   <Flexbox
                     ai_center
-                    mt1
-                    mb1
+                    mt_1
+                    mb_1
                   >
                     <Box>
                       <Text
@@ -237,7 +237,7 @@ function LivePreview() {
                       </Text>
                     </Box>
                     <Box
-                      pl1
+                      pl_1
                       pr1
                     >
                       <Text
@@ -265,8 +265,8 @@ function LivePreview() {
                 </Box>
               </Flexbox>
               <Box
-                mt2
-                mb2
+                mt_2
+                mb_2
               >
                 <Divider/>
               </Box>
@@ -276,7 +276,7 @@ function LivePreview() {
               >
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"
@@ -308,7 +308,7 @@ function LivePreview() {
             border
             bcgray300
             mr2
-            fs0
+            fs_0
             style={{
               width: '240px'
             }}
@@ -332,7 +332,7 @@ function LivePreview() {
               >
                 <Box
                   center
-                  pl2
+                  pl_2
                   pr3
                 >
                   <Text
@@ -362,8 +362,8 @@ function LivePreview() {
                   </Text>
                   <Flexbox
                     ai_center
-                    mt1
-                    mb1
+                    mt_1
+                    mb_1
                   >
                     <Box>
                       <Text
@@ -374,7 +374,7 @@ function LivePreview() {
                       </Text>
                     </Box>
                     <Box
-                      pl1
+                      pl_1
                       pr1
                     >
                       <Text
@@ -402,8 +402,8 @@ function LivePreview() {
                 </Box>
               </Flexbox>
               <Box
-                mt2
-                mb2
+                mt_2
+                mb_2
               >
                 <Divider/>
               </Box>
@@ -413,7 +413,7 @@ function LivePreview() {
               >
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"
@@ -445,7 +445,7 @@ function LivePreview() {
             border
             bcgray300
             mr2
-            fs0
+            fs_0
             style={{
               width: '240px'
             }}
@@ -469,7 +469,7 @@ function LivePreview() {
               >
                 <Box
                   center
-                  pl2
+                  pl_2
                   pr3
                 >
                   <Text
@@ -499,8 +499,8 @@ function LivePreview() {
                   </Text>
                   <Flexbox
                     ai_center
-                    mt1
-                    mb1
+                    mt_1
+                    mb_1
                   >
                     <Box>
                       <Text
@@ -511,7 +511,7 @@ function LivePreview() {
                       </Text>
                     </Box>
                     <Box
-                      pl1
+                      pl_1
                       pr1
                     >
                       <Text
@@ -539,8 +539,8 @@ function LivePreview() {
                 </Box>
               </Flexbox>
               <Box
-                mt2
-                mb2
+                mt_2
+                mb_2
               >
                 <Divider/>
               </Box>
@@ -550,7 +550,7 @@ function LivePreview() {
               >
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"
@@ -583,8 +583,8 @@ function LivePreview() {
       </Box>
 
       <Box
-        mt1
-        mb1
+        mt_1
+        mb_1
         white
         relative
         style={{
@@ -687,8 +687,8 @@ function LivePreview() {
                 </Text>
                 <Flexbox
                   ai_center
-                  mt1
-                  mb1
+                  mt_1
+                  mb_1
                 >
                   <Box>
                     <Text
@@ -699,7 +699,7 @@ function LivePreview() {
                     </Text>
                   </Box>
                   <Box
-                    pl1
+                    pl_1
                     pr1
                   >
                     <Text
@@ -727,7 +727,7 @@ function LivePreview() {
               </Box>
               <Button>
                 <Box
-                  mr1
+                  mr_1
                 >
                   <svg
                     width="15"
@@ -752,8 +752,8 @@ function LivePreview() {
 
       <Box
         p2
-        mt1
-        mb1
+        mt_1
+        mb_1
         white
       >
         <Heading
@@ -762,13 +762,13 @@ function LivePreview() {
           Upcoming birthdays
         </Heading>
         <Box
-          mt2
-          mb2
+          mt_2
+          mb_2
         >
           <Divider/>
         </Box>
         <Box
-          mb2
+          mb_2
         >
           <Flexbox
             ai_center
@@ -808,7 +808,7 @@ function LivePreview() {
             <Box>
               <Button>
                 <Box
-                  mr1
+                  mr_1
                 >
                   <svg
                     width="15"
@@ -831,13 +831,13 @@ function LivePreview() {
           </Flexbox>
         </Box>
         <Box
-          mt2
-          mb2
+          mt_2
+          mb_2
         >
           <Divider/>
         </Box>
         <Box
-          mb2
+          mb_2
         >
           <Flexbox
             ai_center
@@ -877,7 +877,7 @@ function LivePreview() {
             <Box>
               <Button>
                 <Box
-                  mr1
+                  mr_1
                 >
                   <svg
                     width="15"

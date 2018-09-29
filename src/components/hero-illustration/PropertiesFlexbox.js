@@ -15,11 +15,11 @@ function PropertiesFlexbox() {
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Flexbox
       </Heading>
-      <Flexbox mt2 jc_spacebetween>
+      <Flexbox mt_2 jc_spacebetween>
       <ToggleButton group="flex-direction" size2 left defaultChecked>
         Row
       </ToggleButton>
@@ -27,7 +27,7 @@ function PropertiesFlexbox() {
         Column
       </ToggleButton>
     </Flexbox>
-    <Flexbox mt2>
+    <Flexbox mt_2>
       <ToggleButton group="flex-align" size2 left>
         <svg
           width="25"
@@ -101,7 +101,7 @@ function PropertiesFlexbox() {
         </svg>
       </ToggleButton>
     </Flexbox>
-    <Flexbox mt2>
+    <Flexbox mt_2>
       <ToggleButton group="flex-justify" size2 left defaultChecked>
         <svg
           width="25"
@@ -174,11 +174,11 @@ function PropertiesFlexbox() {
         </svg>
       </ToggleButton>
     </Flexbox>
-    <Flexbox mt2 ai_center jc_spacebetween>
-      <Box pr2>
+    <Flexbox mt_2 ai_center jc_spacebetween>
+      <Box pr_2>
         <Text size1 gray600>Wrapping</Text>
       </Box>
-      <Flexbox fg1>
+      <Flexbox fg_1>
         <ToggleButton group="flex-wrap" size2 left>
           Allow
         </ToggleButton>

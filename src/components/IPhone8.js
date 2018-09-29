@@ -6,7 +6,7 @@ import { Box } from 'radix-ds';
 function IPhone8(props) {
   return (
     <Box
-      fs0
+      fs_0
       border
       p4
       bcgray400
@@ -16,7 +16,7 @@ function IPhone8(props) {
     >
       <Flexbox
         jc_center
-        mb3
+        mb_3
       >
         <Box
           border
@@ -57,7 +57,7 @@ function IPhone8(props) {
       </Flexbox>
       <Box
         mb4
-        h100
+        height_100
         border
         relative
         style={{

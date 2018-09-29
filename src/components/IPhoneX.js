@@ -6,7 +6,7 @@ import { Box } from 'radix-ds';
 function IPhoneX(props) {
   return (
     <Box
-      fs0
+      fs_0
       bcgray400
       black
       style={{
@@ -19,7 +19,7 @@ function IPhoneX(props) {
       }}
     >
       <Box
-        fs0
+        fs_0
         black
         style={{
           borderRadius: '24px',

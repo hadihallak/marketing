@@ -5,11 +5,8 @@ import {
   ListItem,
   Text,
   GhostButton,
-  Box,
   Tooltip,
   CheckboxButton,
-  Divider,
-  Badge,
   HoverZone,
   HoverZonePanel,
 } from 'radix-ds';
@@ -20,14 +17,14 @@ const PropNode = (props) => (
       {...props}
     >
       <Flexbox ai_center jc_spacebetween>
-        <Text size1>{props.label}</Text>
+        <Text size2>{props.label}</Text>
         <HoverZonePanel>
           <Flexbox
             ai_center
             style={{marginRight: '-10px'}}
           >
             <Tooltip data-tooltip="Set as default" data-position="top">
-              <CheckboxButton style={{marginRight: '5px',marginLeft: '5px'}}>
+              <CheckboxButton nmr_1 nml_1>
                 <svg
                   width="15"
                   height="15"

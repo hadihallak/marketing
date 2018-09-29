@@ -13,18 +13,18 @@ import {
 function PropertiesText() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Text
       </Heading>
-      <Box mt2>
+      <Box mt_2>
       <Select>
         <option>Untitled Sans</option>
         <option>San Francisco</option>
@@ -37,23 +37,23 @@ function PropertiesText() {
         <option>Avenir</option>
       </Select>
     </Box>
-    <Flexbox mt2 ai_center>
-      <Box pr2>
+    <Flexbox mt_2 ai_center>
+      <Box pr_2>
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,82%,45%)'}}></Box>
       </Box>
-      <Box fg1>
+      <Box fg_1>
         <Input value="Blue 600" readOnly />
       </Box>
     </Flexbox>
-    <Flexbox mt2>
-      <Box fg1 fb0 pr2>
+    <Flexbox mt_2>
+      <Box fg_1 fb_0 pr_2>
         <Select>
           <option>400</option>
           <option selected>500</option>
           <option>700</option>
         </Select>
       </Box>
-      <Box fg1 fb0 pl2>
+      <Box fg_1 fb_0 pl_2>
         <Select>
           <option>9</option>
           <option>11</option>
@@ -69,10 +69,10 @@ function PropertiesText() {
         </Select>
       </Box>
     </Flexbox>
-    <Flexbox mt2>
-      <Flexbox fg1 fb0 pr2>
+    <Flexbox mt_2>
+      <Flexbox fg_1 fb_0 pr_2>
         <Box
-          mr1
+          mr_1
           style={{color: 'hsl(208,24%,64%)'}}
         >
           <svg
@@ -92,7 +92,7 @@ function PropertiesText() {
           <path d="M7.5 4.5V20.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </Box>
-        <Box fg1>
+        <Box fg_1>
           <Select>
             <option>100%</option>
             <option>115%</option>
@@ -101,9 +101,9 @@ function PropertiesText() {
           </Select>
         </Box>
       </Flexbox>
-      <Flexbox fg1 fb0 pl2>
+      <Flexbox fg_1 fb_0 pl_2>
         <Box
-          mr1
+          mr_1
           style={{color: 'hsl(208,24%,64%)'}}
         >
           <svg
@@ -122,18 +122,18 @@ function PropertiesText() {
           <path d="M4.5 17.5H20.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </Box>
-        <Box fg1 relative>
+        <Box fg_1 position_relative>
           <Input value="0.0" />
-          <Flexbox h100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
+          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>em</Text>
           </Flexbox>
         </Box>
       </Flexbox>
     </Flexbox>
     <Flexbox
-      mt2
+      mt_2
     >
-      <Flexbox pr2 style={{width: '123px'}}>
+      <Flexbox pr_2 style={{width: '123px'}}>
         <ToggleButton
           group="text-align"
           left
@@ -204,7 +204,7 @@ function PropertiesText() {
           </svg>
         </ToggleButton>
       </Flexbox>
-      <Flexbox pl2 fg1>
+      <Flexbox pl_2 fg_1>
         <Tooltip data-tooltip="Normal" data-position="top">
           <ToggleButton
             group="font-style"
@@ -247,9 +247,9 @@ function PropertiesText() {
       </Flexbox>
     </Flexbox>
     <Flexbox
-      mt2
+      mt_2
     >
-      <Flexbox pr2 style={{width: '123px'}}>
+      <Flexbox pr_2 style={{width: '123px'}}>
         <Tooltip data-tooltip="None" data-position="top">
           <ToggleButton
             group="text-transform"
@@ -330,7 +330,7 @@ function PropertiesText() {
           </ToggleButton>
         </Tooltip>
       </Flexbox>
-      <Flexbox fg1 fb0 pl2>
+      <Flexbox fg_1 fb_0 pl_2>
         <Tooltip data-tooltip="Underline" data-position="top">
           <ToggleButton
             group="text-decoration"

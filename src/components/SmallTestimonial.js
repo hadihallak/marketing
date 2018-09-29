@@ -47,7 +47,7 @@ const SmallTestimonial = (props) => (
     </Text>
     <Flexbox
       ai_center
-      mt2
+      mt_2
     >
       <Box
         mr3

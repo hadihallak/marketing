@@ -64,7 +64,7 @@ const Video = () => (
   <Section
     gray200
     size1
-    h100
+    height_100
     style={{
       height: '100vh',
       display: 'flex',

@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 
 import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
 import CoolFeatures from '../components/CoolFeatures'
-import PositionWidget from '../components/PositionWidget'
 import Devices from '../components/Devices'
 import States from '../components/States'
 import CodeExport from '../components/CodeExport'

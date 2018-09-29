@@ -29,14 +29,14 @@ const Devices = () => (
       <Heading
         size4
         gray600
-        mb1
+        mb_1
       >
         Artboards
       </Heading>
       <Heading
         size4
         gray600
-        mb1
+        mb_1
       >
         Frames
       </Heading>

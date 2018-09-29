@@ -7,6 +7,7 @@ import {
   Box,
   Heading,
   Badge,
+  Text,
   LinesButton
 } from 'radix-ds';
 
@@ -39,20 +40,13 @@ const ComposerHero = () => (
       >
         <Heading
           size3
-          lh_3
+          lh_4
           gray600
           ta_center
-          mb_6
         >
-          Like Sketch but with <s>vectors</s> interactive components, <s>freeform</s> box model layout and <s>handoff</s> React export.
+          Like Sketch but with <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> interactive components, <Text color_gray500 as="s" style={{display: 'inline'}}>freeform</Text> box model layout and <Text color_gray500 as="s" style={{display: 'inline'}}>vectors</Text> React export.
         </Heading>
-        <Badge
-          size2
-          gray
-        >
-          Coming Spring 2019
-        </Badge>
-        <Box mt_8 mb_8>
+        <Box mt_7 mb_8>
           <LinesButton>
             Support us on Kickstarter
           </LinesButton>

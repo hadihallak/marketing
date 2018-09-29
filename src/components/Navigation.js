@@ -71,7 +71,7 @@ const Navigation = () => (
         >
           <LinkArrow
             left
-            mr1
+            mr_1
           >
             <svg
               width="15"

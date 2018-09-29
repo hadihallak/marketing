@@ -12,19 +12,19 @@ import {
 function PropertiesFilter() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Filter
       </Heading>
-      <Flexbox mt2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+      <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -39,7 +39,7 @@ function PropertiesFilter() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fs0 pr2>
+      <Box fs_0 pr_2>
         <Select>
           <option>Blur</option>
           <option>Brightness</option>
@@ -52,10 +52,10 @@ function PropertiesFilter() {
           <option>None</option>
         </Select>
       </Box>
-      <Box pr2>
-        <Box relative>
+      <Box pr_2>
+        <Box position_relative>
           <Input value="5" />
-          <Flexbox h100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
+          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
@@ -93,8 +93,8 @@ function PropertiesFilter() {
       </Box>
     </Flexbox>
 
-    <Flexbox mt2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
-      <Box mr1>
+    <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
+      <Box mr_1>
         <GhostButton size1>
           <svg
             width="15"
@@ -109,7 +109,7 @@ function PropertiesFilter() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fs0 pr2>
+      <Box fs_0 pr_2>
         <Select>
           <option>Blur</option>
           <option>Brightness</option>
@@ -122,10 +122,10 @@ function PropertiesFilter() {
           <option>None</option>
         </Select>
       </Box>
-      <Box pr2>
-        <Box relative>
+      <Box pr_2>
+        <Box position_relative>
           <Input value="5" />
-          <Flexbox h100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
+          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>

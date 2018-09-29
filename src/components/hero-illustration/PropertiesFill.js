@@ -10,22 +10,22 @@ import {
 function PropertiesFill() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Fill
       </Heading>
-      <Flexbox mt2 ai_center style={{marginRight: '-5px'}}>
-      <Box pr2>
+      <Flexbox mt_2 ai_center style={{marginRight: '-5px'}}>
+      <Box pr_2>
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,99%,99%)'}}></Box>
       </Box>
-      <Box fg1 pr2>
+      <Box fg_1 pr_2>
         <Input value="Blue 100" readOnly />
       </Box>
       <Flexbox

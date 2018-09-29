@@ -12,18 +12,18 @@ function PropertiesMargin() {
     <Box
       bt
       bcgray300
-      p2
+      padding_2
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Margin
       </Heading>
-      <Flexbox mt2 ai_center>
-        <Box fg1 fb0 pr2>
-          <Box relative>
+      <Flexbox mt_2 ai_center>
+        <Box fg_1 fb_0 pr_2>
+          <Box position_relative>
             <Select>
               <option selected>0</option>
               <option>5</option>
@@ -48,8 +48,8 @@ function PropertiesMargin() {
             </Select>
           </Box>
         </Box>
-        <Box fg1 fb0 pr2>
-          <Box relative>
+        <Box fg_1 fb_0 pr_2>
+          <Box position_relative>
             <Select>
               <option selected>0</option>
               <option>5</option>
@@ -73,7 +73,7 @@ function PropertiesMargin() {
               <option>Auto</option>
             </Select>
           </Box>
-          <Flexbox jc_center mt3 mb3>
+          <Flexbox jc_center mt_3 mb_3>
             <CheckboxButton>
               <svg
                 width="15"
@@ -89,7 +89,7 @@ function PropertiesMargin() {
               </svg>
             </CheckboxButton>
           </Flexbox>
-          <Box relative>
+          <Box position_relative>
             <Select>
               <option selected>0</option>
               <option>5</option>
@@ -114,8 +114,8 @@ function PropertiesMargin() {
             </Select>
           </Box>
         </Box>
-        <Box fg1 fb0>
-          <Box relative>
+        <Box fg_1 fb_0>
+          <Box position_relative>
             <Select>
               <option selected>0</option>
               <option>5</option>

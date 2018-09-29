@@ -23,8 +23,8 @@ const UnitTypesIllustration = () => (
     mb9
     >
       <Box
-        fg1
-        h100
+        fg_1
+        height_100
         style={{
           background: 'linear-gradient(to left, hsl(208,40%,99%) 0%, hsla(208, 30%, 99%, 0.738) 19%, hsla(208, 30%, 99%, 0.541) 34%, hsla(208, 30%, 99%, 0.382) 47%, hsla(208, 30%, 99%, 0.278) 56.5%, hsla(208, 30%, 99%, 0.194) 65%, hsla(208, 30%, 99%, 0.126) 73%, hsla(208, 30%, 99%, 0.075) 80.2%, hsla(208, 30%, 99%, 0.042) 86.1%, hsla(208, 30%, 99%, 0.021) 91%, hsla(208, 30%, 99%, 0.008) 95.2%, hsla(208, 30%, 99%, 0.002) 98.2%, transparent 100%)',
           height: '130px',
@@ -38,7 +38,7 @@ const UnitTypesIllustration = () => (
         bl
         bcgray300
         p3
-        fs0
+        fs_0
         style={{
           width: '220px',
         }}
@@ -52,7 +52,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text
@@ -78,7 +78,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text
@@ -104,7 +104,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text
@@ -130,7 +130,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text
@@ -156,7 +156,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text
@@ -194,8 +194,8 @@ const UnitTypesIllustration = () => (
               >
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   style={{
                     height: '25px',
                   }}
@@ -226,8 +226,8 @@ const UnitTypesIllustration = () => (
                 </Flexbox>
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   blue500
                   style={{
                     height: '25px',
@@ -249,8 +249,8 @@ const UnitTypesIllustration = () => (
                 </Flexbox>
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   style={{
                     height: '25px',
                   }}
@@ -281,8 +281,8 @@ const UnitTypesIllustration = () => (
                 </Flexbox>
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   style={{
                     height: '25px',
                   }}
@@ -313,8 +313,8 @@ const UnitTypesIllustration = () => (
                 </Flexbox>
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   style={{
                     height: '25px',
                   }}
@@ -345,8 +345,8 @@ const UnitTypesIllustration = () => (
                 </Flexbox>
                 <Flexbox
                   ai_center
-                  pl2
-                  pr2
+                  pl_2
+                  pr_2
                   style={{
                     height: '25px',
                   }}
@@ -384,7 +384,7 @@ const UnitTypesIllustration = () => (
           >
             <Box
               tablecell
-              pr4
+              pr_4
               alignmiddle
             >
               <Text

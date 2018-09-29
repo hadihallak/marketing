@@ -10,7 +10,7 @@ import {
 
 const LargeTestimonial = (props) => (
   <Box
-    bp2_center
+    bp2_ta_center
   >
     <Flexbox
       bp2_jc_center
@@ -31,7 +31,6 @@ const LargeTestimonial = (props) => (
     <Text
       size8
       lh_6
-      ta_center
     >
       {props.quote}
     </Text>

@@ -47,7 +47,7 @@ const LayoutPhone = () => (
           <Flexbox
             ai_center
             jc_spacebetween
-            h100
+            height_100
           >
             <Box>
               <svg
@@ -92,8 +92,8 @@ const LayoutPhone = () => (
         </Box>
         <Box
           p2
-          mt1
-          mb1
+          mt_1
+          mb_1
           white
         >
           <Heading
@@ -102,13 +102,13 @@ const LayoutPhone = () => (
             Upcoming events
           </Heading>
           <Box
-            mt2
-            mb2
+            mt_2
+            mb_2
           >
             <Divider/>
           </Box>
           <Box
-            mb2
+            mb_2
           >
             <Text
               size1
@@ -121,7 +121,7 @@ const LayoutPhone = () => (
             blue
           >
             <Box
-              mr1
+              mr_1
             >
               <svg
                 width="15"
@@ -143,8 +143,8 @@ const LayoutPhone = () => (
         </Box>
 
         <Box
-          mt1
-          mb1
+          mt_1
+          mb_1
           white
           style={{
             // display: 'none',
@@ -192,7 +192,7 @@ const LayoutPhone = () => (
               bcgray300
               mr2
               ml2
-              fs0
+              fs_0
               style={{
                 width: '240px'
               }}
@@ -216,7 +216,7 @@ const LayoutPhone = () => (
                 >
                   <Box
                     center
-                    pl2
+                    pl_2
                     pr3
                   >
                     <Text
@@ -246,8 +246,8 @@ const LayoutPhone = () => (
                     </Text>
                     <Flexbox
                       ai_center
-                      mt1
-                      mb1
+                      mt_1
+                      mb_1
                     >
                       <Box>
                         <Text
@@ -258,7 +258,7 @@ const LayoutPhone = () => (
                         </Text>
                       </Box>
                       <Box
-                        pl1
+                        pl_1
                         pr1
                       >
                         <Text
@@ -286,8 +286,8 @@ const LayoutPhone = () => (
                   </Box>
                 </Flexbox>
                 <Box
-                  mt2
-                  mb2
+                  mt_2
+                  mb_2
                 >
                   <Divider/>
                 </Box>
@@ -297,7 +297,7 @@ const LayoutPhone = () => (
                 >
                   <Button>
                     <Box
-                      mr1
+                      mr_1
                     >
                       <svg
                         width="15"
@@ -329,7 +329,7 @@ const LayoutPhone = () => (
               border
               bcgray300
               mr2
-              fs0
+              fs_0
               style={{
                 width: '240px'
               }}
@@ -353,7 +353,7 @@ const LayoutPhone = () => (
                 >
                   <Box
                     center
-                    pl2
+                    pl_2
                     pr3
                   >
                     <Text
@@ -383,8 +383,8 @@ const LayoutPhone = () => (
                     </Text>
                     <Flexbox
                       ai_center
-                      mt1
-                      mb1
+                      mt_1
+                      mb_1
                     >
                       <Box>
                         <Text
@@ -395,7 +395,7 @@ const LayoutPhone = () => (
                         </Text>
                       </Box>
                       <Box
-                        pl1
+                        pl_1
                         pr1
                       >
                         <Text
@@ -423,8 +423,8 @@ const LayoutPhone = () => (
                   </Box>
                 </Flexbox>
                 <Box
-                  mt2
-                  mb2
+                  mt_2
+                  mb_2
                 >
                   <Divider/>
                 </Box>
@@ -434,7 +434,7 @@ const LayoutPhone = () => (
                 >
                   <Button>
                     <Box
-                      mr1
+                      mr_1
                     >
                       <svg
                         width="15"
@@ -466,7 +466,7 @@ const LayoutPhone = () => (
               border
               bcgray300
               mr2
-              fs0
+              fs_0
               style={{
                 width: '240px'
               }}
@@ -490,7 +490,7 @@ const LayoutPhone = () => (
                 >
                   <Box
                     center
-                    pl2
+                    pl_2
                     pr3
                   >
                     <Text
@@ -520,8 +520,8 @@ const LayoutPhone = () => (
                     </Text>
                     <Flexbox
                       ai_center
-                      mt1
-                      mb1
+                      mt_1
+                      mb_1
                     >
                       <Box>
                         <Text
@@ -532,7 +532,7 @@ const LayoutPhone = () => (
                         </Text>
                       </Box>
                       <Box
-                        pl1
+                        pl_1
                         pr1
                       >
                         <Text
@@ -560,8 +560,8 @@ const LayoutPhone = () => (
                   </Box>
                 </Flexbox>
                 <Box
-                  mt2
-                  mb2
+                  mt_2
+                  mb_2
                 >
                   <Divider/>
                 </Box>
@@ -571,7 +571,7 @@ const LayoutPhone = () => (
                 >
                   <Button>
                     <Box
-                      mr1
+                      mr_1
                     >
                       <svg
                         width="15"
@@ -604,8 +604,8 @@ const LayoutPhone = () => (
         </Box>
 
         <Box
-          mt1
-          mb1
+          mt_1
+          mb_1
           white
           relative
           style={{
@@ -708,8 +708,8 @@ const LayoutPhone = () => (
                   </Text>
                   <Flexbox
                     ai_center
-                    mt1
-                    mb1
+                    mt_1
+                    mb_1
                   >
                     <Box>
                       <Text
@@ -720,7 +720,7 @@ const LayoutPhone = () => (
                       </Text>
                     </Box>
                     <Box
-                      pl1
+                      pl_1
                       pr1
                     >
                       <Text
@@ -748,7 +748,7 @@ const LayoutPhone = () => (
                 </Box>
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"
@@ -773,8 +773,8 @@ const LayoutPhone = () => (
 
         <Box
           p2
-          mt1
-          mb1
+          mt_1
+          mb_1
           white
         >
           <Heading
@@ -783,13 +783,13 @@ const LayoutPhone = () => (
             Upcoming birthdays
           </Heading>
           <Box
-            mt2
-            mb2
+            mt_2
+            mb_2
           >
             <Divider/>
           </Box>
           <Box
-            mb2
+            mb_2
           >
             <Flexbox
               ai_center
@@ -829,7 +829,7 @@ const LayoutPhone = () => (
               <Box>
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"
@@ -852,13 +852,13 @@ const LayoutPhone = () => (
             </Flexbox>
           </Box>
           <Box
-            mt2
-            mb2
+            mt_2
+            mb_2
           >
             <Divider/>
           </Box>
           <Box
-            mb2
+            mb_2
           >
             <Flexbox
               ai_center
@@ -898,7 +898,7 @@ const LayoutPhone = () => (
               <Box>
                 <Button>
                   <Box
-                    mr1
+                    mr_1
                   >
                     <svg
                       width="15"

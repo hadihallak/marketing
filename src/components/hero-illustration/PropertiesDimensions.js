@@ -11,24 +11,24 @@ import {
 function PropertiesDimensions() {
   return (
     <Box
-      p2
+      padding_2
       bt
       bcgray300
     >
       <Heading
         size1
         gray600
-        mb2
+        mb_2
       >
         Dimensions
       </Heading>
-      <Flexbox mt2 ai_center>
-      <Flexbox fg1 ai_center mr3>
-        <Flexbox ai_center fg1 fb0 pr2>
-          <Box fs0 style={{width: '20px'}}>
+      <Flexbox mt_2 ai_center>
+      <Flexbox fg_1 ai_center mr3>
+        <Flexbox ai_center fg_1 fb_0 pr_2>
+          <Box fs_0 style={{width: '20px'}}>
             <Text size1 gray600 style={{fontSize: '11px'}}>W</Text>
           </Box>
-          <Box fg1>
+          <Box fg_1>
             <Select>
               <option>5</option>
               <option>10</option>
@@ -43,11 +43,11 @@ function PropertiesDimensions() {
             </Select>
           </Box>
         </Flexbox>
-        <Flexbox ai_center fg1 fb0 pl2>
-          <Box fs0 style={{width: '20px'}}>
+        <Flexbox ai_center fg_1 fb_0 pl_2>
+          <Box fs_0 style={{width: '20px'}}>
             <Text size1 gray600 style={{fontSize: '11px'}}>H</Text>
           </Box>
-          <Box fg1>
+          <Box fg_1>
             <Select>
               <option>5</option>
               <option>10</option>

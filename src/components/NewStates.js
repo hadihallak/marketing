@@ -38,8 +38,8 @@ const NewStates = () => (
               mb9
               >
                 <Box
-                  fg1
-                  h100
+                  fg_1
+                  height_100
                   style={{
                     background: 'linear-gradient(to left, hsl(208,40%,99%) 0%, hsla(208, 30%, 99%, 0.738) 19%, hsla(208, 30%, 99%, 0.541) 34%, hsla(208, 30%, 99%, 0.382) 47%, hsla(208, 30%, 99%, 0.278) 56.5%, hsla(208, 30%, 99%, 0.194) 65%, hsla(208, 30%, 99%, 0.126) 73%, hsla(208, 30%, 99%, 0.075) 80.2%, hsla(208, 30%, 99%, 0.042) 86.1%, hsla(208, 30%, 99%, 0.021) 91%, hsla(208, 30%, 99%, 0.008) 95.2%, hsla(208, 30%, 99%, 0.002) 98.2%, transparent 100%)',
                     height: '130px',
@@ -53,7 +53,7 @@ const NewStates = () => (
                   bl
                   bcgray300
                   p3
-                  fs0
+                  fs_0
                   style={{
                     width: '220px',
                   }}
@@ -67,7 +67,7 @@ const NewStates = () => (
                     >
                       <Box
                         tablecell
-                        pr4
+                        pr_4
                         alignmiddle
                       >
                         <Text
@@ -240,14 +240,14 @@ const NewStates = () => (
               >
                 <Flexbox>
                   <Box
-                    fg1
+                    fg_1
                   >
                     <StatesButton>
                       Button
                     </StatesButton>
                   </Box>
                   <Box
-                    fg1
+                    fg_1
                     ml5
                     mr5
                   >
@@ -258,7 +258,7 @@ const NewStates = () => (
                     </StatesButton>
                   </Box>
                   <Box
-                    fg1
+                    fg_1
                   >
                     <StatesButton
                       green
@@ -317,7 +317,7 @@ const NewStates = () => (
                   </StatesIcon>
                 </Box>
                 <Box
-                  fg1
+                  fg_1
                 >
                   <StatesSlider
                     type="range"
@@ -350,7 +350,7 @@ const NewStates = () => (
           >
             <Box
               mr6
-              fg1
+              fg_1
               style={{
                 flexBasis: '0',
               }}
@@ -372,7 +372,7 @@ const NewStates = () => (
             </Box>
             <Box
               ml6
-              fg1
+              fg_1
               style={{
                 flexBasis: '0',
               }}
@@ -382,8 +382,8 @@ const NewStates = () => (
               mb9
               >
                 <Box
-                  fg1
-                  h100
+                  fg_1
+                  height_100
                   style={{
                     background: 'linear-gradient(to left, hsl(208,40%,99%) 0%, hsla(208, 30%, 99%, 0.738) 19%, hsla(208, 30%, 99%, 0.541) 34%, hsla(208, 30%, 99%, 0.382) 47%, hsla(208, 30%, 99%, 0.278) 56.5%, hsla(208, 30%, 99%, 0.194) 65%, hsla(208, 30%, 99%, 0.126) 73%, hsla(208, 30%, 99%, 0.075) 80.2%, hsla(208, 30%, 99%, 0.042) 86.1%, hsla(208, 30%, 99%, 0.021) 91%, hsla(208, 30%, 99%, 0.008) 95.2%, hsla(208, 30%, 99%, 0.002) 98.2%, transparent 100%)',
                     height: '130px',
@@ -397,7 +397,7 @@ const NewStates = () => (
                   bl
                   bcgray300
                   p3
-                  fs0
+                  fs_0
                   style={{
                     width: '220px',
                   }}
@@ -411,7 +411,7 @@ const NewStates = () => (
                     >
                       <Box
                         tablecell
-                        pr4
+                        pr_4
                         alignmiddle
                       >
                         <Text
@@ -584,14 +584,14 @@ const NewStates = () => (
               >
                 <Flexbox>
                   <Box
-                    fg1
+                    fg_1
                   >
                     <StatesButton>
                       Button
                     </StatesButton>
                   </Box>
                   <Box
-                    fg1
+                    fg_1
                     ml5
                     mr5
                   >
@@ -602,7 +602,7 @@ const NewStates = () => (
                     </StatesButton>
                   </Box>
                   <Box
-                    fg1
+                    fg_1
                   >
                     <StatesButton
                       green
@@ -661,7 +661,7 @@ const NewStates = () => (
                   </StatesIcon>
                 </Box>
                 <Box
-                  fg1
+                  fg_1
                 >
                   <StatesSlider
                     type="range"

@@ -12,20 +12,20 @@ function ComposerPreview() {
   return (
     <Box
       p3
-      fg1
+      fg_1
       style={{
         overflow: 'hidden',
       }}
     >
       <Flexbox
-        h100
+        height_100
         ai_flexStart
       >
         <Box
           border
           gray400
           mr3
-          fs0
+          fs_0
           style={{
             width: '320px',
             height: '568px',
@@ -40,7 +40,7 @@ function ComposerPreview() {
           border
           gray400
           mr3
-          fs0
+          fs_0
           style={{
             width: '188px',
             height: '406px',
@@ -55,7 +55,7 @@ function ComposerPreview() {
           border
           gray400
           mr3
-          fs0
+          fs_0
           style={{
             width: '384px',
             minHeight: '512px',
@@ -70,7 +70,7 @@ function ComposerPreview() {
           border
           gray400
           mr3
-          fs0
+          fs_0
           style={{
             width: '640px',
             minHeight: '450px',

@@ -21,14 +21,16 @@ const ComposerHero = () => (
     }}
   >
     <Box
-      ta_center
+      bp1_ta_center
     >
       <Container
         size2
       >
         <Heading
-          size6
-          ta_center
+          size5
+          bp1_size6
+          lh_5
+          bp1_lh_8
           mb_4
           bold
           as="h1"
@@ -40,10 +42,11 @@ const ComposerHero = () => (
         size3
       >
         <Heading
-          size3
-          lh_4
+          size2
+          bp1_size3
+          lh_3
+          bp1_lh_4
           color_gray600
-          ta_center
           as="h2"
         >
           Like Sketch but with <Text color_gray500 inline as="s">vectors</Text> interactive components, <Text color_gray500 inline as="s">freeform</Text> box model layout and <Text color_gray500 inline as="s">handoff</Text> React export.

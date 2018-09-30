@@ -19,24 +19,27 @@ const UseCases = () => (
         bp2_nmt_9
       >
         <Heading
-          size4
-          lh_5
+          size3
+          bp1_size4
+          lh_4
+          bp1_lh_5
         >
           The visual code editor for designing and building digital products&mdash;without writing code.
         </Heading>
       </Box>
     </Container>
     <Container
-      bp2_size4
+      bp1_size4
     >
       <Box
-        mt_7
+        mt_5
+        bp1_mt_7
       >
         <Text
           size4
-          bp2_size5
+          bp1_size5
           lh_3
-          bp2_lh_4
+          bp1_lh_4
           color_gray600
           mb_5
         >
@@ -44,9 +47,9 @@ const UseCases = () => (
         </Text>
         <Text
           size4
-          bp2_size5
+          bp1_size5
           lh_3
-          bp2_lh_4
+          bp1_lh_4
           color_gray600
         >
           Modulz is specifically designed to produce robust, accessible, production-grade components and interfaces.

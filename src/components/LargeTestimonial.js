@@ -10,12 +10,12 @@ import {
 
 const LargeTestimonial = (props) => (
   <Box
-    bp2_ta_center
+    ta_center
     bp2_pl_6
     bp2_pr_6
   >
     <Flexbox
-      bp2_jc_center
+      jc_center
       mb_6
     >
       <svg
@@ -32,15 +32,17 @@ const LargeTestimonial = (props) => (
     </Flexbox>
     <blockquote cite="">
       <Text
-        size8
-        lh_5
+        size4
+        bp1_size8
+        lh_3
+        bp1_lh_5
         as="p"
       >
         {props.quote}
       </Text>
       <Flexbox
         ai_center
-        bp2_jc_center
+        jc_center
         mt_7
       >
         <Box

@@ -5,6 +5,7 @@ import ComposerHero from '../components/ComposerHero'
 import UseCases from '../components/UseCases'
 import SupportedBy from '../components/SupportedBy'
 import WallOfLove from '../components/WallOfLove'
+import Cta from '../components/Cta'
 import Blog from '../components/Blog'
 import DividerSection from '../components/DividerSection'
 import Footer from '../components/Footer'
@@ -17,6 +18,8 @@ const IndexPage = () => (
     <SupportedBy />
     <DividerSection />
     <WallOfLove />
+    <DividerSection />
+    <Cta />
     <DividerSection />
     <Blog />
     <Footer />

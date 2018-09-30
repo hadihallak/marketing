@@ -13,7 +13,8 @@ import LargeTestimonial from './LargeTestimonial'
 
 const WallOfLove = () => (
   <Section
-    size3
+    size2
+    bp1_size3
   >
     <Container
       size2

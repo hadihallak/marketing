@@ -18,12 +18,18 @@ const Card = styled.a`
   border: 1px solid ${Theme.GRAY_400};
   border-radius: ${Theme.BORDERRADIUS_100};
   text-decoration: none;
+  outline: none;
   padding: ${Theme.SPACING_400};
   height: 100%;
   transition: border-color 70ms linear;
+  width: calc(100vw - (${Theme.SPACING_500} * 2));
 
   &:hover {
     border-color: ${Theme.GRAY_500};
+  }
+
+  &:focus {
+    border-color: ${Theme.BLUE_500};
   }
 `;
 
@@ -57,7 +63,7 @@ const BlogCard = (props) => (
         <Flexbox
           ai_center
           mt_4
-          bp2_mt_9
+          mt_9
           jc_spacebetween
         >
           <Box>

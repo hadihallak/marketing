@@ -9,13 +9,16 @@ import { Text } from 'radix-ds';
 
 const UseCases = () => (
   <Section
-    size3
+    size2
+    bp1_size3
     bp2_nmt_9
   >
     <Container
       size3
     >
       <Box
+        pt_8
+        bp1_pt_0
         bp2_nmt_9
       >
         <Heading

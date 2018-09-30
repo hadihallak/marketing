@@ -22,7 +22,7 @@ const Cta = () => (
         fd_column
         bp1_fd_row
       >
-        <Box mb_5 bp1_mb_0 bp1_mr_5>
+        <Box mb_6 bp1_mb_0 bp1_mr_5>
           <Text size4>
             Interested? Support us on Kickstarter!
           </Text>

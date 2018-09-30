@@ -35,7 +35,7 @@ const Resources = () => (
       >
        More about what we're doing.
       </Text>
-      <Box pl_5 pr_5 ox_scroll style={{display: 'inlineBlock'}}>
+      <Box pl_5 pr_5 ox_scroll style={{display: 'inlineBlock', -webkit-overflow-scrolling: touch;}}>
         <Flexbox nml_4>
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard

@@ -15,11 +15,13 @@ import BlogCard from './BlogCard';
 
 const Resources = () => (
   <Section
-    size3
+    size2
+    bp1_size3
   >
 
       <Heading
         size5
+        lh_4
         bold
         mb_3
         as="h5"
@@ -30,7 +32,8 @@ const Resources = () => (
       <Text
         size5
         color_gray600
-        mb_8
+        mb_6
+        bp1_mb_8
         ta_center
       >
        More about what we're doing.

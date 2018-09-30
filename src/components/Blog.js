@@ -18,7 +18,9 @@ const Resources = () => (
     size2
     bp1_size3
   >
-
+    <Container
+      bp2_size2
+    >
       <Heading
         size5
         lh_4
@@ -38,7 +40,7 @@ const Resources = () => (
       >
        More about what we're doing.
       </Text>
-      <Box pl_5 pr_5 ox_scroll style={{display: 'inlineBlock', WebkitOverflowScrolling: 'touch'}}>
+      <Box pl_5 pr_5 bp2_pl_0 bp2_pr_0 ox_scroll bp2_ox_visible style={{display: 'inlineBlock', WebkitOverflowScrolling: 'touch'}}>
         <Flexbox nml_4>
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
@@ -64,7 +66,7 @@ const Resources = () => (
               date="Sep '17"
             />
           </Box>
-          <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4 mr_5>
+          <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="How to construct a design system"
               blurb="Tips for designing and building a consistent design system."
@@ -74,6 +76,7 @@ const Resources = () => (
           </Box>
         </Flexbox>
       </Box>
+    </Container>
   </Section>
 )
 

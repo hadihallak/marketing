@@ -21,7 +21,9 @@ const Header = () => (
         <Box>
           <Link
             to="/"
-            style={{color: 'inherit'}}
+            style={{
+              color: 'inherit',
+            }}
           >
             <svg
               width="35"

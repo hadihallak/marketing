@@ -22,7 +22,7 @@ const Card = styled.a`
   padding: ${Theme.SPACING_400};
   height: 100%;
   transition: border-color 70ms linear;
-  width: calc(80vw - (${Theme.SPACING_500} * 2));
+  width: 260px;
 
   &:hover {
     border-color: ${Theme.GRAY_500};
@@ -30,6 +30,10 @@ const Card = styled.a`
 
   &:focus {
     border-color: ${Theme.BLUE_500};
+  }
+
+  @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
+    width: auto;
   }
 `;
 
@@ -95,18 +99,18 @@ const BlogCard = (props) => (
             </Text>
             <HoverZonePanel>
               <Flexbox ai_center jc_flexend width_100 height_100 bc_white position_absolute style={{top: '0',right: '0'}}>
-                  <svg
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    stroke="hsl(208, 12%, 50%)"
-                  >
-                    <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M6.5 8.5L12.5 2.5" strokeLinecap="round"/>
-                    <path d="M10.5 9.07143V12C10.5 12.2761 10.2761 12.5 10 12.5H3C2.72386 12.5 2.5 12.2761 2.5 12V5C2.5 4.72386 2.72386 4.5 3 4.5H5.92857" strokeLinecap="round"/>
-                  </svg>
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="hsl(208, 12%, 50%)"
+                >
+                  <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M6.5 8.5L12.5 2.5" strokeLinecap="round"/>
+                  <path d="M10.5 9.07143V12C10.5 12.2761 10.2761 12.5 10 12.5H3C2.72386 12.5 2.5 12.2761 2.5 12V5C2.5 4.72386 2.72386 4.5 3 4.5H5.92857" strokeLinecap="round"/>
+                </svg>
               </Flexbox>
             </HoverZonePanel>
           </Flexbox>

@@ -22,7 +22,7 @@ const Card = styled.a`
   padding: ${Theme.SPACING_400};
   height: 100%;
   transition: border-color 70ms linear;
-  width: calc(100vw - (${Theme.SPACING_500} * 2));
+  width: calc(80vw - (${Theme.SPACING_500} * 2));
 
   &:hover {
     border-color: ${Theme.GRAY_500};

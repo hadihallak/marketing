@@ -1,15 +1,21 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Section } from 'radix-ds';
-import { Container } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Heading } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Section,
+  Container,
+  Box,
+  Flexbox,
+  Heading,
+  Text
+} from 'radix-ds';
 
 import SmallTestimonial from './SmallTestimonial'
 import LargeTestimonial from './LargeTestimonial'
+
+import TonyAvatar from "./../assets/tony-avatar.jpg"
+import JackAvatar from "./../assets/jack-avatar.jpg"
+import SteveAvatar from "./../assets/steve-avatar.jpg"
 
 const WallOfLove = () => (
   <Section
@@ -26,14 +32,16 @@ const WallOfLove = () => (
             author="Michael Dick"
             initial="M"
             url="htts://www.twitter.com/modulz"
+            avatar={TonyAvatar}
           />
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
           <SmallTestimonial
-            quote='"With all of these new UI design tools coming out, I think Modulz by looks the most promising. Really excited to give this one a try."'
+            quote='"With all of these new UI design tools coming out, I think Modulz by looks the most promising. Really excited to give it a try."'
             author="Steve Schoger"
             initial="S"
-            url="https://twitter.com/steveschoger/status/1003680891531616256"
+            url="https://twitter.com/steveschoger/status/965589237109264385"
+            avatar={SteveAvatar}
           />
         </Box>
       </Flexbox>
@@ -46,6 +54,7 @@ const WallOfLove = () => (
         author="Tony Ennis"
         initial="T"
         url="https://twitter.com/tonyennis/status/960067570987556864"
+        avatar={TonyAvatar}
       />
     </Container>
     <Container
@@ -58,6 +67,7 @@ const WallOfLove = () => (
             author="Rami"
             initial="R"
             url="htts://www.twitter.com/modulz"
+            avatar={TonyAvatar}
           />
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
@@ -66,6 +76,7 @@ const WallOfLove = () => (
             author="Jack Lo Russo"
             initial="J"
             url="htts://www.twitter.com/modulz"
+            avatar={JackAvatar}
           />
         </Box>
       </Flexbox>

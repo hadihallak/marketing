@@ -13,6 +13,8 @@ import {
   HoverZonePanel
 } from 'radix-ds';
 
+import ColmAvatar from "./../assets/colm-avatar.jpg"
+
 const Card = styled.a`
   display: block;
   border: 1px solid ${Theme.GRAY_400};
@@ -77,7 +79,7 @@ const BlogCard = (props) => (
               <Box mr_2>
                 <Avatar
                   size2
-                  url="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_bigger.jpg"
+                  url={ColmAvatar}
                   caption="Colm Tuite"
                   initial="C"
                 />

@@ -5,13 +5,8 @@ import {
   Box,
   Heading,
   Text,
-  Theme,
   Flexbox,
-  Avatar,
-  HoverZone,
-  HoverZonePanel,
   AspectRatio,
-  BackgroundImage
 } from 'radix-ds';
 
 import Layout from '../components/Layout'
@@ -130,7 +125,7 @@ const AboutPage = () => (
               <Heading
                 size3
                 bold
-                mb_3
+                mb_4
               >
                 Stephen Haney
               </Heading>
@@ -140,9 +135,9 @@ const AboutPage = () => (
                 lh_3
                 color_gray600
               >
-                Mostly dev with a little design. Back-end. Front-end. React. ES6. Redux.
+                Mostly dev with a little design.<br/> Back-end. Front-end. Lots of JavaScript. React. ES6. Redux.
               </Text>
-              <Flexbox mt_5>
+              <Flexbox mt_6>
                 <Box mr_5>
                   <a
                     href="https://www.twitter.com/colmtuite"
@@ -197,7 +192,7 @@ const AboutPage = () => (
                 lh_3
                 color_gray600
               >
-                Mostly design with a little dev. Product design. Front-end. Design systems. Design assets. JavaScript not so much.
+                Mostly design with a little dev. Product design. Front-end. Design systems. Design assets.
               </Text>
               <Flexbox mt_6>
                 <Box mr_5>

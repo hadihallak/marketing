@@ -100,14 +100,14 @@ const AboutPage = () => (
           as="h5"
           ta_center
         >
-          The team
+          Team
         </Heading>
         <Text
           size5
           lh_3
           color_gray600
           mb_6
-          bp1_mb_7
+          bp1_mb_8
           ta_center
         >
            Who we are and what we do.
@@ -117,12 +117,16 @@ const AboutPage = () => (
         <Flexbox>
           <Box fg_1 fb_0 mr_7>
             <AspectRatio ratio_169>
-              <BackgroundImage
-                mb_7
-                src="./../assets/colm-mugshot.jpg">
-              </BackgroundImage>
+              <Box
+                height_100
+                style={{
+                  backgroundImage: `url(${ColmMug})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}>
+              </Box>
             </AspectRatio>
-            <Box pl_9 pr_9>
+            <Box mt_7 pl_9 pr_9>
               <Heading
                 size3
                 bold
@@ -136,7 +140,7 @@ const AboutPage = () => (
                 lh_3
                 color_gray600
               >
-                Design system. Product strategy. JavaScript not so much.
+                Mostly dev with a little design. Back-end. Front-end. React. ES6. Redux.
               </Text>
               <Flexbox mt_5>
                 <Box mr_5>
@@ -148,7 +152,7 @@ const AboutPage = () => (
                       size3
                       color_gray600
                     >
-                      Tw
+                      Twitter
                     </Text>
                   </a>
                 </Box>
@@ -161,7 +165,7 @@ const AboutPage = () => (
                       size3
                       color_gray600
                     >
-                      Tw
+                      Github
                     </Text>
                   </a>
                 </Box>
@@ -170,12 +174,16 @@ const AboutPage = () => (
           </Box>
           <Box fg_1 fb_0 ml_7>
             <AspectRatio ratio_169>
-              <BackgroundImage
-                mb_7
-                src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_400x400.jpg">
-              </BackgroundImage>
+              <Box
+                height_100
+                style={{
+                  backgroundImage: `url(${ColmMug})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}>
+              </Box>
             </AspectRatio>
-            <Box pl_9 pr_9>
+            <Box mt_7 pl_9 pr_9>
               <Heading
                 size3
                 bold
@@ -189,7 +197,7 @@ const AboutPage = () => (
                 lh_3
                 color_gray600
               >
-                Design system. Product strategy. JavaScript not so much.
+                Mostly design with a little dev. Product design. Front-end. Design systems. Design assets. JavaScript not so much.
               </Text>
               <Flexbox mt_6>
                 <Box mr_5>
@@ -201,7 +209,7 @@ const AboutPage = () => (
                       size3
                       color_gray600
                     >
-                      Tw
+                      Twitter
                     </Text>
                   </a>
                 </Box>
@@ -214,7 +222,7 @@ const AboutPage = () => (
                       size3
                       color_gray600
                     >
-                      Tw
+                      Dribbble
                     </Text>
                   </a>
                 </Box>

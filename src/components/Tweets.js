@@ -37,15 +37,15 @@ const Tweets = (props) => (
         lh_3
         color_gray600
         mb_6
-        bp1_mb_7
+        bp1_mb_8
         ta_center
       >
        A collection of tweets from the community which provide more insight into what we're working on.
       </Text>
     </Container>
     <Container>
-      <Flexbox fd_column bp1_fd_row ai_flexstart>
-        <Box fg_1 fb_0 mt_4 ml_4>
+      <Flexbox fd_column bp1_fd_row ai_flexstart nml_4>
+        <Box fg_1 fb_0 ml_4>
 
           <Box mb_4>
             <HoverZone>
@@ -425,7 +425,7 @@ const Tweets = (props) => (
 
         </Box>
 
-        <Box fg_1 fb_0 mt_4 ml_4>
+        <Box fg_1 fb_0 ml_4>
 
           <Box mb_4>
             <HoverZone>
@@ -889,7 +889,7 @@ const Tweets = (props) => (
 
         </Box>
 
-        <Box fg_1 fb_0 mt_4 ml_4>
+        <Box fg_1 fb_0 ml_4>
 
           <Box mb_4>
             <HoverZone>

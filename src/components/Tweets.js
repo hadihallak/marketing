@@ -56,7 +56,7 @@ const Tweets = (props) => (
        Tweets from the community which inspired Modulz.
       </Text>
     </Container>
-    <Container>
+    <Container size2>
       <Flexbox fd_column bp1_fd_row ai_flexstart nml_4>
         <Box fg_1 fb_0 ml_4>
 

@@ -108,9 +108,9 @@ const AboutPage = () => (
            Who we are and what we do.
         </Text>
       </Container>
-      <Container size2>
+      <Container size3>
         <Flexbox>
-          <Box fg_1 fb_0 mr_7>
+          <Box fg_1 fb_0 mr_5>
             <AspectRatio ratio_169>
               <Box
                 height_100
@@ -121,7 +121,7 @@ const AboutPage = () => (
                 }}>
               </Box>
             </AspectRatio>
-            <Box mt_7 pl_9 pr_9>
+            <Box mt_7 pl_7 pr_7>
               <Heading
                 size3
                 bold
@@ -131,8 +131,8 @@ const AboutPage = () => (
               </Heading>
               <Text
                 as="p"
-                size4
-                lh_3
+                size3
+                lh_2
                 color_gray600
               >
                 Mostly dev with a little design.<br/> Back-end. Front-end. Lots of JavaScript. React. ES6. Redux.
@@ -167,7 +167,7 @@ const AboutPage = () => (
               </Flexbox>
             </Box>
           </Box>
-          <Box fg_1 fb_0 ml_7>
+          <Box fg_1 fb_0 ml_5>
             <AspectRatio ratio_169>
               <Box
                 height_100
@@ -178,7 +178,7 @@ const AboutPage = () => (
                 }}>
               </Box>
             </AspectRatio>
-            <Box mt_7 pl_9 pr_9>
+            <Box mt_7 pl_7 pr_7>
               <Heading
                 size3
                 bold
@@ -188,11 +188,11 @@ const AboutPage = () => (
               </Heading>
               <Text
                 as="p"
-                size4
-                lh_3
+                size3
+                lh_2
                 color_gray600
               >
-                Mostly design with a little dev. Product design. Front-end. Design systems. Design assets.
+                Mostly design with a little dev. Product design. Front-end. Design systems. Assets.
               </Text>
               <Flexbox mt_6>
                 <Box mr_5>

@@ -30,7 +30,7 @@ const WallOfLove = () => (
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
           <SmallTestimonial
-            quote='"I can’t describe how excited I am for Modulz to launch. You should follow along if you’re not already."'
+            quote='"With all of these new UI design tools coming out, I think Modulz by looks the most promising. Really excited to give this one a try."'
             author="Steve Schoger"
             initial="S"
             url="https://twitter.com/steveschoger/status/1003680891531616256"

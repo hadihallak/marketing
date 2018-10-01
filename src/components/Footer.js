@@ -38,7 +38,7 @@ const Navigation = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Text size5 bp1_size3>
+                <Text size3>
                   Radix
                 </Text>
               </FadeLinkNotGatsby>
@@ -49,7 +49,7 @@ const Navigation = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Text size5 bp1_size3>
+                <Text size3>
                   Twitter
                 </Text>
               </FadeLinkNotGatsby>
@@ -60,7 +60,7 @@ const Navigation = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Text size5 bp1_size3>
+                <Text size3>
                   Spectrum
                 </Text>
               </FadeLinkNotGatsby>

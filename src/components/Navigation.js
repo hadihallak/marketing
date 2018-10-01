@@ -13,22 +13,23 @@ import LinkArrow from './LinkArrow'
 
 const Navigation = () => (
   <Section
-    size3
+    size2
+    bp1_size3
   >
     <Container
       size3
     >
       <Box
-        mb5
-        center
+        mb_5
+        ta_center
       >
         <FadeLink
           to="/composer"
-          data-content="Check out our features"
+          data-content="Check out our Kickstarter"
         >
-          Check out our features
+          Check out our Kickstarter
           <LinkArrow
-            ml1
+            ml_1
           >
             <svg
               width="25"
@@ -63,15 +64,15 @@ const Navigation = () => (
         </FadeLink>
       </Box>
       <Box
-        center
+        ta_center
       >
         <FadeLink
           to="/"
-          data-content="Back to homepage"
+          data-content="Learn more about us"
         >
+          Learn more about us
           <LinkArrow
-            left
-            mr_1
+            ml_1
           >
             <svg
               width="15"
@@ -103,7 +104,6 @@ const Navigation = () => (
               <path d="M0 0H10" transform="translate(2.5 7.5)" strokeLinecap="round"/>
             </svg>
           </LinkArrow>
-          Back to homepage
         </FadeLink>
       </Box>
     </Container>

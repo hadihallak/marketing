@@ -9,72 +9,126 @@ import {
   Flexbox,
   Avatar,
   HoverZone,
-  HoverZonePanel
+  HoverZonePanel,
+  AspectRatio,
+  BackgroundImage
 } from 'radix-ds';
 
 import Layout from '../components/Layout'
+import Tweets from '../components/Tweets'
 import Cta from '../components/Cta'
 import DividerSection from '../components/DividerSection'
 import Footer from '../components/Footer'
 
+import ColmMug from "./../assets/colm-mugshot.jpg"
+
 const AboutPage = () => (
   <Layout>
+    <Section size2>
+      <Container
+        size3
+      >
+        <Heading
+          size3
+          bp1_size4
+          lh_4
+          bp1_lh_5
+          as="h1"
+          mb_5
+          bp1_mb_7
+        >
+          With Modulz, our goal is to fix the disconnect between digital product teams.
+        </Heading>
+      </Container>
+      <Container bp1_size4>
+        <Text
+          as="p"
+          size4
+          bp1_size5
+          lh_3
+          color_gray600
+          mb_5
+        >
+          To help designers collaborate with developers, without code.
+        </Text>
+        <Text
+          as="p"
+          size4
+          bp1_size5
+          lh_3
+          color_gray600
+          mb_5
+        >
+          To encourage inclusive digital products by automating accessibility.
+        </Text>
+        <Text
+          as="p"
+          size4
+          bp1_size5
+          lh_3
+          color_gray600
+          mb_5
+        >
+          To reduce bottlenecks by building modern tools which empower whole teams to work on their end products.
+        </Text>
+        <Text
+          as="p"
+          size4
+          bp1_size5
+          lh_3
+          color_gray600
+          bp1_mb_7
+        >
+          To get everyone working on the same product. Together.
+        </Text>
+      </Container>
+    </Section>
+
+    <DividerSection />
+
+    <Tweets />
+
+    <DividerSection />
+
     <Section size3>
       <Container size3>
         <Heading
           size5
+          lh_5
           bold
-          mb_6
+          mb_3
+          as="h5"
+          ta_center
         >
-          A design tool for the ages
+          The team
         </Heading>
         <Text
-          as="p"
-          size4
-          lh_4
-          mb_5
-        >
-          The vast majority of people in the design tools space are trying to make illustration tools more powerful. This is a dead-end. The output is capped and there is no way around it. I'm focused on making code editors more accessible.
-        </Text>
-        <Text
-          as="p"
           size5
-          lh_4
-          mb_5
+          lh_3
+          color_gray600
+          mb_6
+          bp1_mb_7
+          ta_center
         >
-        The reason we are all working on product imitations, is that to work on the actual product, you must be able to write code—and code is not easy to write.
-        </Text>
-        <Text
-          as="p"
-          size5
-          lh_4
-          mb_5
-        >
-          The thing is, many designers already understand the concepts behind code. Style properties, document flow (nested groups), variables (global styles), components and versioning are all features which already exist inside our current design tools.
-        </Text>
-        <Text
-          as="p"
-          size5
-          lh_4
-          mb_5
-        >
-          The thing is, many designers already understand the concepts behind code. Style properties, document flow (nested groups), variables (global styles), components and versioning are all features which already exist inside our current design tools.
+           Who we are and what we do.
         </Text>
       </Container>
-    </Section>
-    <Section size3>
       <Container size2>
         <Flexbox>
           <Box fg_1 fb_0 mr_7>
-            <Box mb_5 style={{height: '260px',background: 'coral', backgroundImage: 'url("https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_400x400.jpg")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
-            </Box>
+            <AspectRatio ratio_169>
+              <BackgroundImage
+                mb_7
+                src="./../assets/colm-mugshot.jpg">
+              </BackgroundImage>
+            </AspectRatio>
             <Box pl_9 pr_9>
               <Heading
                 size3
                 bold
                 mb_3
               >
-                Colm Tuite
+                Stephen Haney
               </Heading>
               <Text
                 as="p"
@@ -115,13 +169,17 @@ const AboutPage = () => (
             </Box>
           </Box>
           <Box fg_1 fb_0 ml_7>
-            <Box mb_5 style={{height: '260px',background: 'coral', backgroundImage: 'url("https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_400x400.jpg")', backgroundSize: 'cover', backgroundPosition: 'center'}}>
-            </Box>
+            <AspectRatio ratio_169>
+              <BackgroundImage
+                mb_7
+                src="https://pbs.twimg.com/profile_images/864164353771229187/Catw6Nmh_400x400.jpg">
+              </BackgroundImage>
+            </AspectRatio>
             <Box pl_9 pr_9>
               <Heading
                 size3
                 bold
-                mb_3
+                mb_4
               >
                 Colm Tuite
               </Heading>
@@ -133,7 +191,7 @@ const AboutPage = () => (
               >
                 Design system. Product strategy. JavaScript not so much.
               </Text>
-              <Flexbox mt_5>
+              <Flexbox mt_6>
                 <Box mr_5>
                   <a
                     href="https://www.twitter.com/colmtuite"
@@ -166,9 +224,10 @@ const AboutPage = () => (
         </Flexbox>
       </Container>
     </Section>
-    <DividerSection />
     <Cta />
-    <DividerSection />
+    <Box mt_8 mb_9>
+      <DividerSection />
+    </Box>
     <Footer />
   </Layout>
 )

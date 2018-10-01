@@ -1,13 +1,15 @@
 import React from 'react'
-import styled, { css } from 'styled-components';
-import { Theme } from 'radix-ds';
+import styled from 'styled-components';
 import { Link } from 'gatsby'
 
-import { Section } from 'radix-ds';
-import { Container } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Section,
+  Container,
+  Flexbox,
+  Box,
+  Text,
+  Divider
+} from 'radix-ds';
 
 import FadeLinkNotGatsby from './FadeLinkNotGatsby'
 
@@ -48,15 +50,28 @@ const Header = () => (
           </Link>
         </Box>
         <nav>
-          <FadeLinkNotGatsby
-            href="https://spectrum.chat/modulz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Text size3>
-              Support our Kickstarter
-            </Text>
-          </FadeLinkNotGatsby>
+          <Flexbox ai_center>
+
+            <FadeLinkNotGatsby
+              href="https://spectrum.chat/modulz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Text size3>
+                Kickstarter
+              </Text>
+            </FadeLinkNotGatsby>
+            <Box ml_6 mr_6>
+              <Divider vertical size1 />
+            </Box>
+            <Link
+              to="/about"
+            >
+              <Text size3>
+                About
+              </Text>
+            </Link>
+          </Flexbox>
         </nav>
       </Flexbox>
     </Container>

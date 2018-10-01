@@ -8,6 +8,7 @@ import WallOfLove from '../components/WallOfLove'
 import Cta from '../components/Cta'
 import Blog from '../components/Blog'
 import DividerSection from '../components/DividerSection'
+import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
 const IndexPage = () => (
@@ -22,6 +23,7 @@ const IndexPage = () => (
     <Cta />
     <DividerSection />
     <Blog />
+    <Navigation />
     <Footer />
   </Layout>
 )

@@ -23,7 +23,23 @@ const Layout = ({ children, data }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
-            { name: 'keywords', content: 'design, tools, code, UI, CSS, website, builder' },
+            { name: 'keywords', content: 'design, mockup, design tool, sketch, figma, visual code, code editor, UI, CSS, website, builder' },
+
+            { name: 'twitter:card', content: 'photo' },
+            { name: 'twitter:site', content: '@modulz' },
+            { name: 'twitter:creator', content: '@modulz' },
+            { name: 'twitter:title', content: 'The next step in visual coding.' },
+            { name: 'twitter:description', content: 'The visual code editor for designing and building digital products—without writing code.' },
+            { name: 'twitter:image:src', content: 'https://www.modulz.app/assets/social.png' },
+            { name: 'twitter:domain', content: 'https://www.modulz.app' },
+
+            { itemprop: 'name', content: 'The next step in visual coding.' },
+            { itemprop: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
+            { itemprop: 'image', content: 'https://www.modulz.app/assets/social.png' },
+
+            { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
+
+            { name: 'theme-color', content: '#fff' },
           ]}
         />
           <Header siteTitle={data.site.siteMetadata.title} />

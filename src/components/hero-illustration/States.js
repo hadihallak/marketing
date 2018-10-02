@@ -31,11 +31,12 @@ function States() {
             height="15"
             viewBox="0 0 15 15"
             fill="none"
-            stroke="currentColor"
+            fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M2.5 7.5H12.5" strokeLinecap="round"/>
-            <path d="M7.5 12.5V2.5" strokeLinecap="round"/>
+            <circle cx="7.5" cy="2.5" r="1.5"/>
+            <circle cx="7.5" cy="7.5" r="1.5"/>
+            <circle cx="7.5" cy="12.5" r="1.5"/>
           </svg>
         </GhostButton>
       </Flexbox>

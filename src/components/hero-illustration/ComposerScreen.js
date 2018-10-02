@@ -18,6 +18,7 @@ import ComposerToolbelt from './ComposerToolbelt'
 import ComposerLayerTree from './ComposerLayerTree'
 import ComposerPreview from './ComposerPreview'
 import ComposerProperties from './ComposerProperties'
+import States from './States'
 
 import PropHeader from './PropHeader'
 import PropNode from './PropNode'
@@ -308,6 +309,7 @@ const ComposerScreen = () => (
                   </Box>
                 </Flexbox>
               </Box>
+              <States />
               <ComposerProperties />
             </Flexbox>
           </Box>

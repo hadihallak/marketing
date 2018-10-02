@@ -192,6 +192,7 @@ textarea {
 #___gatsby {
   height: 100%;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 svg {

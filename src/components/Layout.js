@@ -36,9 +36,7 @@ const Layout = ({ children, data }) => (
 
             { itemprop: 'name', content: 'The next step in visual coding.' },
             { itemprop: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
-            { itemprop: 'image', content: 'https://www.modulz.app/assets/social.png' },
-
-            { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
+            { itemprop: 'image', content: `${SocialImage}` },
 
             { name: 'theme-color', content: '#fff' },
           ]}

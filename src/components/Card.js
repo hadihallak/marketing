@@ -12,7 +12,6 @@ const Card = styled.a`
   padding: ${Theme.SPACING_400};
   height: 100%;
   transition: border-color 70ms linear;
-  width: 260px;
   color: inherit;
 
   &:hover {

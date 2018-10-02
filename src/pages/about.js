@@ -15,7 +15,10 @@ import Cta from '../components/Cta'
 import DividerSection from '../components/DividerSection'
 import Footer from '../components/Footer'
 
+import StephenMug from "./../assets/stephen-mugshot.jpg"
 import ColmMug from "./../assets/colm-mugshot.jpg"
+
+import FadeLinkNotGatsby from './../components/FadeLinkNotGatsby'
 
 const AboutPage = () => (
   <Layout>
@@ -85,14 +88,14 @@ const AboutPage = () => (
 
     <DividerSection />
 
-    <Section size3>
+    <Section size2 bp1_size3>
       <Container size3>
         <Heading
           size5
           lh_5
           bold
           mb_3
-          as="h5"
+          as="h3"
           ta_center
         >
           Team
@@ -109,13 +112,13 @@ const AboutPage = () => (
         </Text>
       </Container>
       <Container size3>
-        <Flexbox>
-          <Box fg_1 fb_0 mr_5>
+        <Flexbox fd_column bp1_fd_row>
+          <Box fg_1 fb_0 mb_5 bp1_mb_0 bp1_mr_5>
             <AspectRatio ratio_169>
               <Box
                 height_100
                 style={{
-                  backgroundImage: `url(${ColmMug})`,
+                  backgroundImage: `url(${StephenMug})`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}>
@@ -123,9 +126,10 @@ const AboutPage = () => (
             </AspectRatio>
             <Box mt_7 pl_7 pr_7>
               <Heading
-                size3
+                size2
+                lh_2
                 bold
-                mb_4
+                mb_3
               >
                 Stephen Haney
               </Heading>
@@ -135,39 +139,37 @@ const AboutPage = () => (
                 lh_2
                 color_gray600
               >
-                Mostly dev with a little design.<br/> Back-end. Front-end. Lots of JavaScript. React. ES6. Redux.
+                More dev than design. Back-end. Front-end. Lots of JavaScript. React. ES6. Redux.
               </Text>
               <Flexbox mt_6>
                 <Box mr_5>
-                  <a
-                    href="https://www.twitter.com/colmtuite"
+                  <FadeLinkNotGatsby
+                    href="https://twitter.com/sdothaney"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
                   >
-                    <Text
-                      as="p"
-                      size3
-                      color_gray600
-                    >
-                      Twitter
+                    <Text size3>
+                      Tw
                     </Text>
-                  </a>
+                  </FadeLinkNotGatsby>
                 </Box>
                 <Box mr_5>
-                  <a
-                    href="https://www.twitter.com/colmtuite"
+                  <FadeLinkNotGatsby
+                    href="https://github.com/StephenHaney"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Github"
                   >
-                    <Text
-                      as="p"
-                      size3
-                      color_gray600
-                    >
-                      Github
+                    <Text size3>
+                      Gh
                     </Text>
-                  </a>
+                  </FadeLinkNotGatsby>
                 </Box>
               </Flexbox>
             </Box>
           </Box>
-          <Box fg_1 fb_0 ml_5>
+          <Box fg_1 fb_0 mt_5 bp1_mt_0 bp1_ml_5>
             <AspectRatio ratio_169>
               <Box
                 height_100
@@ -180,9 +182,10 @@ const AboutPage = () => (
             </AspectRatio>
             <Box mt_7 pl_7 pr_7>
               <Heading
-                size3
+                size2
+                lh_1
                 bold
-                mb_4
+                mb_3
               >
                 Colm Tuite
               </Heading>
@@ -192,34 +195,56 @@ const AboutPage = () => (
                 lh_2
                 color_gray600
               >
-                Mostly design with a little dev. Product design. Front-end. Design systems. Assets.
+                More design than dev. Product design. Front-end. Design systems. Assets.
               </Text>
               <Flexbox mt_6>
                 <Box mr_5>
-                  <a
+                  <FadeLinkNotGatsby
                     href="https://www.twitter.com/colmtuite"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter"
                   >
-                    <Text
-                      as="p"
-                      size3
-                      color_gray600
-                    >
-                      Twitter
+                    <Text size3>
+                      Tw
                     </Text>
-                  </a>
+                  </FadeLinkNotGatsby>
                 </Box>
-                <Box ml_5>
-                  <a
-                    href="https://www.twitter.com/colmtuite"
+                <Box mr_5>
+                  <FadeLinkNotGatsby
+                    href="https://github.com/colmtuite"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Github"
                   >
-                    <Text
-                      as="p"
-                      size3
-                      color_gray600
-                    >
-                      Dribbble
+                    <Text size3>
+                      Gh
                     </Text>
-                  </a>
+                  </FadeLinkNotGatsby>
+                </Box>
+                <Box mr_5>
+                  <FadeLinkNotGatsby
+                    href="https://medium.com/@colmtuite"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Medium"
+                  >
+                    <Text size3>
+                      Mm
+                    </Text>
+                  </FadeLinkNotGatsby>
+                </Box>
+                <Box>
+                  <FadeLinkNotGatsby
+                    href="https://dribbble.com/ColmTuite"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Dribbble"
+                  >
+                    <Text size3>
+                      Db
+                    </Text>
+                  </FadeLinkNotGatsby>
                 </Box>
               </Flexbox>
             </Box>
@@ -227,8 +252,9 @@ const AboutPage = () => (
         </Flexbox>
       </Container>
     </Section>
+    <DividerSection />
     <Cta />
-    <Box mt_8 mb_9>
+    <Box mb_9>
       <DividerSection />
     </Box>
     <Footer />

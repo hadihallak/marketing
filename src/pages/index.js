@@ -23,6 +23,7 @@ const IndexPage = () => (
     <Cta />
     <DividerSection />
     <Blog />
+    <DividerSection />
     <Faq />
     <Footer />
   </Layout>

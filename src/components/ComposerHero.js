@@ -51,7 +51,7 @@ const ComposerHero = () => (
         >
           Like Sketch but with <Text color_gray500 inline as="s">vectors</Text> interactive components, <Text color_gray500 inline as="s">freeform</Text> box model layout and <Text color_gray500 inline as="s">handoff</Text> React export.
         </Heading>
-        <Box mt_7 mb_8>
+        <Box mt_7 mb_7>
           <LinesButton
             mt_1
             as="a"
@@ -61,6 +61,7 @@ const ComposerHero = () => (
           >
             Support us on Kickstarter
           </LinesButton>
+          <Text size1 mt_4 color_gray600><em style={{color: 'hsl(20,100%,41%)', fontStyle: 'normal'}}>50</em> alpha places left</Text>
         </Box>
       </Container>
     </Box>

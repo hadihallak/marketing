@@ -10,10 +10,10 @@ import {
 } from 'radix-ds';
 
 const Faq = () => (
-  <Section size3 style={{paddingTop: '0'}}>
+  <Section size2 bp1_size3>
     <Container size3>
-      <Flexbox fd_column bp2_fd_row bp2_nml_8 nmt_8 fw_wrap>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+      <Flexbox fd_column bp2_fd_row bp2_nml_8 nmt_5 bp1_nmt_8 fw_wrap>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2
@@ -33,7 +33,7 @@ const Faq = () => (
             </Text>
           </Box>
         </Box>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2
@@ -53,7 +53,7 @@ const Faq = () => (
             </Text>
           </Box>
         </Box>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2
@@ -92,7 +92,7 @@ const Faq = () => (
             </Text>
           </Box>
         </Box>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2
@@ -121,7 +121,7 @@ const Faq = () => (
             </Text>
           </Box>
         </Box>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2
@@ -169,7 +169,7 @@ const Faq = () => (
             </Text>
           </Box>
         </Box>
-        <Box fs_0 bp2_width_50 bp2_pl_8 pt_8>
+        <Box fs_0 bp2_width_50 bp2_pl_8 pt_5 bp2_pt_8>
           <Box>
             <Heading
               size2

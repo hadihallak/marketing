@@ -40,7 +40,8 @@ const Tweets = (props) => (
         lh_5
         bold
         mb_3
-        as="h5"
+        as="h2"
+        bp1_nmt_1
         ta_center
       >
         Tweets
@@ -57,8 +58,8 @@ const Tweets = (props) => (
       </Text>
     </Container>
     <Container size2>
-      <Flexbox fd_column bp1_fd_row ai_flexstart nml_4>
-        <Box fg_1 fb_0 ml_4>
+      <Flexbox fd_column bp1_fd_row ai_flexstart bp1_nml_4>
+        <Box fg_1 fb_0 bp1_ml_4>
 
           <Box mb_4>
             <HoverZone>
@@ -376,7 +377,7 @@ const Tweets = (props) => (
 
         </Box>
 
-        <Box fg_1 fb_0 ml_4>
+        <Box fg_1 fb_0 bp1_ml_4>
 
           <Box mb_4>
             <HoverZone>
@@ -698,7 +699,7 @@ const Tweets = (props) => (
 
         </Box>
 
-        <Box fg_1 fb_0 ml_4>
+        <Box fg_1 fb_0 bp1_ml_4>
 
           <Box mb_4>
             <HoverZone>

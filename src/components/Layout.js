@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import './layout.css'
+import ColmMug from "./../assets/colm-mugshot.jpg"
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -30,7 +31,7 @@ const Layout = ({ children, data }) => (
             { name: 'twitter:creator', content: '@modulz' },
             { name: 'twitter:title', content: 'The next step in visual coding.' },
             { name: 'twitter:description', content: 'The visual code editor for designing and building digital products—without writing code.' },
-            { name: 'twitter:image:src', content: 'https://www.modulz.app/assets/social.png' },
+            { name: 'twitter:image:src', content: '${ColmMug}' },
             { name: 'twitter:domain', content: 'https://www.modulz.app' },
 
             { itemprop: 'name', content: 'The next step in visual coding.' },

@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import './layout.css'
-import SocialImage from "./../assets/social.png"
+import SocialImage from "./../static/social.png"
 
 const Layout = ({ children, data }) => (
   <StaticQuery

@@ -25,7 +25,7 @@ const Layout = ({ children, data }) => (
             { name: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
             { name: 'keywords', content: 'design, mockup, design tool, sketch, figma, visual code, code editor, UI, CSS, website, builder' },
 
-            { name: 'twitter:card', content: 'photo' },
+            { name: 'twitter:card', content: 'summary' },
             { name: 'twitter:site', content: '@modulz' },
             { name: 'twitter:creator', content: '@modulz' },
             { name: 'twitter:title', content: 'The next step in visual coding.' },

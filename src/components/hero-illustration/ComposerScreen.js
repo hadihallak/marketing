@@ -32,15 +32,23 @@ const Figure = styled.figure`
 `;
 
 const Browser = styled.div`
-  transform-origin: bottom center;
+  background-color: white;
   box-shadow: 0px 60px 123px -25px hsla(208,29%,12%,.42),0px 35px 75px -35px hsla(208,24%,10%,.08);
   border-radius: ${Theme.BORDERRADIUS_200};
   border: 1px solid ${Theme.GRAY_400};
   border-bottom-color: ${Theme.GRAY_500};
   height: 100%;
+  transform: scale(.5);
+  transform-origin: top left;
+
+  @media screen and (min-width: ${Theme.BREAKPOINT_100}) {
+    transform: perspective(600px) rotateX(30deg) rotateY(20deg) rotateZ(-23deg) translateX(110px);
+    margin-top: -190px;
+    transform-origin: bottom center;
+  }
 
   @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
-    transform: perspective(70em) rotateX(26deg);
+    transform: perspective(70em) rotateX(26deg) rotateY(0) rotateZ(0) translateX(0);
     margin-top: -190px;
   }
 `;

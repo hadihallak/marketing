@@ -10,7 +10,7 @@ import {
 function PropertiesFlexbox() {
   return (
     <Box
-      p2
+      padding_2
     >
       <Heading
         size1
@@ -24,7 +24,7 @@ function PropertiesFlexbox() {
         Row
       </ToggleButton>
       <ToggleButton group="flex-direction" size2 right tabIndex="-1">
-        fd_column
+        Column
       </ToggleButton>
     </Flexbox>
     <Flexbox mt_2>
@@ -42,7 +42,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="8.5" width="8" height="4"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 middle tabIndex="-1">
+      <ToggleButton group="flex-align" size2 middle tabIndex="-1" defaultChecked>
         <svg
           width="25"
           height="25"
@@ -70,7 +70,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="16.5" width="8" height="4"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 middle defaultChecked tabIndex="-1">
+      <ToggleButton group="flex-align" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -102,7 +102,7 @@ function PropertiesFlexbox() {
       </ToggleButton>
     </Flexbox>
     <Flexbox mt_2>
-      <ToggleButton group="flex-justify" size2 left defaultChecked tabIndex="-1">
+      <ToggleButton group="flex-justify" size2 left tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -116,7 +116,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="8.5" width="4" height="8"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-justify" size2 middle tabIndex="-1">
+      <ToggleButton group="flex-justify" size2 middle defaultChecked tabIndex="-1">
         <svg
           width="25"
           height="25"

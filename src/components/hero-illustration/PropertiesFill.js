@@ -14,13 +14,22 @@ function PropertiesFill() {
       bt
       bcgray300
     >
-      <Heading
-        size1
-        color_gray600
-        mb_2
-      >
-        Fill
-      </Heading>
+      <Flexbox ai_center jc_spacebetween nmt_1 nmr_1>
+        <Heading size1 color_gray600>Fill</Heading>
+        <GhostButton size1 tabIndex="-1">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            stroke="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M2.5 7.5H12.5" strokeLinecap="round"/>
+            <path d="M7.5 12.5V2.5" strokeLinecap="round"/>
+          </svg>
+        </GhostButton>
+      </Flexbox>
       <Flexbox mt_2 ai_center style={{marginRight: '-5px'}}>
       <Box pr_2>
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,99%,99%)'}}></Box>

@@ -5,6 +5,7 @@ import {
   Heading,
   Select,
   CheckboxButton,
+  GhostButton,
   Text
 } from 'radix-ds';
 
@@ -15,13 +16,26 @@ function PropertiesDimensions() {
       bt
       bcgray300
     >
-      <Heading
-        size1
-        color_gray600
-        mb_2
-      >
-        Dimensions
-      </Heading>
+      <Flexbox ai_center jc_spacebetween nmt_1 nmr_1>
+        <Heading size1 color_gray600>Dimensions</Heading>
+        <GhostButton size1 tabIndex="-1">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            stroke="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M4.5 7.5V2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4.5 12.5V11.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M10.5 3.5V2.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M10.5 12.5V7.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <circle cx="4.5" cy="9.5" r="2"/>
+            <circle cx="10.5" cy="5.5" r="2"/>
+          </svg>
+        </GhostButton>
+      </Flexbox>
       <Flexbox mt_2 ai_center>
         <Flexbox fg_1 ai_center mr_3>
           <Flexbox ai_center fg_1 fb_0 pr_2>

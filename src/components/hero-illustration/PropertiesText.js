@@ -138,7 +138,6 @@ function PropertiesText() {
           tabIndex="-1"
           group="text-align"
           left
-          defaultChecked
           tabIndex="-1"
         >
           <svg
@@ -158,6 +157,7 @@ function PropertiesText() {
           tabIndex="-1"
           group="text-align"
           middle
+          defaultChecked
         >
           <svg
             width="25"

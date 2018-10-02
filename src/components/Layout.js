@@ -33,6 +33,13 @@ const Layout = ({ children, data }) => (
             { name: 'twitter:image:src', content: "https://www.modulz.app/social.png" },
             { name: 'twitter:domain', content: 'https://www.modulz.app' },
 
+            { property: 'og:title', content: 'The next step in visual coding.' },
+            { property: 'og:type', content: 'website' },
+            { property: 'og:url', content: 'https://www.modulz.app' },
+            { property: 'og:image', content: 'https://www.modulz.app/social.png' },
+            { property: 'og:description', content: 'The visual code editor for designing and building digital products—without writing code.' },
+            { property: 'og:site_name', content: 'Modulz' },
+
             { itemprop: 'name', content: 'The next step in visual coding.' },
             { itemprop: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
             { itemprop: 'image', content: "https://www.modulz.app/social.png" },

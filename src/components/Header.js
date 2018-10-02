@@ -24,6 +24,7 @@ const Header = () => (
         <Box>
           <Link
             to="/"
+            aria-label="Back to homepage"
             style={{
               color: 'inherit',
             }}

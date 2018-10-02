@@ -70,6 +70,7 @@ const LargeTestimonial = (props) => (
             href={props.url}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit tweet"
           >
             <svg
               width="15"

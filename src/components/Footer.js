@@ -48,6 +48,7 @@ const Navigation = () => (
                 href="https://www.twitter.com/modulz"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Twitter"
               >
                 <Text size3>
                   Twitter

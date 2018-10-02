@@ -29,7 +29,7 @@ const Faq = () => (
               lh_3
               color_gray600
             >
-              To start with, Modulz will be a progressive web app. It works with both OSX and Windows. You can share your work freely and easily.
+              Initially, Modulz is a progressive web app. It works with both OSX and Windows. You can share your work freely and easily.
             </Text>
           </Box>
         </Box>
@@ -41,7 +41,7 @@ const Faq = () => (
               bold
               mb_1
             >
-              Will Modulz support native platforms?
+              Is Modulz for mobile or desktop design?
             </Heading>
             <Text
               as="p"
@@ -49,7 +49,7 @@ const Faq = () => (
               lh_3
               color_gray600
             >
-              As a design environment, Modulz will support both mobile and desktop. In terms of code output, we're focusing on web initially. Our first foray into mobile code export will be React Native.
+              As a design environment, Modulz will support all devices. In terms of code output, we're focusing on web initially, but we plan to support mobile.
             </Text>
           </Box>
         </Box>
@@ -70,7 +70,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              Modulz exports production-ready React components. We're starting with CSS-in-JS libraries. Next, we'll add support for vanilla HTML/CSS.
+              Production-ready React components. Next, we'll add support for vanilla HTML/CSS.
             </Text>
             <Text
               as="p"
@@ -117,7 +117,7 @@ const Faq = () => (
               lh_3
               color_gray600
             >
-              Modulz feels familiar—it has layers, artboards and a properties panel. But there are no vectors. With Modulz, you can build production components with interactive states. Design fully responsive layouts with first-class media query support.
+              Modulz feels familiar—it has layers, artboards and a properties panel. But there are no vectors. With Modulz, you can build production components with interactive states and design fully responsive layouts.
             </Text>
           </Box>
         </Box>
@@ -147,7 +147,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              The main difference is, Modulz is component-driven and has systematic design baked right into its core.
+              One main difference is, Modulz is component-driven and has systematic design baked right into its core.
             </Text>
             <Text
               as="p"
@@ -156,16 +156,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              Modulz is capable of producing much more than websites—with support for complex, interactive components.
-            </Text>
-            <Text
-              as="p"
-              size4
-              lh_3
-              color_gray600
-              mb_3
-            >
-              We also export to modern code libraries like React.
+              We also export to modern code libraries like React and styled-components. Our plan is to share code freely, not to create a walled garden.
             </Text>
           </Box>
         </Box>
@@ -186,7 +177,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              We have huge ambitions for Modulz. Our first priority is building out the core product.
+              Our first priority is building out the core product.
             </Text>
             <Text
               as="p"

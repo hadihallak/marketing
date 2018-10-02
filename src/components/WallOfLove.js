@@ -25,7 +25,7 @@ const WallOfLove = () => (
     <Container
       size2
     >
-      <Flexbox fd_column bp1_fd_row mb_7>
+      <Flexbox fd_column bp1_fd_row mb_6>
         <Box fg_1 fb_0 mb_6 bp1_mb_0 bp1_mr_2 bp2_mr_8>
           <SmallTestimonial
             quote='"Modulz is one of the most exciting design tools I’ve seen. This could revolutionize design workflows."'
@@ -37,7 +37,7 @@ const WallOfLove = () => (
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
           <SmallTestimonial
-            quote='"With all of these new UI design tools coming out, I think Modulz by looks the most promising. Really excited to give it a try."'
+            quote='"Of all these new UI design tools coming out, I think Modulz looks the most promising. Excited to give it a try."'
             author="Steve Schoger"
             initial="S"
             url="https://twitter.com/steveschoger/status/965589237109264385"
@@ -60,7 +60,7 @@ const WallOfLove = () => (
     <Container
       size2
     >
-      <Flexbox fd_column bp1_fd_row mt_7>
+      <Flexbox fd_column bp1_fd_row mt_6>
         <Box fg_1 fb_0 mb_6 bp1_mb_0 bp1_mr_2 bp2_mr_8>
           <SmallTestimonial
             quote='"This is one of those things, that upon first viewing, makes one question why it hasn’t existed before."'

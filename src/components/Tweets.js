@@ -64,7 +64,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/colmtuite/status/1019373611478548480"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -149,7 +149,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/4lpine/status/1024312706831007747"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -220,7 +220,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/colmtuite/status/1006569126838628353"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -298,7 +298,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/brad_frost/status/1027931365940097024"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -382,7 +382,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/sarna_pranu/status/1027092937614745600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -453,7 +453,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/chrstnerode/status/1022183092478455814"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -499,7 +499,7 @@ const Tweets = (props) => (
                           <Avatar
                             size2
                             url={ChristineAvatar}
-                            caption="Christine Rode"
+                            caption="Christine Røde"
                             initial="C"
                           />
                         </Box>
@@ -507,7 +507,7 @@ const Tweets = (props) => (
                           size2
                           color_gray600
                         >
-                          Christine Rode
+                          Christine Røde
                         </Text>
                       </Flexbox>
                     </Box>
@@ -544,7 +544,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/_erica/status/1019730267630718976"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -622,7 +622,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/pasql/status/928292185962934274"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -704,7 +704,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/thekitze/status/1025777466701488128"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -788,7 +788,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/endesignonline/status/1016562536521617408"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -880,7 +880,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/tannerc/status/1029044517700218880"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -958,7 +958,7 @@ const Tweets = (props) => (
           <Box mb_4>
             <HoverZone>
               <Card
-                href="https://www.medium.com"
+                href="https://twitter.com/markdalgleish/status/990917048933933056"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -31,12 +31,12 @@ const Layout = ({ children, data }) => (
             { name: 'twitter:creator', content: '@modulz' },
             { name: 'twitter:title', content: 'The next step in visual coding.' },
             { name: 'twitter:description', content: 'The visual code editor for designing and building digital products—without writing code.' },
-            { name: 'twitter:image:src', content: "https://www.modulz.app/static/social.png" },
+            { name: 'twitter:image:src', content: "https://www.modulz.app/social.png" },
             { name: 'twitter:domain', content: 'https://www.modulz.app' },
 
             { itemprop: 'name', content: 'The next step in visual coding.' },
             { itemprop: 'description', content: 'The visual code editor for designing and building digital products—without writing code.' },
-            { itemprop: 'image', content: `${SocialImage}` },
+            { itemprop: 'image', content: "https://www.modulz.app/social.png" },
 
             { name: 'theme-color', content: '#fff' },
           ]}

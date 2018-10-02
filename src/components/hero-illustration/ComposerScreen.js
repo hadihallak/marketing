@@ -23,7 +23,7 @@ import PropHeader from './PropHeader'
 import PropNode from './PropNode'
 
 const Figure = styled.figure`
-  width: 1000px;
+  width: 900px;
   pointer-events: none;
 
   @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
@@ -38,18 +38,17 @@ const Browser = styled.div`
   border: 1px solid ${Theme.GRAY_400};
   border-bottom-color: ${Theme.GRAY_500};
   height: 100%;
-  transform: scale(.5);
+  transform: scale(.75);
   transform-origin: top left;
 
   @media screen and (min-width: ${Theme.BREAKPOINT_100}) {
-    transform: perspective(600px) rotateX(30deg) rotateY(20deg) rotateZ(-23deg) translateX(110px);
-    margin-top: -190px;
-    transform-origin: bottom center;
+    transform: scale(1);
   }
 
   @media screen and (min-width: ${Theme.BREAKPOINT_200}) {
     transform: perspective(70em) rotateX(26deg) rotateY(0) rotateZ(0) translateX(0);
     margin-top: -190px;
+    transform-origin: bottom center;
   }
 `;
 

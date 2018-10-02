@@ -1,11 +1,22 @@
 import React from 'react'
+import styled from 'styled-components';
 
-import { Section } from 'radix-ds';
-import { Container } from 'radix-ds';
-import { Flexbox } from 'radix-ds';
-import { Box } from 'radix-ds';
-import { Heading } from 'radix-ds';
-import { Text } from 'radix-ds';
+import {
+  Section,
+  Container,
+  Box,
+  Heading,
+  Text,
+  Theme
+} from 'radix-ds';
+
+const PullUp = styled.div`
+  margin-top: -130px;
+
+  @media screen and (min-width: ${Theme.BREAKPOINT_100}) {
+    margin-top: 0;
+  }
+`;
 
 const UseCases = () => (
   <Section
@@ -16,20 +27,22 @@ const UseCases = () => (
     <Container
       size3
     >
-      <Box
-        pt_8
-        bp1_pt_0
-        bp2_nmt_9
-      >
-        <Heading
-          size3
-          bp1_size4
-          lh_4
-          bp1_lh_5
+      <PullUp>
+        <Box
+          pt_8
+          bp1_pt_0
+          bp2_nmt_9
         >
-          The visual code editor for designing and building digital products&mdash;without writing code.
-        </Heading>
-      </Box>
+          <Heading
+            size3
+            bp1_size4
+            lh_4
+            bp1_lh_5
+          >
+            The visual code editor for designing and building digital products&mdash;without writing code.
+          </Heading>
+        </Box>
+      </PullUp>
     </Container>
     <Container
       bp1_size4

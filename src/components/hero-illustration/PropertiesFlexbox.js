@@ -20,15 +20,15 @@ function PropertiesFlexbox() {
         Flexbox
       </Heading>
       <Flexbox mt_2 jc_spacebetween>
-      <ToggleButton group="flex-direction" size2 left defaultChecked>
+      <ToggleButton group="flex-direction" size2 left defaultChecked tabIndex="-1">
         Row
       </ToggleButton>
-      <ToggleButton group="flex-direction" size2 right>
+      <ToggleButton group="flex-direction" size2 right tabIndex="-1">
         fd_column
       </ToggleButton>
     </Flexbox>
     <Flexbox mt_2>
-      <ToggleButton group="flex-align" size2 left>
+      <ToggleButton group="flex-align" size2 left tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -42,7 +42,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="8.5" width="8" height="4"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 middle>
+      <ToggleButton group="flex-align" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -56,7 +56,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="12.5" width="8" height="4"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 middle>
+      <ToggleButton group="flex-align" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -70,7 +70,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="16.5" width="8" height="4"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 middle defaultChecked>
+      <ToggleButton group="flex-align" size2 middle defaultChecked tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -84,7 +84,7 @@ function PropertiesFlexbox() {
         <rect x="10.5" y="4.5" width="4" height="16"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-align" size2 right>
+      <ToggleButton group="flex-align" size2 right tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -102,7 +102,7 @@ function PropertiesFlexbox() {
       </ToggleButton>
     </Flexbox>
     <Flexbox mt_2>
-      <ToggleButton group="flex-justify" size2 left defaultChecked>
+      <ToggleButton group="flex-justify" size2 left defaultChecked tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -116,7 +116,7 @@ function PropertiesFlexbox() {
         <rect x="8.5" y="8.5" width="4" height="8"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-justify" size2 middle>
+      <ToggleButton group="flex-justify" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -130,7 +130,7 @@ function PropertiesFlexbox() {
         <rect x="12.5" y="8.5" width="4" height="8"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-justify" size2 middle>
+      <ToggleButton group="flex-justify" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -144,7 +144,7 @@ function PropertiesFlexbox() {
         <rect x="16.5" y="8.5" width="4" height="8"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-justify" size2 middle>
+      <ToggleButton group="flex-justify" size2 middle tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -158,7 +158,7 @@ function PropertiesFlexbox() {
           <rect x="16.5" y="8.5" width="4" height="8"/>
         </svg>
       </ToggleButton>
-      <ToggleButton group="flex-justify" size2 right>
+      <ToggleButton group="flex-justify" size2 right tabIndex="-1">
         <svg
           width="25"
           height="25"
@@ -179,10 +179,10 @@ function PropertiesFlexbox() {
         <Text size1 gray600>Wrapping</Text>
       </Box>
       <Flexbox fg_1>
-        <ToggleButton group="flex-wrap" size2 left>
+        <ToggleButton group="flex-wrap" size2 left tabIndex="-1">
           Allow
         </ToggleButton>
-        <ToggleButton group="flex-wrap" size2 right defaultChecked>
+        <ToggleButton group="flex-wrap" size2 right defaultChecked tabIndex="-1">
           Prevent
         </ToggleButton>
       </Flexbox>

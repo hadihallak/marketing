@@ -8,9 +8,16 @@ const FadeLinkNotGatsby = styled.a`
   position: relative;
   text-decoration: none;
   transition: color 70ms linear;
+  outline: none;
 
   &:hover {
     color: ${Theme.GRAY_900};
+  }
+
+  &:focus {
+    color: ${Theme.BLUE_500};
+    outline: 1px solid ${Theme.BLUE_500};
+    outline-offset: 8px;
   }
 `;
 

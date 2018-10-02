@@ -21,7 +21,7 @@ const PropHeader = (props) => (
       {props.label}
     </Heading>
     <Flexbox>
-      <GhostButton size1>
+      <GhostButton size1 tabIndex="-1">
         <svg
           width="15"
           height="15"
@@ -35,7 +35,7 @@ const PropHeader = (props) => (
           <circle cx="7.5" cy="12.5" r="1.5"/>
         </svg>
       </GhostButton>
-      <GhostButton size1>
+      <GhostButton size1 tabIndex="-1">
         <svg
           width="15"
           height="15"

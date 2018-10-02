@@ -29,7 +29,7 @@ function PropertiesDimensions() {
               <Text size1 gray600 style={{fontSize: '11px'}}>W</Text>
             </Box>
             <Box fg_1>
-              <Select defaultValue="Auto">
+              <Select defaultValue="Auto" tabIndex="-1">
                 <option>5</option>
                 <option>10</option>
                 <option>15</option>
@@ -48,7 +48,7 @@ function PropertiesDimensions() {
               <Text size1 gray600 style={{fontSize: '11px'}}>H</Text>
             </Box>
             <Box fg_1>
-              <Select defaultValue="35">
+              <Select defaultValue="35" tabIndex="-1">
                 <option>5</option>
                 <option>10</option>
                 <option>15</option>
@@ -63,7 +63,7 @@ function PropertiesDimensions() {
             </Box>
           </Flexbox>
         </Flexbox>
-        <CheckboxButton>
+        <CheckboxButton tabIndex="-1">
           <svg
             width="15"
             height="15"

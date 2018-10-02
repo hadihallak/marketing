@@ -27,6 +27,12 @@ const FadeLink = styled(Link)`
     }
   }
 
+  &:focus {
+    color: ${Theme.BLUE_500};
+    outline: 1px solid ${Theme.BLUE_500};
+    outline-offset: 8px;
+  }
+
   ${props => props.right && css`
     &::before {
       left: auto;

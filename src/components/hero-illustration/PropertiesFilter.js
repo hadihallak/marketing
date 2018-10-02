@@ -25,7 +25,7 @@ function PropertiesFilter() {
       </Heading>
       <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -40,7 +40,7 @@ function PropertiesFilter() {
         </GhostButton>
       </Box>
       <Box fs_0 pr_2>
-        <Select>
+        <Select tabIndex="-1">
           <option>Blur</option>
           <option>Brightness</option>
           <option>Contrast</option>
@@ -54,14 +54,14 @@ function PropertiesFilter() {
       </Box>
       <Box pr_2>
         <Box position_relative>
-          <Input defaultValue="5" />
+          <Input defaultValue="5" tabIndex="-1" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -76,7 +76,7 @@ function PropertiesFilter() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -95,7 +95,7 @@ function PropertiesFilter() {
 
     <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -110,7 +110,7 @@ function PropertiesFilter() {
         </GhostButton>
       </Box>
       <Box fs_0 pr_2>
-        <Select>
+        <Select tabIndex="-1">
           <option>Blur</option>
           <option>Brightness</option>
           <option>Contrast</option>
@@ -124,14 +124,14 @@ function PropertiesFilter() {
       </Box>
       <Box pr_2>
         <Box position_relative>
-          <Input defaultValue="5" />
+          <Input defaultValue="5" tabIndex="-1" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -146,7 +146,7 @@ function PropertiesFilter() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"

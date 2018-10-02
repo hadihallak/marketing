@@ -25,7 +25,7 @@ function PropertiesText() {
         Text
       </Heading>
       <Box mt_2>
-      <Select defaultValue="Untitled Sans">
+      <Select defaultValue="Untitled Sans" tabIndex="-1">
         <option>Untitled Sans</option>
         <option>San Francisco</option>
         <option>Helvetica</option>
@@ -42,19 +42,19 @@ function PropertiesText() {
         <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '3px',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'hsl(208,82%,45%)'}}></Box>
       </Box>
       <Box fg_1>
-        <Input defaultValue="Blue 600" readOnly />
+        <Input defaultValue="Blue 600" readOnly tabIndex="-1" />
       </Box>
     </Flexbox>
     <Flexbox mt_2>
       <Box fg_1 fb_0 pr_2>
-        <Select defaultValue="500">
+        <Select defaultValue="500" tabIndex="-1">
           <option>400</option>
           <option>500</option>
           <option>700</option>
         </Select>
       </Box>
       <Box fg_1 fb_0 pl_2>
-        <Select defaultValue="15">
+        <Select defaultValue="15" tabIndex="-1">
           <option>9</option>
           <option>11</option>
           <option>13</option>
@@ -93,7 +93,7 @@ function PropertiesText() {
           </svg>
         </Box>
         <Box fg_1>
-          <Select defaultValue="125%">
+          <Select defaultValue="125%" tabIndex="-1">
             <option>100%</option>
             <option>115%</option>
             <option>125%</option>
@@ -123,7 +123,7 @@ function PropertiesText() {
           </svg>
         </Box>
         <Box fg_1 position_relative>
-          <Input defaultValue="0.0" />
+          <Input defaultValue="0.0" tabIndex="-1" />
           <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
             <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>em</Text>
           </Flexbox>
@@ -135,9 +135,11 @@ function PropertiesText() {
     >
       <Flexbox pr_2 style={{width: '123px'}}>
         <ToggleButton
+          tabIndex="-1"
           group="text-align"
           left
           defaultChecked
+          tabIndex="-1"
         >
           <svg
             width="25"
@@ -153,6 +155,7 @@ function PropertiesText() {
           </svg>
         </ToggleButton>
         <ToggleButton
+          tabIndex="-1"
           group="text-align"
           middle
         >
@@ -170,6 +173,7 @@ function PropertiesText() {
           </svg>
         </ToggleButton>
         <ToggleButton
+          tabIndex="-1"
           group="text-align"
           right
         >
@@ -187,6 +191,7 @@ function PropertiesText() {
           </svg>
         </ToggleButton>
         <ToggleButton
+          tabIndex="-1"
           group="text-align"
           right
         >
@@ -207,6 +212,7 @@ function PropertiesText() {
       <Flexbox pl_2 fg_1>
         <Tooltip data-tooltip="Normal" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="font-style"
             left
             defaultChecked
@@ -227,6 +233,7 @@ function PropertiesText() {
         </Tooltip>
         <Tooltip data-tooltip="Italic" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="font-style"
             right
           >
@@ -252,6 +259,7 @@ function PropertiesText() {
       <Flexbox pr_2 style={{width: '123px'}}>
         <Tooltip data-tooltip="None" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-transform"
             left
             defaultChecked
@@ -271,6 +279,7 @@ function PropertiesText() {
         </Tooltip>
         <Tooltip data-tooltip="Uppercase" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-transform"
             middle
           >
@@ -291,6 +300,7 @@ function PropertiesText() {
         </Tooltip>
         <Tooltip data-tooltip="Lowercase" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-transform"
             middle
           >
@@ -311,6 +321,7 @@ function PropertiesText() {
         </Tooltip>
         <Tooltip data-tooltip="Capitalize" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-transform"
             right
           >
@@ -333,6 +344,7 @@ function PropertiesText() {
       <Flexbox fg_1 fb_0 pl_2>
         <Tooltip data-tooltip="Underline" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-decoration"
             left
           >
@@ -351,6 +363,7 @@ function PropertiesText() {
         </Tooltip>
         <Tooltip data-tooltip="Strikethrough" data-position="top">
           <ToggleButton
+            tabIndex="-1"
             group="text-decoration"
             right
           >

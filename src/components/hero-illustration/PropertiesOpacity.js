@@ -24,7 +24,7 @@ function PropertiesOpacity() {
       </Heading>
       <Flexbox mt_2 ai_center>
       <Box fg_1 fs_0 pr_4>
-        <Select>
+        <Select tabIndex="-1">
           <option>Normal</option>
           <option>Multiply</option>
           <option>Screen</option>
@@ -44,10 +44,10 @@ function PropertiesOpacity() {
         </Select>
       </Box>
       <Box fg_1 pr_4>
-        <Slider defaultValue="100" />
+        <Slider defaultValue="100" tabIndex="-1" />
       </Box>
       <Box>
-        <Input tnum defaultValue="100" style={{width: '3ch'}} />
+        <Input tnum defaultValue="100" tabIndex="-1" style={{width: '3ch'}} />
       </Box>
     </Flexbox>
     </Box>

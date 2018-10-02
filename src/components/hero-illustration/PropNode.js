@@ -14,6 +14,7 @@ const PropNode = (props) => (
   <HoverZone>
     <ListItem
       {...props}
+      tabIndex="-1"
     >
       <Flexbox
         ai_center

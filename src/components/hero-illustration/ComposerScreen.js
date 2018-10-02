@@ -63,7 +63,7 @@ const ComposerScreen = () => (
                 <Flexbox
                   jc_spacebetween
                 >
-                  <GhostButton size2>
+                  <GhostButton size2 tabIndex="-1">
                     <svg
                       width="25"
                       height="25"
@@ -79,63 +79,95 @@ const ComposerScreen = () => (
                   </GhostButton>
                 </Flexbox>
               </Box>
-              <Box>
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Button" active />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Size" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Size 1" />
-                  </li>
-                  <li>
-                    <PropNode label="Size 2" />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Color" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Gray" />
-                  </li>
-                  <li>
-                    <PropNode label="Blue" />
-                  </li>
-                  <li>
-                    <PropNode label="Green" />
-                  </li>
-                  <li>
-                    <PropNode label="Red" />
-                  </li>
-                </List>
-              </Box>
-              <Box
-                bt
-                bcgray300
-              >
-                <PropHeader label="Alignment" />
-                <List mt_1 mb_1>
-                  <li>
-                    <PropNode label="Left" />
-                  </li>
-                  <li>
-                    <PropNode label="Middle" />
-                  </li>
-                  <li>
-                    <PropNode label="Right" />
-                  </li>
-                </List>
+              <Box overflow_hidden>
+                <Box>
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Button" active />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <PropHeader label="Size" />
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Size 1" />
+                    </li>
+                    <li>
+                      <PropNode label="Size 2" />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <PropHeader label="Color" />
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Gray" />
+                    </li>
+                    <li>
+                      <PropNode label="Blue" />
+                    </li>
+                    <li>
+                      <PropNode label="Green" />
+                    </li>
+                    <li>
+                      <PropNode label="Red" />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <PropHeader label="Alignment" />
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Left" />
+                    </li>
+                    <li>
+                      <PropNode label="Middle" />
+                    </li>
+                    <li>
+                      <PropNode label="Right" />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Active" />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Waiting" />
+                    </li>
+                  </List>
+                </Box>
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Disabled" />
+                    </li>
+                  </List>
+                </Box>
               </Box>
             </Flexbox>
           </Box>
@@ -187,7 +219,7 @@ const ComposerScreen = () => (
                     ai_center
                     jc_flexend
                   >
-                    <GhostButton size2>
+                    <GhostButton size2 tabIndex="-1">
                       <svg
                         width="25"
                         height="25"
@@ -199,7 +231,7 @@ const ComposerScreen = () => (
                         <path d="M6.5 4.5V20.5L18.5 12.5L6.5 4.5Z" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </GhostButton>
-                    <GhostButton size2>
+                    <GhostButton size2 tabIndex="-1">
                       <svg
                         width="25"
                         height="25"
@@ -217,7 +249,7 @@ const ComposerScreen = () => (
                 </Flexbox>
               </Box>
               <Flexbox ai_center jc_center height_100>
-                <Button size2 blue>
+                <Button size2 blue tabIndex="-1">
                   Button
                 </Button>
               </Flexbox>
@@ -234,7 +266,7 @@ const ComposerScreen = () => (
                 bcgray400
               >
                 <Flexbox ai_center jc_flexend>
-                  <GhostButton size2>
+                  <GhostButton size2 tabIndex="-1">
                     <svg
                       width="25"
                       height="25"
@@ -251,7 +283,7 @@ const ComposerScreen = () => (
                     <path d="M18 18L14.5 14.5"/>
                     </svg>
                   </GhostButton>
-                  <GhostButton size2>
+                  <GhostButton size2 tabIndex="-1">
                     <svg
                       width="25"
                       height="25"

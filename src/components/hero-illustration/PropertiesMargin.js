@@ -24,7 +24,7 @@ function PropertiesMargin() {
       <Flexbox mt_2 ai_center>
         <Box fg_1 fb_0 pr_2>
           <Box position_relative>
-            <Select defaultValue="0">
+            <Select defaultValue="0" tabIndex="-1">
               <option>0</option>
               <option>5</option>
               <option>10</option>
@@ -50,7 +50,7 @@ function PropertiesMargin() {
         </Box>
         <Box fg_1 fb_0 pr_2>
           <Box position_relative>
-            <Select defaultValue="0">
+            <Select defaultValue="0" tabIndex="-1">
               <option>0</option>
               <option>5</option>
               <option>10</option>
@@ -74,7 +74,7 @@ function PropertiesMargin() {
             </Select>
           </Box>
           <Flexbox jc_center mt_3 mb_3>
-            <CheckboxButton>
+            <CheckboxButton tabIndex="-1">
               <svg
                 width="15"
                 height="15"
@@ -90,7 +90,7 @@ function PropertiesMargin() {
             </CheckboxButton>
           </Flexbox>
           <Box position_relative>
-            <Select defaultValue="0">
+            <Select defaultValue="0" tabIndex="-1">
               <option>0</option>
               <option>5</option>
               <option>10</option>
@@ -116,7 +116,7 @@ function PropertiesMargin() {
         </Box>
         <Box fg_1 fb_0>
           <Box position_relative>
-            <Select defaultValue="0">
+            <Select defaultValue="0" tabIndex="-1">
               <option>0</option>
               <option>5</option>
               <option>10</option>

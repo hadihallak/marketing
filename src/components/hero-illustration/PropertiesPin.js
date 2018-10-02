@@ -27,7 +27,7 @@ function PropertiesFill() {
       </Heading>
       <Flexbox mt_2>
       <Tooltip data-tooltip="Static" data-position="bottom">
-        <ToggleButton group="position" size2 left defaultChecked>
+        <ToggleButton group="position" size2 left defaultChecked tabIndex="-1">
           <svg
             width="25"
             height="25"
@@ -48,7 +48,7 @@ function PropertiesFill() {
         </ToggleButton>
       </Tooltip>
       <Tooltip data-tooltip="Relative" data-position="bottom">
-        <ToggleButton group="position" size2 middle>
+        <ToggleButton group="position" size2 middle tabIndex="-1">
           <svg
             width="25"
             height="25"
@@ -63,7 +63,7 @@ function PropertiesFill() {
         </ToggleButton>
       </Tooltip>
       <Tooltip data-tooltip="Absolute" data-position="bottom">
-        <ToggleButton group="position" size2 middle>
+        <ToggleButton group="position" size2 middle tabIndex="-1">
           <svg
             width="25"
             height="25"
@@ -78,7 +78,7 @@ function PropertiesFill() {
         </ToggleButton>
       </Tooltip>
       <Tooltip data-tooltip="Fixed" data-position="bottom">
-        <ToggleButton group="position" size2 middle>
+        <ToggleButton group="position" size2 middle tabIndex="-1">
           <svg
             width="25"
             height="25"
@@ -93,7 +93,7 @@ function PropertiesFill() {
         </ToggleButton>
       </Tooltip>
       <Tooltip data-tooltip="Sticky" data-position="bottom">
-        <ToggleButton group="position" size2 right>
+        <ToggleButton group="position" size2 right tabIndex="-1">
           <svg
             width="25"
             height="25"
@@ -115,20 +115,20 @@ function PropertiesFill() {
     <Flexbox mt_2 ai_center>
       <Box fg_1 fb_0 pr_2>
         <Box position_relative>
-          <Input defaultValue="0" />
-          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-            <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
+          <Input defaultValue="0" tabIndex="-1" />
+          <Flexbox height_100 ai_center relative style={{position: 'absolute',right: '0',top: '0'}}>
+            <Text size1 color_gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
       </Box>
       <Box fg_1 fb_0 pr_2>
         <Box position_relative>
-          <Input defaultValue="0" />
-          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-            <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
+          <Input defaultValue="0" tabIndex="-1" />
+          <Flexbox height_100 ai_center relative style={{position: 'absolute',right: '0',top: '0'}}>
+            <Text size1 color_gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
-        <Flexbox p3>
+        <Flexbox padding_3>
           <AspectRatio style={{width: '100%'}}>
             <Flexbox fd_column height_100 jc_spacebetween style={{border: '1px dashed lightgray'}}>
               <Flexbox jc_spacebetween style={{marginTop: '-6px'}}>
@@ -143,100 +143,32 @@ function PropertiesFill() {
           </AspectRatio>
         </Flexbox>
         <Box position_relative>
-          <Input defaultValue="0" />
-          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-            <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
+          <Input defaultValue="0" tabIndex="-1" />
+          <Flexbox height_100 ai_center relative style={{position: 'absolute',right: '0',top: '0'}}>
+            <Text size1 color_gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
       </Box>
       <Box fg_1 fb_0>
         <Box position_relative>
-          <Input defaultValue="0" />
-          <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-            <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
+          <Input defaultValue="0" tabIndex="-1" />
+          <Flexbox height_100 ai_center relative style={{position: 'absolute',right: '0',top: '0'}}>
+            <Text size1 color_gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
           </Flexbox>
         </Box>
       </Box>
     </Flexbox>
 
-
-    {/*
-    <Flexbox mt_2 ai_center>
-      <Box fg_1 fb_0 pr1>
-        <Flexbox>
-          <Box mr_1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208,16%,76%)">
-              <path d="M15.5 11.5L12.5 7.5L9.5 11.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12.5 7.5V16.5" strokeLinecap="round"/>
-              <path d="M4.5 4.5H20.5" strokeLinecap="round"/>
-            </svg>
-          </Box>
-          <Box position_relative>
-            <Input defaultValue="0" />
-            <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-              <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
-            </Flexbox>
-          </Box>
-        </Flexbox>
-        <Flexbox mt_2>
-          <Box mr_1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208,16%,76%)">
-              <path d="M13.5 9.5L17.5 12.5L13.5 15.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M7.5 12.5H17.5" strokeLinecap="round"/>
-              <path d="M20.5 4.5V20.5" strokeLinecap="round"/>
-            </svg>
-          </Box>
-          <Box position_relative>
-            <Input defaultValue="0" />
-            <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-              <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
-            </Flexbox>
-          </Box>
-        </Flexbox>
-        <Flexbox mt_2>
-          <Box mr_1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208,16%,76%)">
-              <path d="M15.5 13.5L12.5 17.5L9.5 13.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12.5 7.5V17.5" strokeLinecap="round"/>
-              <path d="M4.5 20.5H20.5" strokeLinecap="round"/>
-            </svg>
-          </Box>
-          <Box position_relative>
-            <Input defaultValue="0" />
-            <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-              <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
-            </Flexbox>
-          </Box>
-        </Flexbox>
-        <Flexbox mt_2>
-          <Box mr_1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="hsl(208,16%,76%)">
-              <path d="M11.5 9.5L7.5 12.5L11.5 15.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M7.5 12.5H17.5" strokeLinecap="round"/>
-              <path d="M4.5 4.5V20.5" strokeLinecap="round"/>
-            </svg>
-          </Box>
-          <Box position_relative>
-            <Input defaultValue="0" />
-            <Flexbox height_100 ai_center elative style={{position: 'absolute',right: '0',top: '0'}}>
-              <Text size1 gray600 style={{fontSize: '11px',fontFamily: 'menlo'}}>px</Text>
-            </Flexbox>
-          </Box>
-        </Flexbox>
-      </Box>
-    </Flexbox>
-    */}
-
     <Flexbox mt_2 ai_center style={{marginRight: '-5px'}}>
       <Box pr_2>
-        <Text size1 nowrap gray600>Stacking order</Text>
+        <Text size1 nowrap color_gray600>Stacking order</Text>
       </Box>
       <Flexbox
         ai_center
         fg_1
         fb_0
       >
-        <GhostButton size1 style={{color: 'hsl(208,100%,50%)'}}>
+        <GhostButton size1 tabIndex="-1" style={{color: 'hsl(208,100%,50%)'}}>
           <svg
             width="15"
             height="15"
@@ -249,9 +181,9 @@ function PropertiesFill() {
           </svg>
         </GhostButton>
         <Box>
-          <Input defaultValue="0" style={{textAlign: 'center'}} />
+          <Input defaultValue="0" tabIndex="-1" style={{textAlign: 'center'}} />
         </Box>
-        <GhostButton size1 style={{color: 'hsl(208,100%,50%)'}}>
+        <GhostButton size1 tabIndex="-1" style={{color: 'hsl(208,100%,50%)'}}>
           <svg
             width="15"
             height="15"

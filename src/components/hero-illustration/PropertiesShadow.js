@@ -23,7 +23,7 @@ function PropertiesShadow() {
       </Heading>
       <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -41,8 +41,8 @@ function PropertiesShadow() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg_1 mr2>
-        <Select defaultValue="Inner shadow">
+      <Box fg_1 mr_2>
+        <Select defaultValue="Inner shadow" tabIndex="-1">
           <option>Inner shadow</option>
           <option>Drop shadow</option>
         </Select>
@@ -51,7 +51,7 @@ function PropertiesShadow() {
         ai_center
       >
         <Box>
-          <GhostButton size1>
+          <GhostButton size1 tabIndex="-1">
             <svg
               width="15"
               height="15"
@@ -65,7 +65,7 @@ function PropertiesShadow() {
             </svg>
           </GhostButton>
         </Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -84,7 +84,7 @@ function PropertiesShadow() {
 
     <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1 active>
+        <GhostButton size1 active tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -102,8 +102,8 @@ function PropertiesShadow() {
           </svg>
         </GhostButton>
       </Box>
-      <Box fg_1 mr2>
-        <Select defaultValue="Drop shadow">
+      <Box fg_1 mr_2>
+        <Select defaultValue="Drop shadow" tabIndex="-1">
           <option>Inner shadow</option>
           <option>Drop shadow</option>
         </Select>
@@ -112,7 +112,7 @@ function PropertiesShadow() {
         ai_center
       >
         <Box>
-          <GhostButton size1>
+          <GhostButton size1 tabIndex="-1">
             <svg
               width="15"
               height="15"
@@ -126,7 +126,7 @@ function PropertiesShadow() {
             </svg>
           </GhostButton>
         </Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"

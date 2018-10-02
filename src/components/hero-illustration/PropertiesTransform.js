@@ -23,7 +23,7 @@ function PropertiesTransform() {
       </Heading>
       <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -42,7 +42,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Translate">
+        <Select defaultValue="Translate" tabIndex="-1">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
@@ -50,7 +50,7 @@ function PropertiesTransform() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -65,7 +65,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -84,7 +84,7 @@ function PropertiesTransform() {
 
     <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -103,7 +103,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Scale">
+        <Select defaultValue="Scale" tabIndex="-1">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
@@ -111,7 +111,7 @@ function PropertiesTransform() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -126,7 +126,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -145,7 +145,7 @@ function PropertiesTransform() {
 
     <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -164,7 +164,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Rotate">
+        <Select defaultValue="Rotate" tabIndex="-1">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
@@ -172,7 +172,7 @@ function PropertiesTransform() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -187,7 +187,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -206,7 +206,7 @@ function PropertiesTransform() {
 
     <Flexbox mt_2 ai_center style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -225,7 +225,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Skew">
+        <Select defaultValue="Skew" tabIndex="-1">
           <option>Translate</option>
           <option>Scale</option>
           <option>Rotate</option>
@@ -233,7 +233,7 @@ function PropertiesTransform() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -248,7 +248,7 @@ function PropertiesTransform() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"

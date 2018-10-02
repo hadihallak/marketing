@@ -23,7 +23,7 @@ function PropertiesTransition() {
       </Heading>
       <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -42,7 +42,7 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Opacity">
+        <Select defaultValue="Opacity" tabIndex="-1">
           <option>Transform</option>
           <option>Opacity</option>
           <option>Background color</option>
@@ -50,7 +50,7 @@ function PropertiesTransition() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -65,7 +65,7 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -84,7 +84,7 @@ function PropertiesTransition() {
 
     <Flexbox mt_2 ai_center jc_spacebetween style={{marginLeft: '-5px',marginRight: '-5px'}}>
       <Box mr_1>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -103,7 +103,7 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box fg_1 fs_0 pr_2>
-        <Select defaultValue="Transform">
+        <Select defaultValue="Transform" tabIndex="-1">
           <option>Transform</option>
           <option>Opacity</option>
           <option>Background color</option>
@@ -111,7 +111,7 @@ function PropertiesTransition() {
         </Select>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"
@@ -126,7 +126,7 @@ function PropertiesTransition() {
         </GhostButton>
       </Box>
       <Box>
-        <GhostButton size1>
+        <GhostButton size1 tabIndex="-1">
           <svg
             width="15"
             height="15"

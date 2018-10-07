@@ -45,6 +45,7 @@ const UseCases = () => (
       </PullUp>
     </Container>
     <Container
+      size1
       bp1_size4
     >
       <Box

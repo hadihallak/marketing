@@ -16,7 +16,7 @@ import FadeLinkNotGatsby from './FadeLinkNotGatsby'
 
 const Header = () => (
   <Section size1>
-    <Container>
+    <Container size1>
       <Flexbox
         ai_flexstart
         jc_spacebetween

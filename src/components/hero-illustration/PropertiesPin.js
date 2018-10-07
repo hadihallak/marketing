@@ -58,7 +58,7 @@ function PropertiesFill() {
             xmlns="http://www.w3.org/2000/svg"
           >
           <path d="M8.5 13.5H5C4.72386 13.5 4.5 13.2761 4.5 13V5C4.5 4.72386 4.72386 4.5 5 4.5H13C13.2761 4.5 13.5 4.72386 13.5 5V8.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <rect x="11.5" y="11.5" width="9" height="9" rx="0.5" fill="#B2DBFF"/>
+          <rect x="11" y="11" width="10" height="10" rx="1" fill="#0088FF" stroke="none"/>
           </svg>
         </ToggleButton>
       </Tooltip>
@@ -73,22 +73,21 @@ function PropertiesFill() {
             xmlns="http://www.w3.org/2000/svg"
           >
           <path d="M8 14L5.5 15.5L12.5 19.5L19.5 15.5L17 14" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M12.5 13.5L19.5 9.5L12.5 5.5L5.5 9.5L12.5 13.5Z" fill="#B3DCFF" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12.5 13.5L19.5 9.5L12.5 5.5L5.5 9.5L12.5 13.5Z" fill="#0088FF" stroke="#0088FF" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </ToggleButton>
       </Tooltip>
       <Tooltip data-tooltip="Fixed" data-position="bottom">
-        <ToggleButton group="position" size2 middle tabIndex="-1">
+        <ToggleButton group="position" size2 middle>
           <svg
             width="25"
             height="25"
             viewBox="0 0 25 25"
             fill="none"
-            stroke="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
-          <path d="M10.5 9V5C10.5 4.72386 10.7239 4.5 11 4.5H14C14.2761 4.5 14.5 4.72386 14.5 5V9C16.5 9.8 17.3333 12.3333 17.5 13.5H7.5C7.5 11.1 9.5 9.5 10.5 9Z" fill="#B2DCFF" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M11.5 17.5L12.5 20.5L13.5 17.5V13.5H11.5V17.5Z" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M10.5 9V5C10.5 4.72386 10.7239 4.5 11 4.5H14C14.2761 4.5 14.5 4.72386 14.5 5V9C16.5 9.8 17.3333 12.3333 17.5 13.5H7.5C7.5 11.1 9.5 9.5 10.5 9Z" fill="#008BFF" stroke="#0088FF" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12.5 20.5L12.0257 20.6581C12.0937 20.8623 12.2848 21 12.5 21C12.7152 21 12.9063 20.8623 12.9743 20.6581L12.5 20.5ZM11.5 17.5H11C11 17.5537 11.0087 17.6071 11.0257 17.6581L11.5 17.5ZM13.5 17.5L13.9743 17.6581C13.9913 17.6071 14 17.5537 14 17.5H13.5ZM12.9743 20.3419L11.9743 17.3419L11.0257 17.6581L12.0257 20.6581L12.9743 20.3419ZM12 17.5V14H11V17.5H12ZM12.9743 20.6581L13.9743 17.6581L13.0257 17.3419L12.0257 20.3419L12.9743 20.6581ZM14 17.5V14H13V17.5H14Z" fill="currentColor"/>
           </svg>
         </ToggleButton>
       </Tooltip>
@@ -103,10 +102,10 @@ function PropertiesFill() {
             xmlns="http://www.w3.org/2000/svg"
           >
           <path d="M19.5 16.5L12.5 20.5L5.5 16.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M12.5 12.5L19.5 8.5L12.5 4.5L5.5 8.5L12.5 12.5Z" fill="#B3DCFF" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12.5 12.5L19.5 8.5L12.5 4.5L5.5 8.5L12.5 12.5Z" fill="#0088FF" stroke="#008BFF" strokeLinecap="round" strokeLinejoin="round"/>
           <path d="M5.5 12.5L8 14" strokeLinecap="round"/>
-          <path d="M10.2572 14.5713C10.0205 14.4292 9.71333 14.506 9.57125 14.7428C9.42918 14.9795 9.50596 15.2867 9.74275 15.4287L10.2572 14.5713ZM12.5 16.5L12.2428 16.9287C12.4011 17.0238 12.5989 17.0238 12.7572 16.9287L12.5 16.5ZM15.2572 15.4287C15.494 15.2867 15.5708 14.9795 15.4287 14.7428C15.2867 14.506 14.9795 14.4292 14.7428 14.5713L15.2572 15.4287ZM9.74275 15.4287L12.2428 16.9287L12.7572 16.0713L10.2572 14.5713L9.74275 15.4287ZM12.7572 16.9287L15.2572 15.4287L14.7428 14.5713L12.2428 16.0713L12.7572 16.9287Z"/>
           <path d="M19.5 12.5L17 14" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M10 15L12.5 16.5L15 15" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </ToggleButton>
       </Tooltip>

@@ -14,8 +14,7 @@ const Navigation = () => (
   <Section
     size1
   >
-    <Container
-    >
+    <Container size1>
       <Flexbox
         ai_baseline
         jc_spacebetween

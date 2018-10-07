@@ -28,7 +28,7 @@ const PropertiesAnimation = keyframes`
 const AnimatedProperties = styled.div`
   transform: translateY(0);
   @media screen and (min-width: ${Theme.BREAKPOINT_100}) {
-    animation: ${PropertiesAnimation} 9s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+    animation: ${PropertiesAnimation} 9s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
     animation-direction: alternate;
   }
 `;

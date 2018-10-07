@@ -65,7 +65,7 @@ const ComposerHero = () => (
         </Box>
       </Container>
     </Box>
-    <Container>
+    <Container size1>
       <ComposerScreen />
     </Container>
   </Section>

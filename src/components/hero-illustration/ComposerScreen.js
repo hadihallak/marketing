@@ -199,7 +199,7 @@ const ComposerScreen = () => (
                   >
                     <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '50%',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'white'}}></Box>
                   </Flexbox>
-                  <Box fg_1 fb_0>
+                  <Box fg_1 fb_1 position_absolute style={{width: '350px', left: '50%', marginLeft: '-175px'}}>
                     <Flexbox
                       jc_spacebetween
                     >
@@ -256,7 +256,7 @@ const ComposerScreen = () => (
                   </Flexbox>
                 </Flexbox>
               </Box>
-              <Flexbox ai_center jc_center height_100>
+              <Flexbox ai_center jc_center height_100 bc_gray100>
                 <Button size2 blue tabIndex="-1">
                   Button
                 </Button>

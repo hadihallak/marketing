@@ -147,7 +147,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              One main difference is, Modulz is component-driven and has systematic design baked right into its core.
+              One main difference is, Modulz is 100% component-driven with design systems baked right into its core.
             </Text>
             <Text
               as="p"

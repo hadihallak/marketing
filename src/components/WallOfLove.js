@@ -1,20 +1,21 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import {
   Section,
   Container,
   Box,
   Flexbox,
-  Heading,
-  Text
+  Text,
+  Avatar
 } from 'radix-ds';
 
 import SmallTestimonial from './SmallTestimonial'
 import LargeTestimonial from './LargeTestimonial'
 
+import MikeAvatar from "./../assets/mike-avatar.png"
 import TonyAvatar from "./../assets/tony-avatar.jpg"
 import JackAvatar from "./../assets/jack-avatar.jpg"
+import JinaAvatar from "./../assets/jina-avatar.png"
 import SteveAvatar from "./../assets/steve-avatar.jpg"
 
 const WallOfLove = () => (
@@ -27,13 +28,56 @@ const WallOfLove = () => (
     >
       <Flexbox fd_column bp1_fd_row mb_6>
         <Box fg_1 fb_0 mb_6 bp1_mb_0 bp1_mr_2 bp2_mr_8>
-          <SmallTestimonial
-            quote='"Modulz is one of the most exciting design tools I’ve seen. This could revolutionize design workflows."'
-            author="Michael Dick"
-            initial="M"
-            url="htts://www.twitter.com/modulz"
-            avatar={TonyAvatar}
-          />
+          <Box
+            ta_center
+          >
+            <Flexbox jc_center mb_4>
+              <svg
+                width="45"
+                height="45"
+                viewBox="0 0 45 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="hsl(208, 12%, 46%)"
+              >
+                <path d="M0.5 25V7C0.5 6.72386 0.723857 6.5 1 6.5H20C20.2761 6.5 20.5 6.72386 20.5 7V25.5L15.5 38.5H4.5L9.5 25.5H1C0.723858 25.5 0.5 25.2761 0.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M24.5 25V7C24.5 6.72386 24.7239 6.5 25 6.5H44C44.2761 6.5 44.5 6.72386 44.5 7V25.5L39.5 38.5H28.5L33.5 25.5H25C24.7239 25.5 24.5 25.2761 24.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </Flexbox>
+            <blockquote cite="">
+              <Text
+                size4
+                bp2_size6
+                lh_3
+                bp2_lh_4
+                as="p"
+              >
+                "Modulz is one of the most exciting design tools I’ve seen. This could revolutionize design workflows."
+              </Text>
+              <Flexbox
+                ai_center
+                jc_center
+                mt_5
+              >
+                <Box
+                  mr_3
+                >
+                  <Avatar
+                    size3
+                    url={MikeAvatar}
+                    caption="Michael Dick"
+                    initial="M"
+                  />
+                </Box>
+                <Text
+                  size3
+                  color_gray600
+                >
+                  Michael Dick
+                </Text>
+              </Flexbox>
+            </blockquote>
+          </Box>
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
           <SmallTestimonial
@@ -62,13 +106,58 @@ const WallOfLove = () => (
     >
       <Flexbox fd_column bp1_fd_row mt_6>
         <Box fg_1 fb_0 mb_6 bp1_mb_0 bp1_mr_2 bp2_mr_8>
-          <SmallTestimonial
-            quote='"This is one of those things, that upon first viewing, makes one question why it hasn’t existed before."'
-            author="Rami"
-            initial="R"
-            url="htts://www.twitter.com/modulz"
-            avatar={TonyAvatar}
-          />
+          <Box
+            ta_center
+          >
+            <Flexbox jc_center mb_4>
+              <svg
+                width="45"
+                height="45"
+                viewBox="0 0 45 45"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="hsl(208, 12%, 46%)"
+              >
+                <path d="M0.5 25V7C0.5 6.72386 0.723857 6.5 1 6.5H20C20.2761 6.5 20.5 6.72386 20.5 7V25.5L15.5 38.5H4.5L9.5 25.5H1C0.723858 25.5 0.5 25.2761 0.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M24.5 25V7C24.5 6.72386 24.7239 6.5 25 6.5H44C44.2761 6.5 44.5 6.72386 44.5 7V25.5L39.5 38.5H28.5L33.5 25.5H25C24.7239 25.5 24.5 25.2761 24.5 25Z" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </Flexbox>
+            <blockquote cite="">
+              <Text
+                size4
+                bp2_size6
+                lh_3
+                bp2_lh_4
+                as="p"
+              >
+                "I can’t wait to try Modulz.
+                <br />
+                It looks so cool!"
+              </Text>
+              <Flexbox
+                ai_center
+                jc_center
+                mt_5
+              >
+                <Box
+                  mr_3
+                >
+                  <Avatar
+                    size3
+                    url={JinaAvatar}
+                    caption="Jina-Anne"
+                    initial="J"
+                  />
+                </Box>
+                <Text
+                  size3
+                  color_gray600
+                >
+                  Jina-Anne
+                </Text>
+              </Flexbox>
+            </blockquote>
+          </Box>
         </Box>
         <Box fg_1 fb_0 bp1_ml_8>
           <SmallTestimonial

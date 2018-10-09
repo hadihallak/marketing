@@ -53,7 +53,7 @@ const Header = () => (
         </Box>
         <nav>
           <Flexbox ai_center>
-
+            {/*
             <FadeLinkNotGatsby
               href="https://spectrum.chat/modulz"
               target="_blank"
@@ -80,6 +80,7 @@ const Header = () => (
             <Box ml_5 mr_5>
               <Divider vertical size1 />
             </Box>
+            */}
             <FadeLink
               to="/about"
               data-content="About"

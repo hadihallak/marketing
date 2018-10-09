@@ -13,7 +13,7 @@ import {
 
 import BlogCard from './BlogCard';
 
-const Resources = () => (
+const Blog = () => (
   <Section
     size2
     bp1_size3
@@ -43,6 +43,7 @@ const Resources = () => (
       </Text>
       <Box pl_5 pr_5 bp2_pl_0 bp2_pr_0 ox_scroll bp2_ox_visible style={{display: 'inlineBlock', WebkitOverflowScrolling: 'touch'}}>
         <Flexbox nml_4>
+          {/*
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="Help us Kickstart Modulz"
@@ -51,10 +52,11 @@ const Resources = () => (
               date="Oct '18"
             />
           </Box>
+          */}
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="The design tool dilemma"
-              blurb="A detailed look at two opposing narratives emerging in the design tool space."
+              blurb="An outline of two opposing narratives emerging in the design tool space."
               url="https://medium.freecodecamp.org/the-design-tool-dilemma-225541c4ad1d"
               date="Jul '18"
             />
@@ -62,7 +64,7 @@ const Resources = () => (
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="Design tools are running out of track"
-              blurb="A close look at where design tools are missing the mark."
+              blurb="A detailed look at what is most lacking in our current crop of design tools and how we might improve our workflows."
               url="https://medium.freecodecamp.org/design-tools-are-running-out-of-track-94f21b6ae939"
               date="Sep '17"
             />
@@ -81,4 +83,4 @@ const Resources = () => (
   </Section>
 )
 
-export default Resources
+export default Blog

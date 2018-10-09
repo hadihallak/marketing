@@ -49,7 +49,7 @@ const Faq = () => (
               lh_3
               color_gray600
             >
-              As a design environment, Modulz will support all devices. In terms of code output, we're focusing on web initially, but we plan to support mobile.
+              As a design environment, Modulz will support all devices. In terms of code output, we're focusing on web initially, but we have plans to support mobile.
             </Text>
           </Box>
         </Box>
@@ -138,7 +138,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              Of all design/dev tools, Modulz is most similar to Webflow.
+              Of all design/dev tools, Modulz is most similar to Webflow, with a few key differences.
             </Text>
             <Text
               as="p"
@@ -147,7 +147,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              One main difference is, Modulz is 100% component-driven with design systems baked right into its core.
+              Modulz is 100% component-driven with design systems baked right into its core.
             </Text>
             <Text
               as="p"
@@ -156,7 +156,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              We also export to modern code libraries like React and styled-components. Our plan is to share code freely, not to create a walled garden.
+              Modulz exports to modern code libraries like React and styled-components. Our goal is to import/export code seamlessly.
             </Text>
           </Box>
         </Box>

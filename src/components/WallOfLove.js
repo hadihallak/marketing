@@ -164,7 +164,7 @@ const WallOfLove = () => (
             quote='"Empowering designers to iterate on the *actual* product they are working on—this is the future of our industry"'
             author="Jack Lo Russo"
             initial="J"
-            url="htts://www.twitter.com/modulz"
+            url="https://twitter.com/lol_russo/status/1047907911945654275"
             avatar={JackAvatar}
           />
         </Box>

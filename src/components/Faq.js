@@ -29,7 +29,7 @@ const Faq = () => (
               lh_3
               color_gray600
             >
-              Initially, Modulz is a progressive web app. It works with both OSX and Windows. You can share your work freely and easily.
+              Initially, Modulz is a progressive web app. It works with OSX, Windows and Linux. You can share your work freely and easily.
             </Text>
           </Box>
         </Box>

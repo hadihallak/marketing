@@ -38,7 +38,7 @@ const AboutPage = () => (
           With Modulz, our goal is to fix the disconnect between digital product teams.
         </Heading>
       </Container>
-      <Container bp1_size4>
+      <Container size1 bp1_size4>
         <Text
           as="p"
           size4

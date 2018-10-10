@@ -156,7 +156,7 @@ const Faq = () => (
               color_gray600
               mb_3
             >
-              Modulz exports to modern code libraries like React and styled-components. Our goal is to import/export code seamlessly.
+              Modulz exports to modern code libraries like React. Our goal is to import/export code seamlessly.
             </Text>
           </Box>
         </Box>

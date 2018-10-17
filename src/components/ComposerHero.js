@@ -60,16 +60,11 @@ const ComposerHero = () => (
           <LinesButton
             mt_1
             as="a"
-            href="https://www.youtube.com/watch?v=KdrDcj4Ogsc&feature=youtu.be"
+            href="https://www.kickstarter.com/projects/stephenhaney/modulzthe-next-step-in-visual-coding"
             target="_blank"
             rel="noopener noreferrer"
           >
-          <Box mr_2>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" stroke="currentColor">
-              <path d="M6.5 4.5V20.5L18.5 12.5L6.5 4.5Z" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </Box>
-            Watch teaser
+            Support us on Kickstarter
             <Box ml_3>
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor">
                 <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>

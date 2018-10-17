@@ -24,13 +24,13 @@ const Cta = () => (
       >
         <Box mb_6 bp1_mb_0 bp1_mr_5>
           <Text size4>
-            Interested? We're running a Kickstarter soon!
+            Interested? Support us on Kickstarter!
           </Text>
         </Box>
         <Box>
           <LinesButton
             as="a"
-            href="https://www.twitter.com/modulz"
+            href="https://www.kickstarter.com/projects/stephenhaney/modulzthe-next-step-in-visual-coding"
             target="_blank"
             rel="noopener noreferrer"
           >

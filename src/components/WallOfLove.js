@@ -153,7 +153,7 @@ const WallOfLove = () => (
                   size3
                   color_gray600
                 >
-                  Jina-Anne
+                  Jina Anne
                 </Text>
               </Flexbox>
             </blockquote>

@@ -145,7 +145,7 @@ const WallOfLove = () => (
                   <Avatar
                     size3
                     url={JinaAvatar}
-                    caption="Jina-Anne"
+                    caption="Jina Anne"
                     initial="J"
                   />
                 </Box>

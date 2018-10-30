@@ -43,16 +43,14 @@ const Blog = () => (
       </Text>
       <Box pl_5 pr_5 bp2_pl_0 bp2_pr_0 ox_scroll bp2_ox_visible style={{display: 'inlineBlock', WebkitOverflowScrolling: 'touch'}}>
         <Flexbox nml_4>
-          {/*
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="Help us Kickstart Modulz"
               blurb="Who we are, what we're building and how you can support us."
-              url="https://www.medium.com"
+              url="https://medium.freecodecamp.org/help-us-kickstart-modulz-5751775ed435"
               date="Oct '18"
             />
           </Box>
-          */}
           <Box bp2_fg_1 bp2_fb_0 bp2_mb_0 ml_4>
             <BlogCard
               heading="The design tool dilemma"

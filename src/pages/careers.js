@@ -149,155 +149,6 @@ const CareersPage = () => (
     </Box>
 
     <Section size2>
-      <Container size1 bp1_size4>
-        <Heading
-          size3
-          bp1_size4
-          lh_4
-          bp1_lh_5
-          as="h1"
-          mb_5
-          bp1_mb_7
-          ta_center
-        >
-          Hiring process
-        </Heading>
-        <ul style={{
-          listStyle: 'none',
-        }}>
-          <li>
-            <Flexbox ai_center mb_2>
-              <Flexbox
-                ai_center
-                jc_center
-                color_white
-                bc_blue500
-                fs_0
-                mr_4
-                style={{
-                  width: '25px',
-                  height: '25px',
-                  color: 'white',
-                  borderRadius: '50%',
-                  userSelect: 'none'
-                }}>
-                <Text size2 bold>1</Text>
-              </Flexbox>
-              <Heading size2 bold as="h4">Application</Heading>
-            </Flexbox>
-            <Box pl_7 mb_6>
-              <Text
-                as="p"
-                size4
-                lh_3
-                color_gray600
-              >
-                Email us your resume and cover letter.
-              </Text>
-            </Box>
-          </li>
-          <li>
-            <Flexbox ai_center mb_2>
-              <Flexbox
-                ai_center
-                jc_center
-                color_white
-                bc_blue500
-                fs_0
-                mr_4
-                style={{
-                  width: '25px',
-                  height: '25px',
-                  color: 'white',
-                  borderRadius: '50%',
-                  userSelect: 'none'
-                }}>
-                <Text size2 bold>2</Text>
-              </Flexbox>
-              <Heading size2 bold as="h4">Interview</Heading>
-            </Flexbox>
-            <Box pl_7 mb_6>
-              <Text
-                as="p"
-                size4
-                lh_2
-                color_gray600
-              >
-                A 60 min technical interview with either Stephen or Colm to dive into the technical skills required for the role.
-              </Text>
-            </Box>
-          </li>
-          <li>
-            <Flexbox ai_center mb_2>
-              <Flexbox
-                ai_center
-                jc_center
-                color_white
-                bc_blue500
-                fs_0
-                mr_4
-                style={{
-                  width: '25px',
-                  height: '25px',
-                  color: 'white',
-                  borderRadius: '50%',
-                  userSelect: 'none'
-                }}>
-                <Text size2 bold>3</Text>
-              </Flexbox>
-              <Heading size2 bold as="h4">Chat</Heading>
-            </Flexbox>
-            <Box pl_7 mb_6>
-              <Text
-                as="p"
-                size4
-                lh_2
-                color_gray600
-              >
-                60 min video call to chat more about us, you, design tools, design systems, the weather, Bird Box etc.
-              </Text>
-            </Box>
-          </li>
-          <li>
-            <Flexbox ai_center mb_2>
-              <Flexbox
-                ai_center
-                jc_center
-                color_white
-                bc_blue500
-                fs_0
-                mr_4
-                style={{
-                  width: '25px',
-                  height: '25px',
-                  color: 'white',
-                  borderRadius: '50%',
-                  userSelect: 'none'
-                }}>
-                <Text size2 bold>4</Text>
-              </Flexbox>
-              <Heading size2 bold as="h4">Offer</Heading>
-            </Flexbox>
-            <Box pl_7>
-              <Text
-                as="p"
-                size4
-                lh_2
-                color_gray600
-              >
-                If we're both still interested, we'll send an offer. You then have a chance to chat with others on the team.
-              </Text>
-            </Box>
-          </li>
-        </ul>
-      </Container>
-    </Section>
-
-    <Box mt_4 mb_2>
-      <DividerSection />
-    </Box>
-
-    <Section size2>
       <Container size1 bp1_size3>
         <Heading
           size3
@@ -462,6 +313,151 @@ const CareersPage = () => (
           bp1_mb_7
           ta_center
         >
+          Hiring process
+        </Heading>
+        <ul style={{
+          listStyle: 'none',
+        }}>
+          <li>
+            <Flexbox ai_center mb_2>
+              <Flexbox
+                ai_center
+                jc_center
+                color_white
+                bc_blue500
+                fs_0
+                mr_4
+                style={{
+                  width: '25px',
+                  height: '25px',
+                  color: 'white',
+                  borderRadius: '50%',
+                  userSelect: 'none'
+                }}>
+                <Text size2 bold>1</Text>
+              </Flexbox>
+              <Heading size2 bold as="h4">Application</Heading>
+            </Flexbox>
+            <Box pl_7 mb_6>
+              <Text
+                as="p"
+                size4
+                lh_3
+                color_gray600
+              >
+                Email us your resume and cover letter.
+              </Text>
+            </Box>
+          </li>
+          <li>
+            <Flexbox ai_center mb_2>
+              <Flexbox
+                ai_center
+                jc_center
+                color_white
+                bc_blue500
+                fs_0
+                mr_4
+                style={{
+                  width: '25px',
+                  height: '25px',
+                  color: 'white',
+                  borderRadius: '50%',
+                  userSelect: 'none'
+                }}>
+                <Text size2 bold>2</Text>
+              </Flexbox>
+              <Heading size2 bold as="h4">Interview</Heading>
+            </Flexbox>
+            <Box pl_7 mb_6>
+              <Text
+                as="p"
+                size4
+                lh_2
+                color_gray600
+              >
+                A 60 min technical interview with either Stephen or Colm to dive into the technical skills required for the role.
+              </Text>
+            </Box>
+          </li>
+          <li>
+            <Flexbox ai_center mb_2>
+              <Flexbox
+                ai_center
+                jc_center
+                color_white
+                bc_blue500
+                fs_0
+                mr_4
+                style={{
+                  width: '25px',
+                  height: '25px',
+                  color: 'white',
+                  borderRadius: '50%',
+                  userSelect: 'none'
+                }}>
+                <Text size2 bold>3</Text>
+              </Flexbox>
+              <Heading size2 bold as="h4">Chat</Heading>
+            </Flexbox>
+            <Box pl_7 mb_6>
+              <Text
+                as="p"
+                size4
+                lh_2
+                color_gray600
+              >
+                60 min video call to chat more about us, you, design tools, design systems, the weather, Bird Box etc.
+              </Text>
+            </Box>
+          </li>
+          <li>
+            <Flexbox ai_center mb_2>
+              <Flexbox
+                ai_center
+                jc_center
+                color_white
+                bc_blue500
+                fs_0
+                mr_4
+                style={{
+                  width: '25px',
+                  height: '25px',
+                  color: 'white',
+                  borderRadius: '50%',
+                  userSelect: 'none'
+                }}>
+                <Text size2 bold>4</Text>
+              </Flexbox>
+              <Heading size2 bold as="h4">Offer</Heading>
+            </Flexbox>
+            <Box pl_7>
+              <Text
+                as="p"
+                size4
+                lh_2
+                color_gray600
+              >
+                If we're both still interested, we'll send an offer. You then have a chance to chat with others on the team.
+              </Text>
+            </Box>
+          </li>
+        </ul>
+      </Container>
+    </Section>
+
+    <Section size2>
+      <Container size1 bp1_size4>
+        <Heading
+          size3
+          bp1_size4
+          lh_4
+          bp1_lh_5
+          as="h1"
+          mb_5
+          bp1_mb_7
+          ta_center
+        >
           Open roles
         </Heading>
         <Box>
@@ -474,7 +470,7 @@ const CareersPage = () => (
             lh_2
             mb_4
           >
-            Lead engineering projects with minimal guidance. Someone interested in scaling our product and team over the next 5 years.
+            Lead engineering projects with minimal guidance. Someone interested in scaling our product and team over the next few years.
           </Text>
           <ul style={{
             listStyle: 'none'

@@ -63,7 +63,34 @@ const ComposerScreen = () => (
           height_100
         >
           <Box fs_0 br bcgray400 style={{width: '225px'}}>
-            
+            <Flexbox
+              height_100
+              fd_column
+            >
+              <Box padding_1 bb bcgray400>
+                <Flexbox
+                  jc_spacebetween
+                >
+                  <GhostButton size2 tabIndex="-1">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M4 18.5H21"/>
+                      <path d="M4 12.5H21"/>
+                      <path d="M4 6.5H21"/>
+                    </svg>
+                  </GhostButton>
+                </Flexbox>
+              </Box>
+              <Box overflow_hidden>
+                
+              </Box>
+            </Flexbox>
           </Box>
 
 

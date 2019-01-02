@@ -62,6 +62,9 @@ const ComposerScreen = () => (
         <Flexbox
           height_100
         >
+          <Box fs_0 br bcgray400 style={{width: '225px'}}>
+            
+          </Box>
 
 
 

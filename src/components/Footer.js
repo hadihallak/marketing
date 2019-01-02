@@ -1,6 +1,4 @@
 import React from 'react'
-import styled, { css } from 'styled-components';
-import { Theme } from 'radix-ds';
 
 import { Section } from 'radix-ds';
 import { Container } from 'radix-ds';
@@ -9,6 +7,7 @@ import { Box } from 'radix-ds';
 import { Text } from 'radix-ds';
 
 import FadeLinkNotGatsby from './FadeLinkNotGatsby'
+import FadeLink from './FadeLink'
 
 const Navigation = () => (
   <Section
@@ -32,6 +31,14 @@ const Navigation = () => (
         <nav>
           <Flexbox mb_6 bp1_mb_0>
             <Box>
+              <FadeLink
+                to="/careers"
+                data-content="Careers"
+              >
+                Careers
+              </FadeLink>
+            </Box>
+            <Box ml_7>
               <FadeLinkNotGatsby
                 href="https://github.com/modulz/radix"
                 target="_blank"

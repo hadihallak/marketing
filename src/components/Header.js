@@ -79,11 +79,19 @@ const Header = () => (
             <Box ml_5 mr_5>
               <Divider vertical size1 />
             </Box>
+            <Box mr_5>
+              <FadeLink
+                to="/about"
+                data-content="About"
+              >
+                About
+              </FadeLink>
+            </Box>
             <FadeLink
-              to="/about"
-              data-content="About"
+              to="/careers"
+              data-content="Careers"
             >
-              About
+              Careers
             </FadeLink>
           </Flexbox>
         </nav>

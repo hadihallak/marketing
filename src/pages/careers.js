@@ -269,7 +269,7 @@ const CareersPage = () => (
           </Box>
           <Box>
             <Heading size2 bold lh_2 mb_1>
-              Home office
+              Office goodies
             </Heading>
             <Text
               as="p"

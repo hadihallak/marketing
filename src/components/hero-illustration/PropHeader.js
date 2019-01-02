@@ -48,31 +48,6 @@ const PropHeader = (props) => (
           <path d="M7.5 12.5V2.5" strokeLinecap="round"/>
         </svg>
       </GhostButton>
-      {/*<GhostButton size1>
-        <svg
-          width="25"
-          height="25"
-          viewBox="0 0 25 25"
-          fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <circle cx="9.5" cy="6.5" r="0.5"></circle>
-          <circle cx="12.5" cy="6.5" r="0.5"></circle>
-          <circle cx="15.5" cy="6.5" r="0.5"></circle>
-          <circle cx="9.5" cy="9.5" r="0.5"></circle>
-          <circle cx="12.5" cy="9.5" r="0.5"></circle>
-          <circle cx="15.5" cy="9.5" r="0.5"></circle>
-          <circle cx="9.5" cy="12.5" r="0.5"></circle>
-          <circle cx="12.5" cy="12.5" r="0.5"></circle>
-          <circle cx="15.5" cy="12.5" r="0.5"></circle>
-          <circle cx="9.5" cy="15.5" r="0.5"></circle>
-          <circle cx="12.5" cy="15.5" r="0.5"></circle>
-          <circle cx="15.5" cy="15.5" r="0.5"></circle>
-          <circle cx="9.5" cy="18.5" r="0.5"></circle>
-          <circle cx="12.5" cy="18.5" r="0.5"></circle>
-          <circle cx="15.5" cy="18.5" r="0.5"></circle>
-        </svg>
-      </GhostButton>*/}
     </Flexbox>
   </Flexbox>
 );

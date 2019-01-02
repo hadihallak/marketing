@@ -638,7 +638,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Solid HTML, CSS, JavaScript and React skills.
+                  Solid JavaScript and React skills.
                 </Text>
               </Flexbox>
             </li>

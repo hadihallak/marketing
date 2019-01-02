@@ -53,7 +53,7 @@ const ComposerHero = () => (
         </Heading>
         <Box mt_7 mb_7>
           <Badge gray size2>
-            Coming this Winter
+            Coming 2019
           </Badge>
         </Box>
         <Box mt_7 mb_7>
@@ -64,7 +64,7 @@ const ComposerHero = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Support us on Kickstarter
+            Check out our Kickstarter
             <Box ml_3>
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor">
                 <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>

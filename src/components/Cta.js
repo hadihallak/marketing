@@ -24,7 +24,7 @@ const Cta = () => (
       >
         <Box mb_6 bp1_mb_0 bp1_mr_5>
           <Text size4>
-            Interested? Support us on Kickstarter!
+            Interested? Check out our Kickstarter!
           </Text>
         </Box>
         <Box>
@@ -34,7 +34,7 @@ const Cta = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Check out our Kickstarter
+            Visit Kickstarter
             <Box ml_3>
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor">
                 <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>

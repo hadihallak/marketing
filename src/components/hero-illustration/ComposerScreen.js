@@ -100,7 +100,6 @@ const ComposerScreen = () => (
                   bt
                   bcgray300
                 >
-                  <PropHeader label="Size" />
                   <List mt_1 mb_1>
                     <li>
                       <PropNode label="Size 1" />

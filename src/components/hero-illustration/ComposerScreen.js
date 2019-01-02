@@ -89,6 +89,15 @@ const ComposerScreen = () => (
               </Box>
               <Box overflow_hidden>
                 
+                <Box>
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Button" active />
+                    </li>
+                  </List>
+                </Box>
+                
+              
               </Box>
             </Flexbox>
           </Box>

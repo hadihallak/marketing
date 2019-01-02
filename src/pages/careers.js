@@ -345,7 +345,7 @@ const CareersPage = () => (
                 lh_3
                 color_gray600
               >
-                Email us your resume and cover letter.
+                Apply via Typeform. Links below.*
               </Text>
             </Box>
           </li>
@@ -443,6 +443,9 @@ const CareersPage = () => (
             </Box>
           </li>
         </ul>
+        <Text size2 lh_1 color_gray600 mt_6>
+          * All applicants will receive an email about next steps within 5 days. We're aiming to finish all steps within 4 weeks.
+        </Text>
       </Container>
     </Section>
 

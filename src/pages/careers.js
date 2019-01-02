@@ -90,7 +90,7 @@ const CareersPage = () => (
         >
           Our values
         </Heading>
-        <Grid size1>
+        <Grid size2 bp1_size3 bp1_cells_2>
           <Box>
             <Heading size2 lh_2 bold mb_1>
               Diversity
@@ -162,7 +162,7 @@ const CareersPage = () => (
         >
           Perks &amp; benefits
         </Heading>
-        <Grid size1>
+        <Grid size2 bp1_size3 bp1_cells_2>
           <Box>
             <Heading size2 bold lh_2 mb_1>
               Salary

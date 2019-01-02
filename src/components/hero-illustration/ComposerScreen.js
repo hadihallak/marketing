@@ -62,125 +62,90 @@ const ComposerScreen = () => (
         <Flexbox
           height_100
         >
-          <Box fs_0 br bcgray400 style={{width: '225px'}}>
+
+
+
+          <Box fg_1>
             <Flexbox
               height_100
               fd_column
             >
               <Box padding_1 bb bcgray400>
                 <Flexbox
-                  jc_spacebetween
+                  ai_center
                 >
-                  <GhostButton size2 tabIndex="-1">
-                    <svg
-                      width="25"
-                      height="25"
-                      viewBox="0 0 25 25"
-                      fill="none"
-                      stroke="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <Flexbox
+                    ai_center
+                    fg_1
+                    fb_0
+                    pl_1
+                  >
+                    <Box size1 gray600 style={{width: '25px',height: '25px',borderRadius: '50%',boxShadow: 'inset 0 0 0 1px rgba(0,0,0,.05)',backgroundColor: 'white'}}></Box>
+                  </Flexbox>
+                  <Box fg_1 fb_1 position_absolute style={{width: '350px', left: '50%', marginLeft: '-175px'}}>
+                    <Flexbox
+                      jc_spacebetween
                     >
-                      <path d="M4 18.5H21"/>
-                      <path d="M4 12.5H21"/>
-                      <path d="M4 6.5H21"/>
-                    </svg>
-                  </GhostButton>
+                      <PillTab
+                        left
+                      >
+                        Theme
+                      </PillTab>
+                      <PillTab
+                        middle
+                        active
+                      >
+                        Editor
+                      </PillTab>
+                      <PillTab
+                        right
+                      >
+                        Composer
+                      </PillTab>
+                    </Flexbox>
+                  </Box>
+                  <Flexbox
+                    fb_0
+                    fg_1
+                    ai_center
+                    jc_flexend
+                  >
+                    <GhostButton size2 tabIndex="-1">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        stroke="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M6.5 4.5V20.5L18.5 12.5L6.5 4.5Z" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </GhostButton>
+                    <GhostButton size2 tabIndex="-1">
+                      <svg
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                        fill="none"
+                        stroke="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M14.5 4.5H20.5V10.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M11.5 13.5L20.5 4.5" strokeLinecap="round"/>
+                        <path d="M18.5 14.5V20C18.5 20.2761 18.2761 20.5 18 20.5H5C4.72386 20.5 4.5 20.2761 4.5 20V7C4.5 6.72386 4.72386 6.5 5 6.5H10.5" strokeLinecap="round"/>
+                      </svg>
+                    </GhostButton>
+                  </Flexbox>
                 </Flexbox>
               </Box>
-              <Box overflow_hidden>
-                <Box>
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Button" active />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <PropHeader label="Size" />
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Size 1" />
-                    </li>
-                    <li>
-                      <PropNode label="Size 2" />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <PropHeader label="Color" />
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Gray" />
-                    </li>
-                    <li>
-                      <PropNode label="Blue" />
-                    </li>
-                    <li>
-                      <PropNode label="Green" />
-                    </li>
-                    <li>
-                      <PropNode label="Red" />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <PropHeader label="Alignment" />
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Left" />
-                    </li>
-                    <li>
-                      <PropNode label="Middle" />
-                    </li>
-                    <li>
-                      <PropNode label="Right" />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Active" />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Waiting" />
-                    </li>
-                  </List>
-                </Box>
-                <Box
-                  bt
-                  bcgray300
-                >
-                  <List mt_1 mb_1>
-                    <li>
-                      <PropNode label="Disabled" />
-                    </li>
-                  </List>
-                </Box>
-              </Box>
+              <Flexbox ai_center jc_center height_100 bc_gray100>
+                <Button size2 blue tabIndex="-1">
+                  Button
+                </Button>
+              </Flexbox>
             </Flexbox>
           </Box>
-
-
           
           
           <Box fs_0 bl bcgray400 style={{width: '225px'}}>

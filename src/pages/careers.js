@@ -93,6 +93,18 @@ const CareersPage = () => (
         <Grid size2 bp1_size3 bp1_cells_2>
           <Box>
             <Heading size2 lh_2 bold mb_1>
+              Freedom
+            </Heading>
+            <Text
+              as="p"
+              size4
+              lh_3
+            >
+              Work from anywhere in the world. Choose your own hours and get ample time off. Meetings are kept to a minimum.
+            </Text>
+          </Box>
+          <Box>
+            <Heading size2 lh_2 bold mb_1>
               Diversity
             </Heading>
             <Text
@@ -125,18 +137,6 @@ const CareersPage = () => (
               lh_3
             >
               Ask questions. Experiment with new ideas and tech. Reach out to customers and learn about their workflows. Be curious.
-            </Text>
-          </Box>
-          <Box>
-            <Heading size2 lh_2 bold mb_1>
-              Freedom
-            </Heading>
-            <Text
-              as="p"
-              size4
-              lh_3
-            >
-              Work from anywhere in the world. Choose your own hours and get ample time off. Meetings are kept to a minimum.
             </Text>
           </Box>
         

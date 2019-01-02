@@ -96,7 +96,20 @@ const ComposerScreen = () => (
                     </li>
                   </List>
                 </Box>
-                
+                <Box
+                  bt
+                  bcgray300
+                >
+                  <PropHeader label="Size" />
+                  <List mt_1 mb_1>
+                    <li>
+                      <PropNode label="Size 1" />
+                    </li>
+                    <li>
+                      <PropNode label="Size 2" />
+                    </li>
+                  </List>
+                </Box>
               
               </Box>
             </Flexbox>

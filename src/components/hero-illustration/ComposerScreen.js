@@ -182,11 +182,10 @@ const ComposerScreen = () => (
 
 
 
-          <Box fg_1 style={{flexGrow: '1'}}>
+          <Box fg_1>
             <Flexbox
               height_100
               fd_column
-              style={{flexDirection: 'column'}}
             >
               <Box padding_1 bb bcgray400>
                 <Flexbox

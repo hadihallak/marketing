@@ -1,7 +1,7 @@
 # All paths
 /*
     # Block site from being framed with X-Frame-Options and CSP and block inline loading with https
-    Content-Security-Policy: default-src https:; object-src 'none'; frame-ancestors 'none';
+    Content-Security-Policy: object-src 'none'; frame-ancestors 'none';
     X-Frame-Options: DENY
 
     # Prevent browsers from incorrectly detecting non-scripts as scripts

@@ -499,7 +499,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Design and prototype advanced tooling for designer and developers.
+                  Design and prototype advanced tooling for designers and developers.
                 </Text>
               </Flexbox>
             </li>

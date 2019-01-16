@@ -367,6 +367,37 @@ const CareersPage = () => (
                 }}>
                 <Text size2 bold>2</Text>
               </Flexbox>
+              <Heading size2 bold as="h4">Challenge</Heading>
+            </Flexbox>
+            <Box pl_7 mb_6>
+              <Text
+                as="p"
+                size4
+                lh_2
+                color_gray600
+              >
+                A series of short technical challenges. 10-45 mins each.
+              </Text>
+            </Box>
+          </li>
+          <li>
+            <Flexbox ai_center mb_2>
+              <Flexbox
+                ai_center
+                jc_center
+                color_white
+                bc_blue500
+                fs_0
+                mr_4
+                style={{
+                  width: '25px',
+                  height: '25px',
+                  color: 'white',
+                  borderRadius: '50%',
+                  userSelect: 'none'
+                }}>
+                <Text size2 bold>3</Text>
+              </Flexbox>
               <Heading size2 bold as="h4">Interview</Heading>
             </Flexbox>
             <Box pl_7 mb_6>
@@ -396,7 +427,7 @@ const CareersPage = () => (
                   borderRadius: '50%',
                   userSelect: 'none'
                 }}>
-                <Text size2 bold>3</Text>
+                <Text size2 bold>4</Text>
               </Flexbox>
               <Heading size2 bold as="h4">Chat</Heading>
             </Flexbox>
@@ -427,7 +458,7 @@ const CareersPage = () => (
                   borderRadius: '50%',
                   userSelect: 'none'
                 }}>
-                <Text size2 bold>4</Text>
+                <Text size2 bold>5</Text>
               </Flexbox>
               <Heading size2 bold as="h4">Offer</Heading>
             </Flexbox>

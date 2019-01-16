@@ -547,6 +547,30 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
+                  Write extremely detailed specs and collaborate with our engineers.
+                </Text>
+              </Flexbox>
+            </li>
+            <li style={{paddingBottom: '15px'}}>
+              <Flexbox>
+                <Box
+                  fs_0
+                  mr_4
+                  style={{
+                    width: '10px',
+                    height: '10px',
+                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
+                    borderRadius: '50%',
+                    marginTop: '8px'
+                  }}
+                >
+                </Box>
+                <Text
+                  as="p"
+                  size4
+                  lh_2
+                  color_gray600
+                >
                   Design and build reusable themes and component libraries.
                 </Text>
               </Flexbox>
@@ -595,7 +619,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Bonus points for HTML/CSS experience. Extra bonus points for experience with React.
+                  Deep understanding of CSS is required. Bonus points for experience with React.
                 </Text>
               </Flexbox>
             </li>

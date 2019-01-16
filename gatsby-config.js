@@ -3,15 +3,9 @@ module.exports = {
     title: 'Modulz',
   },
   plugins: [
+    "gatsby-plugin-styled-components",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-favicon",
-    "gatsby-plugin-styled-components",
-    {
-      resolve: "gatsby-plugin-styled-components",
-      options: {
-        plugins: [],
-      },
-    },
-    "gatsby-plugin-netlify-headers"
+    "gatsby-plugin-netlify", // must be last
   ],
 }

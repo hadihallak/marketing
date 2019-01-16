@@ -463,149 +463,10 @@ const CareersPage = () => (
         >
           Open roles
         </Heading>
-        <Box>
-          <Heading size2 bold lh_2 mb_2>
-            Full-stack Engineer
-          </Heading>
-          <Text
-            as="p"
-            size4
-            lh_2
-            mb_4
-          >
-            Lead engineering projects with minimal guidance. Someone interested in scaling our product and team over the next few years.
-          </Text>
-          <ul style={{
-            listStyle: 'none'
-          }}>
-            <li style={{paddingBottom: '15px'}}>
-              <Flexbox>
-                <Box
-                  fs_0
-                  mr_4
-                  style={{
-                    width: '10px',
-                    height: '10px',
-                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
-                    borderRadius: '50%',
-                    marginTop: '8px'
-                  }}
-                >
-                </Box>
-                <Text
-                  as="p"
-                  size4
-                  lh_2
-                  color_gray600
-                >
-                  React & ES6 expert.
-                </Text>
-              </Flexbox>
-            </li>
-            <li style={{paddingBottom: '15px'}}>
-              <Flexbox>
-                <Box
-                  fs_0
-                  mr_4
-                  style={{
-                    width: '10px',
-                    height: '10px',
-                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
-                    borderRadius: '50%',
-                    marginTop: '8px'
-                  }}
-                >
-                </Box>
-                <Text
-                  as="p"
-                  size4
-                  lh_2
-                  color_gray600
-                >
-                  Bonus points for experience with Typescript, MobX, advanced CSS or browser performance.
-                </Text>
-              </Flexbox>
-            </li>
-            <li style={{paddingBottom: '15px'}}>
-              <Flexbox>
-                <Box
-                  fs_0
-                  mr_4
-                  style={{
-                    width: '10px',
-                    height: '10px',
-                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
-                    borderRadius: '50%',
-                    marginTop: '8px'
-                  }}
-                >
-                </Box>
-                <Text
-                  as="p"
-                  size4
-                  lh_2
-                  color_gray600
-                >
-                  Bonus points for experience as a team lead.
-                </Text>
-              </Flexbox>
-            </li>
-            <li style={{paddingBottom: '15px'}}>
-              <Flexbox>
-                <Box
-                  fs_0
-                  mr_4
-                  style={{
-                    width: '10px',
-                    height: '10px',
-                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
-                    borderRadius: '50%',
-                    marginTop: '8px'
-                  }}
-                >
-                </Box>
-                <Text
-                  as="p"
-                  size4
-                  lh_2
-                  color_gray600
-                >
-                  Comfortable working remotely.
-                </Text>
-              </Flexbox>
-            </li>
-          </ul>
-          <Box mt_4>
-            <FadeLinkNotGatsby
-              href="https://colmtuite.typeform.com/to/XchB37"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{color: 'hsl(208,100%,50%)'}}
-            >
-              <Text size4 color_blue500>
-                Apply
-              </Text>
-              <Box ml_2>
-                <svg
-                  width="15"
-                  height="15"
-                  viewBox="0 0 15 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  stroke="hsl(208, 12%, 46%)"
-                >
-                  <path d="M9.5 2.5H12.5V5.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M6.5 8.5L12.5 2.5" strokeLinecap="round"/>
-                  <path d="M10.5 9.07143V12C10.5 12.2761 10.2761 12.5 10 12.5H3C2.72386 12.5 2.5 12.2761 2.5 12V5C2.5 4.72386 2.72386 4.5 3 4.5H5.92857" strokeLinecap="round"/>
-                </svg>
-              </Box>
-            </FadeLinkNotGatsby>
-          </Box>
-        </Box>
         
         <Box mt_8>
           <Heading size2 bold lh_2 mb_2>
-            Product Engineer
+            Product Designer
           </Heading>
           <Text
             as="p"
@@ -613,7 +474,7 @@ const CareersPage = () => (
             lh_2
             mb_4
           >
-            Lead front-end engineering projects with a focus on CSS and interactive components. Maintain and contribute to <a href="https://github.com/modulz/radix" target="_blank" style={{textDecoration: 'none',color: 'hsl(208,100%,50%)'}}>Radix</a>.
+            Lead projects with a focus on design/dev tooling, systematic design, functional design and component architecture.
           </Text>
           <ul style={{
             listStyle: 'none'
@@ -638,7 +499,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Solid JavaScript and React skills.
+                  Design and prototype advanced tooling for designer and developers.
                 </Text>
               </Flexbox>
             </li>
@@ -662,7 +523,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  CSS expert. Deep understanding of styling architecture, component design and CSS methodologies.
+                  Design and prototype user flows and experiences across various areas of our SaaS product.
                 </Text>
               </Flexbox>
             </li>
@@ -686,7 +547,7 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Ability to design and prototype user flows and experiences across various areas of a SaaS product.
+                  Design and build reusable themes and component libraries.
                 </Text>
               </Flexbox>
             </li>
@@ -710,7 +571,31 @@ const CareersPage = () => (
                   lh_2
                   color_gray600
                 >
-                  Bonus points for strong design skills or a deep understanding of performance and accessibility.
+                  Maintain and contribute to <a href="https://github.com/modulz/radix" target="_blank" style={{textDecoration: 'none',color: 'hsl(208,100%,50%)'}}>Radix</a>.
+                </Text>
+              </Flexbox>
+            </li>
+            <li style={{paddingBottom: '15px'}}>
+              <Flexbox>
+                <Box
+                  fs_0
+                  mr_4
+                  style={{
+                    width: '10px',
+                    height: '10px',
+                    boxShadow: 'inset 0 0 0 1px hsl(208,100%,50%)',
+                    borderRadius: '50%',
+                    marginTop: '8px'
+                  }}
+                >
+                </Box>
+                <Text
+                  as="p"
+                  size4
+                  lh_2
+                  color_gray600
+                >
+                  Bonus points for HTML/CSS experience. Extra bonus points for experience with React.
                 </Text>
               </Flexbox>
             </li>
@@ -741,7 +626,7 @@ const CareersPage = () => (
           </ul>
           <Box mt_4>
             <FadeLinkNotGatsby
-              href="https://colmtuite.typeform.com/to/xLRQeu"
+              href="https://colmtuite.typeform.com/to/AxVdla"
               target="_blank"
               rel="noopener noreferrer"
               style={{color: 'hsl(208,100%,50%)'}}

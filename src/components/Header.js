@@ -93,6 +93,14 @@ const Header = () => (
             >
               Careers
             </FadeLink>
+            <FadeLinkNotGatsby
+              href="/login"
+              target="_blank"
+              data-content="login"
+              rel="noopener noreferrer"
+            >
+            
+            </FadeLinkNotGatsby>
           </Flexbox>
         </nav>
       </Flexbox>

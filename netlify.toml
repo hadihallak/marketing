@@ -4,7 +4,7 @@
 #   status = 200
 #   force = true
 
-/login  https://modulz-abdul.firebaseapp.com/login  200
+/login   https://modulz-abdul.firebaseapp.com/login   200
 
 # [[redirects]]
 #   from = "/account/*"

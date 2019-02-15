@@ -98,9 +98,7 @@ const Header = () => (
               target="_blank"
               data-content="login"
               rel="noopener noreferrer"
-            >
-            
-            </FadeLinkNotGatsby>
+            >Login</FadeLinkNotGatsby>
           </Flexbox>
         </nav>
       </Flexbox>

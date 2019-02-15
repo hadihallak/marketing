@@ -4,11 +4,7 @@
 #   status = 200
 #   force = true
 
-# [[redirects]]
-#   from = "/login/*"
-#   to = "https://modulz-test.firebaseapp.com/login/:splat"
-#   status = 200
-#   force = true
+/login  https://modulz-abdul.firebaseapp.com/login  200
 
 # [[redirects]]
 #   from = "/account/*"

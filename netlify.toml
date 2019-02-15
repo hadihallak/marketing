@@ -1,11 +1,8 @@
-# [[redirects]]
-#   from = "/projects/*"
-#   to = "https://modulz-test.firebaseapp.com/:splat"
-#   status = 200
-#   force = true
-
-/login   https://modulz-abdul.firebaseapp.com/login   200
-
+ [[redirects]]
+   from = "/login"
+   to = "https://modulz-abdul.firebaseapp.com/login"
+   status = 200
+   force = true
 # [[redirects]]
 #   from = "/account/*"
 #   to = "https://modulz-test.firebaseapp.com/account/:splat"

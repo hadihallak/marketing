@@ -95,9 +95,7 @@ const Header = () => (
             </FadeLink>
             <FadeLinkNotGatsby
               href="/login"
-              target="_blank"
               data-content="login"
-              rel="noopener noreferrer"
             >Login</FadeLinkNotGatsby>
           </Flexbox>
         </nav>

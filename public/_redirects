@@ -1,2 +1,1 @@
 /login  https://modulz-abdul.firebaseapp.com/login  200
-/static/*  https://modulz-abdul.firebaseapp.com/static/:splat  200

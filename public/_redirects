@@ -1,2 +1,7 @@
 /login  https://modulz-abdul.firebaseapp.com/login  200
+/forgot-password  https://modulz-abdul.firebaseapp.com/forgot-password  200
+/reset-password  https://modulz-abdul.firebaseapp.com/reset-password  200
+/dashboard  https://modulz-abdul.firebaseapp.com/dashboard  200
+/account  https://modulz-abdul.firebaseapp.com/account  200
+/projects/*  https://modulz-abdul.firebaseapp.com/projects/:splat  200
 /static/*  https://modulz-abdul.firebaseapp.com/static/:splat  200

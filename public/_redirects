@@ -1,1 +1,2 @@
-/app/*  https://modulz-abdul.firebaseapp.com/*  200
+/app/*  https://modulz-abdul.firebaseapp.com/:splat  200
+/static/*  https://modulz-abdul.firebaseapp.com/static/:splat  200

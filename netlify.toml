@@ -1,6 +1,6 @@
  [[redirects]]
    from = "/login"
-   to = "https://modulz-abdul.firebaseapp.com/"
+   to = "https://google.com/"
    status = 200
 # [[redirects]]
 #   from = "/account/*"
